@@ -419,6 +419,10 @@ def process_callbacks(pending, seen, applied):
 
 # ================================================================ email
 def send_application(entry):
+    if os.environ.get("TEST_EMAIL"):
+        entry = dict(entry)
+        entry["email"] = os.environ["TEST_EMAIL"]
+        print(f"[test] email redirected to {entry['email']}")
     if not GMAIL_USER or not GMAIL_PASS:
         print("[!] Gmail credentials missing")
         return False
