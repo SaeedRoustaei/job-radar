@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Job Radar — scans job boards in Iraq, Azerbaijan and Armenia
-for networking jobs and sends new ones to a private Telegram chat.
-Designed to run on GitHub Actions twice a day (Tehran time 09:00 & 18:00).
+Job Radar v2 — networking jobs in Iraq, Azerbaijan and Armenia.
+Sources: LinkedIn public jobs guest API + job.am + vacanciesiniraq.com
+Runs on GitHub Actions twice a day (Tehran time 09:00 & 18:00).
 """
 
 import json
@@ -11,7 +11,7 @@ import re
 import time
 import html
 from datetime import datetime, timedelta, timezone
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, quote
 
 import requests
 from bs4 import BeautifulSoup
@@ -20,9 +20,9 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 CHAT_ID = os.environ.get("CHAT_ID", "")
 
 SEEN_FILE = "seen.json"
-STATE_DAYS = 45          # forget links older than this
-REQUEST_TIMEOUT = 25
-DELAY_BETWEEN_SITES = 2  # seconds — be polite to the sites
+STATE_DAYS = 45
+REQUEST_TIMEOUT = 30
+DELAY_BETWEEN_REQUESTS = 2
 
 KEYWORDS = [
     "network engineer", "network administrator", "network admin",
@@ -30,17 +30,19 @@ KEYWORDS = [
     "noc engineer", "noc", "system engineer", "systems engineer",
     "infrastructure engineer", "routing", "switching", "cisco",
     "aci", "vxlan", "ospf", "bgp", "vlan", "stp", "ccna", "ccnp",
-    "ccie", "sd-wan", "firewall", "network security",
+    "ccie", "sd-wan", "firewall", "şəbəkə",
+]
+
+# words that mean the ad is really a networking/IT job, not just any job
+STRONG_HINTS = [
+    "network", "şəbəkə", "noc", "cisco", "routing", "switching",
+    "ospf", "bgp", "vlan", "vxlan", "infrastructure", "sysadmin",
+    "system administrator", "systems administrator", "it ", "information technology",
 ]
 
 KEYWORD_RE = re.compile(
     "|".join(r"\b" + re.escape(k) + r"\b" for k in KEYWORDS),
     re.IGNORECASE,
-)
-
-# a link only counts as a job ad if its path contains one of these
-JOB_LINK_HINTS = (
-    "job", "vacanc", "vacancy", "opportunity", "career", "position", "apply",
 )
 
 SESSION = requests.Session()
@@ -52,65 +54,151 @@ SESSION.headers.update({
     "Accept-Language": "en",
 })
 
-SITES = [
-    # ---------- Iraq ----------
-    {"name": "Bayt – Iraq",          "url": "https://www.bayt.com/en/iraq/jobs/network-engineer-jobs/"},
-    {"name": "Tanqeeb – Iraq",       "url": "https://iraq.tanqeeb.com/s/jobs/network-engineer"},
-    {"name": "Hawa Jobs – Iraq",     "url": "https://www.hawa.jobs/search?q=network"},
-    {"name": "VacanciesInIraq",      "url": "https://vacanciesiniraq.com/?s=network"},
-    {"name": "Jooble – Iraq",        "url": "https://iq.jooble.org/SearchResult?keywords=network%20engineer"},
-    {"name": "Bayt – Azerbaijan",    "url": "https://www.bayt.com/en/azerbaijan/jobs/network-engineer-jobs/"},
-    # ---------- Azerbaijan ----------
-    {"name": "eJob – Azerbaijan",    "url": "https://ejob.az/en/jobs/?search=network"},
-    {"name": "Joba – Azerbaijan",    "url": "https://joba.az/en/vacancies?search=network"},
-    {"name": "Jooble – Azerbaijan",  "url": "https://az.jooble.org/SearchResult?keywords=network%20engineer"},
-    {"name": "Bayt – Armenia",       "url": "https://www.bayt.com/en/armenia/jobs/network-engineer-jobs/"},
-    # ---------- Armenia ----------
-    {"name": "Job.am – Armenia",     "url": "https://job.am/en/jobs?query=network"},
-    {"name": "Staff.am – Armenia",   "url": "https://staff.am/en/jobs?Jobs%5Bkeyword%5D=network"},
-    {"name": "Worknet – Armenia",    "url": "https://worknet.am/en/?s=network"},
-    {"name": "Jooble – Armenia",     "url": "https://am.jooble.org/SearchResult?keywords=network%20engineer"},
-]
+LINKEDIN_LOCATIONS = ["Iraq", "Azerbaijan", "Armenia"]
+LINKEDIN_KEYWORDS = ["network engineer", "network administrator", "NOC engineer"]
 
 
 def clean(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
 
 
-def scrape_site(site):
-    """Fetch one site and return jobs found via generic link extraction."""
+def stable_link(url):
+    """Strip tracking query params so dedup works across runs."""
+    return url.split("?")[0].split("#")[0]
+
+
+# ----------------------------------------------------------------------
+# Source 1: LinkedIn public guest API (returns an HTML snippet, no login)
+# ----------------------------------------------------------------------
+def linkedin_search(keyword, location):
+    url = (
+        "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+        f"?keywords={quote(keyword)}&location={quote(location)}&start=0"
+    )
     jobs = []
     try:
-        resp = SESSION.get(site["url"], timeout=REQUEST_TIMEOUT)
+        resp = SESSION.get(url, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
     except Exception as exc:
-        print(f"[!] {site['name']}: request failed -> {exc}")
+        print(f"[!] LinkedIn {location} / '{keyword}': {exc}")
         return jobs
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    seen_urls = set()
-    base = site["url"]
+    for card in soup.select("div.base-card"):
+        a = card.select_one("a.base-card__full-link")
+        title_el = card.select_one("h3.base-search-card__title")
+        company_el = card.select_one("h4.base-search-card__subtitle")
+        loc_el = card.select_one("span.job-search-card__location")
+        if not a or not title_el:
+            continue
+        link = stable_link(urljoin(url, a.get("href", "")))
+        title = clean(title_el.get_text())
+        company = clean(company_el.get_text()) if company_el else ""
+        loc = clean(loc_el.get_text()) if loc_el else location
+        jobs.append({
+            "title": title, "link": link, "company": company,
+            "location": loc, "source": "LinkedIn",
+        })
+
+    print(f"[+] LinkedIn {location} / '{keyword}': {len(jobs)} ad(s)")
+    return jobs
+
+
+# ----------------------------------------------------------------------
+# Source 2: job.am (Armenia) — WordPress-style search
+# ----------------------------------------------------------------------
+def job_am_search(query):
+    url = f"https://job.am/en/jobs/?s={quote(query)}"
+    jobs = []
+    try:
+        resp = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+    except Exception as exc:
+        print(f"[!] job.am '{query}': {exc}")
+        return jobs
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    seen = set()
+    for anchor in soup.find_all("a", href=True):
+        href = anchor["href"]
+        if "/en/job/" not in href:
+            continue
+        title = clean(anchor.get_text(" ", strip=True))
+        if not title or len(title) < 3 or len(title) > 120:
+            continue
+        link = stable_link(urljoin(url, href))
+        if link in seen:
+            continue
+        seen.add(link)
+        if not KEYWORD_RE.search(title):
+            continue
+        jobs.append({
+            "title": title, "link": link, "company": "",
+            "location": "Armenia", "source": "job.am",
+        })
+
+    print(f"[+] job.am '{query}': {len(jobs)} ad(s)")
+    return jobs
+
+
+# ----------------------------------------------------------------------
+# Source 3: vacanciesiniraq.com — WordPress search
+# ----------------------------------------------------------------------
+def vacancies_in_iraq(query):
+    url = f"https://vacanciesiniraq.com/?s={quote(query)}"
+    jobs = []
+    try:
+        resp = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+    except Exception as exc:
+        print(f"[!] vacanciesiniraq '{query}': {exc}")
+        return jobs
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    seen = set()
     for anchor in soup.find_all("a", href=True):
         title = clean(anchor.get_text(" ", strip=True))
         if not title or len(title) < 4 or len(title) > 120:
             continue
         if not KEYWORD_RE.search(title):
             continue
+        link = stable_link(urljoin(url, anchor["href"].strip()))
+        if link in seen or link.rstrip("/") == "https://vacanciesiniraq.com":
+            continue
+        seen.add(link)
+        jobs.append({
+            "title": title, "link": link, "company": "",
+            "location": "Iraq", "source": "VacanciesInIraq",
+        })
 
-        link = urljoin(base, anchor["href"].strip())
-        parsed = urlparse(link)
-        if parsed.scheme not in ("http", "https"):
-            continue
-        path = parsed.path.lower()
-        if not any(h in path for h in JOB_LINK_HINTS):
-            continue
-        if link in seen_urls:
-            continue
-        seen_urls.add(link)
-        jobs.append({"title": title, "link": link, "source": site["name"]})
-
-    print(f"[+] {site['name']}: {len(jobs)} candidate job(s)")
+    print(f"[+] vacanciesiniraq '{query}': {len(jobs)} ad(s)")
     return jobs
+
+
+# ----------------------------------------------------------------------
+def collect_all():
+    jobs = {}
+    for loc in LINKEDIN_LOCATIONS:
+        for kw in LINKEDIN_KEYWORDS:
+            for job in linkedin_search(kw, loc):
+                jobs[job["link"]] = job
+            time.sleep(DELAY_BETWEEN_REQUESTS)
+    for q in ["network", "network administrator"]:
+        for job in job_am_search(q):
+            jobs[job["link"]] = job
+        time.sleep(DELAY_BETWEEN_REQUESTS)
+    for q in ["network engineer", "network administrator"]:
+        for job in vacancies_in_iraq(q):
+            jobs[job["link"]] = job
+        time.sleep(DELAY_BETWEEN_REQUESTS)
+    return list(jobs.values())
+
+
+def is_relevant(job):
+    text = f"{job['title']} {job.get('company', '')}".lower()
+    if not KEYWORD_RE.search(job["title"]):
+        return False
+    return any(h in text for h in STRONG_HINTS)
 
 
 def load_state():
@@ -128,10 +216,14 @@ def save_state(state):
 
 def prune_state(state):
     cutoff = datetime.now(timezone.utc) - timedelta(days=STATE_DAYS)
-    return {
-        link: ts for link, ts in state.items()
-        if datetime.fromisoformat(ts) > cutoff
-    }
+    out = {}
+    for link, ts in state.items():
+        try:
+            if datetime.fromisoformat(ts) > cutoff:
+                out[link] = ts
+        except ValueError:
+            continue
+    return out
 
 
 def send_telegram(text):
@@ -153,11 +245,12 @@ def deliver(new_jobs):
     ]
     chunks = []
     for job in new_jobs:
-        line = (
-            f"\n🔹 <b>{html.escape(job['title'])}</b>\n"
-            f"🌐 {html.escape(job['source'])}\n"
-            f"🔗 {job['link']}"
-        )
+        line = f"\n🔹 <b>{html.escape(job['title'])}</b>"
+        if job.get("company"):
+            line += f"\n🏢 {html.escape(job['company'])}"
+        if job.get("location"):
+            line += f"\n📍 {html.escape(job['location'])}"
+        line += f"\n🌐 {html.escape(job['source'])}\n🔗 {job['link']}"
         if sum(len(x) for x in lines) + len(line) > 3500:
             chunks.append("\n".join(lines))
             lines = []
@@ -173,19 +266,17 @@ def main():
     if not BOT_TOKEN or not CHAT_ID:
         raise SystemExit("BOT_TOKEN / CHAT_ID secrets are missing")
 
-    all_jobs = []
-    for site in SITES:
-        all_jobs.extend(scrape_site(site))
-        time.sleep(DELAY_BETWEEN_SITES)
+    all_jobs = collect_all()
+    relevant = [j for j in all_jobs if is_relevant(j)]
 
     state = prune_state(load_state())
-    new_jobs = [j for j in all_jobs if j["link"] not in state]
+    new_jobs = [j for j in relevant if j["link"] not in state]
     now_iso = datetime.now(timezone.utc).isoformat()
     for job in new_jobs:
         state[job["link"]] = now_iso
     save_state(state)
 
-    print(f"[*] total candidates: {len(all_jobs)} | new: {len(new_jobs)}")
+    print(f"[*] total: {len(all_jobs)} | relevant: {len(relevant)} | new: {len(new_jobs)}")
     if new_jobs:
         deliver(new_jobs)
     else:
