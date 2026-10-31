@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Job Radar v4 — networking jobs in Iraq, Azerbaijan & Armenia.
-Scan -> score against resume -> propose English-only ads (>=80% match,
-with a direct email) -> you approve via inline buttons -> next run sends
-the application email (resume + tailored cover letter) from your Gmail.
+Job Radar v5 — networking jobs in Iraq, Azerbaijan & Armenia.
+Scan -> fetch full ad text -> score against resume -> propose English-only
+ads (>=80% match with a direct email get approve buttons; 60-80% shown
+manually) -> you approve -> next run sends the application email
+(resume.pdf + tailored cover letter) from your Gmail.
 
-Secrets required:
-  BOT_TOKEN, CHAT_ID, GMAIL_USER, GMAIL_APP_PASSWORD
-Repo files:
-  resume.txt (your English resume, plain text) — resume.pdf attached if present
+Secrets: BOT_TOKEN, CHAT_ID, GMAIL_USER, GMAIL_APP_PASSWORD, (TEST_EMAIL optional)
+Repo files: resume.txt, resume.pdf
 State files (auto-committed): seen.json, pending.json, applied.json
 """
 
@@ -60,18 +59,11 @@ KEYWORDS = [
     "ccie", "sd-wan", "firewall", "şəbəkə", "ցանց", "شبكات", "شبکه",
 ]
 
-STRONG_HINTS = [
-    "network", "şəbəkə", "noc", "cisco", "routing", "switching",
-    "ospf", "bgp", "vlan", "vxlan", "infrastructure", "sysadmin",
-    "system administrator", "systems administrator",
-]
-
-# skill vocabulary used for matching resume <-> job ad
 SKILLS = [
     "cisco", "ccna", "ccnp", "ccie", "routing", "switching", "ospf",
     "bgp", "vlan", "stp", "vxlan", "aci", "sd-wan", "sdn", "mpls",
     "firewall", "fortigate", "palo alto", "checkpoint", "asa",
-    "nexus", "catalyst", "wireless", "wlc", "vpn", "ipsec", "bgp peering",
+    "nexus", "catalyst", "wireless", "wlc", "vpn", "ipsec",
     "qos", "load balancing", "f5", "tcp/ip", "dns", "dhcp", "linux",
     "windows server", "wireshark", "monitoring", "zabbix", "nagios",
     "solarwinds", "python", "automation", "ansible", "voip", "sip",
@@ -152,18 +144,20 @@ def load_resume():
 
 
 def resume_skills(resume_text):
-    found = set()
     low = resume_text.lower()
-    for skill in SKILLS:
-        if skill in low:
-            found.add(skill)
-    return found
+    return {skill for skill in SKILLS if skill in low}
 
 
 def score_job(job, my_skills):
     """0-100 match score between the ad and the resume's skills."""
     text = f"{job['title']} {job.get('snippet', '')} {job.get('company', '')}".lower()
     matched = [s for s in my_skills if s in text]
+
+    if job["source"] == "LinkedIn" and not job.get("snippet"):
+        # full description could not be fetched — score from title only,
+        # cap at 75 so these always stay in the "manual" tier
+        return min(75, 50 + 5 * len(matched)), matched
+
     score = 40                                   # title already keyword-matched
     score += min(50, 10 * len(matched))          # skills overlap
     if EMAIL_RE.search(job.get("snippet", "")):
@@ -191,6 +185,24 @@ def make_cover_letter(job, matched):
 
 
 # ================================================================ sources
+def linkedin_job_details(link):
+    """Fetch the full description of one LinkedIn job via the guest API."""
+    m = re.search(r"(\d{6,})", link.split("?")[0])
+    if not m:
+        return ""
+    url = f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{m.group(1)}"
+    try:
+        resp = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+    except Exception:
+        return ""
+    soup = BeautifulSoup(resp.text, "html.parser")
+    desc = soup.select_one("div.show-more-less-html__markup")
+    if not desc:
+        return ""
+    return clean(desc.get_text(" ", strip=True))[:3000]
+
+
 def linkedin_search(keyword, location):
     url = (
         "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
@@ -248,7 +260,12 @@ def generic_board(url, source, country, link_contains):
         seen.add(link)
         jobs.append({"title": title, "link": link, "company": "",
                      "location": country, "source": source, "snippet": ""})
-    print(f"[+] {source}: {len(jobs)}")
+    if not jobs:
+        print(f"[!] {source}: 0 matches — page title was "
+              f"'{clean(soup.title.get_text())[:60] if soup.title else '?'}', "
+              f"size {len(resp.text)}")
+    else:
+        print(f"[+] {source}: {len(jobs)}")
     return jobs
 
 
@@ -275,7 +292,11 @@ def vacancies_in_iraq(query):
         seen.add(link)
         jobs.append({"title": title, "link": link, "company": "",
                      "location": "Iraq", "source": "VacanciesInIraq", "snippet": ""})
-    print(f"[+] vacanciesiniraq '{query}': {len(jobs)}")
+    if not jobs:
+        print(f"[!] vacanciesiniraq '{query}': 0 — page title "
+              f"'{clean(soup.title.get_text())[:60] if soup.title else '?'}'")
+    else:
+        print(f"[+] vacanciesiniraq '{query}': {len(jobs)}")
     return jobs
 
 
@@ -302,14 +323,13 @@ def telegram_channel(channel):
         link = stable_link(urljoin(url, date_el.get("href", "")))
         if link.rstrip("/") == url:
             continue
-        # first message line that looks like a job title
         first_line = text.split(". ")[0][:90]
         jobs.append({
             "title": first_line or "Telegram job post",
             "link": link, "company": "",
             "location": channel["country"],
             "source": f"TG @{channel['slug']}",
-            "snippet": text[:1200],
+            "snippet": text[:1500],
         })
     print(f"[+] TG @{channel['slug']}: {len(jobs)}")
     return jobs
@@ -524,6 +544,14 @@ def main():
             continue
         if not is_english(f"{job['title']} {job.get('snippet', '')}"):
             continue
+
+        # LinkedIn ads have no snippet from search — fetch the full text once
+        if job["source"] == "LinkedIn" and not job.get("snippet"):
+            desc = linkedin_job_details(job["link"])
+            if desc:
+                job["snippet"] = desc
+                time.sleep(1)
+
         score, matched = score_job(job, my_skills)
         if score < VIEW_THRESHOLD:
             continue
