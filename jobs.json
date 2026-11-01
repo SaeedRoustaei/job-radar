@@ -418,5 +418,23 @@
   ],
   "score": 95,
   "msg_id": 68
+ },
+ "8bb71a981f": {
+  "title": "IT Infrastructure Engineer",
+  "link": "https://iq.linkedin.com/jobs/view/it-infrastructure-engineer-at-%D9%85%D8%B5%D8%B1%D9%81-%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF-bank-of-baghdad-4478766479",
+  "company": "مصرف بغداد Bank Of Baghdad",
+  "location": "Baghdad, Baghdad Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "IT Infrastructure Engineer Company: Bank of Baghdad Location: Baghdad, Iraq (On-site) About the Role Bank of Baghdad is looking for a skilled and motivated IT Infrastructure Engineer to join our IT team. The successful candidate will be responsible for supporting, maintaining, and monitoring the Bank's IT infrastructure, including physical and virtual servers, storage systems, networks, backup solutions, and data center operations. This role requires strong technical troubleshooting skills and the ability to ensure the availability, performance, reliability, and security of critical IT systems. Key Responsibilities - Install, configure, maintain, and troubleshoot physical and virtual servers. - Support virtualization platforms, including VMware, Hyper-V, and KVM. - Monitor server performance, system availability, and infrastructure health. - Administer and support Windows Server and Linux operating systems. - Manage Active Directory, DNS, DHCP, Group Policy, and other core infrastructure services. - Monitor and maintain enterprise storage systems and disk capacity. - Perform backup and recovery operations using enterprise backup solutions. - Support disaster recovery (DR), high availability (HA), and business continuity activities. - Troubleshoot server, storage, network, and virtualization issues. - Assist in infrastructure upgrades, system migrations, and IT projects. - Monitor infrastructure using tools such as Zabbix and respond to system alerts. - Apply security patches, system updates, and configuration changes in accordance with IT policies. - Maintain technical documentation, including server inventories, network diagrams, and system configurations. - Coordinate with vendors and internal IT teams to resolve technical issues. - Provide second-level technical support for infrastructure-related incidents. Requirements - Bachelor's degree in Information Technology, Computer Science, Computer Engineering, or a related field. - Minimum 2 years of experience in IT infrastructure, system administration, or a similar technical role. - Good knowledge of Windows Server and Linux operating systems. - Hands-on experience with virtualization technologies such as VMware, Hyper-V, or KVM. - Knowledge of Active Directory, DNS, DHCP, and Group Policy. - Understanding of server hardware, RAID configurations, and storage technologies. - Basic knowledge of networking concepts, including TCP/IP, VLANs, and firewalls. - Familiarity with enterprise backup and disaster recovery solutions. - Strong analytical, troubleshooting, and problem-solving skills. - Good communication, teamwork, and technical documentation skills. - Ability to work independently and effectively within a technical team. Preferred Qualifications - Experience working in banking or financial institutions. - Experience with enterprise storage and data center infrastructure. - Knowledge of monitoring tools such as Zabbix. - Experience supporting high availability and disaster recovery environment",
+  "matched": [
+   "vlan",
+   "firewall",
+   "aci",
+   "data center",
+   "monitoring",
+   "troubleshooting"
+  ],
+  "score": 95,
+  "msg_id": 69
  }
 }
