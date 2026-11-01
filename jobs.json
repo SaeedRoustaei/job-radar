@@ -114,23 +114,6 @@
   "score": 85,
   "msg_id": 30
  },
- "ca5df5f53d": {
-  "title": "Nutanix Engineer / Networking IT Support Engineer (Break & Fix Support) - Iraq",
-  "link": "https://iq.linkedin.com/jobs/view/nutanix-engineer-networking-it-support-engineer-break-fix-support-iraq-at-itproposal-4478013695",
-  "company": "ITproposal",
-  "location": "Baghdad, Baghdad Governorate, Iraq",
-  "source": "LinkedIn",
-  "snippet": "About the job Nutanix Engineer / Networking IT Support Engineer (Break & Fix Support) - Iraq Nutanix Engineer / Networking IT Support Engineer (Break & Fix Support) Location: Iraq Employment Type: Freelance (On-Call Basis) Priority: Low Requirements: ID/ Passport/ valid work permit and CCNA Certification Role Overview We are seeking an experienced Nutanix Engineer / Networking IT Support Engineer to provide Break & Fix support services across enterprise infrastructure environments. This freelance, on-call role requires a highly skilled professional who can diagnose, troubleshoot, and resolve hardware, network, and infrastructure-related incidents efficiently while maintaining a high level of customer service and professionalism. The ideal candidate will possess strong technical expertise in Nutanix and networking technologies, hold a valid CCNA certification, and demonstrate excellent communication skills with fluent English proficiency. Key Responsibilities Provide onsite and remote Break & Fix support for networking and infrastructure-related incidents. Deploy, configure, and manage Nutanix HCI environments (AOS, AHV, Prism). Perform system upgrades, patching, and lifecycle management activities. Troubleshoot and resolve hardware, software, virtualization, and network issues. Diagnose and resolve network connectivity problems involving TCP/IP, VLANs, DNS, DHCP, and related technologies. Implement and support backup and disaster recovery solutions. Respond to critical incidents and service requests within agreed response times. Collaborate with global and regional teams on infrastructure and cloud-related projects. Maintain accurate technical documentation, incident reports, and service records. Ensure professional interaction with end users, stakeholders, and customers at all times. Required Skills & Experience Minimum 5 years of experience in infrastructure, virtualization, networking, or IT support engineering. Strong hands-on experience with the Nutanix ecosystem (AOS, AHV, Prism). Experience supporting VMware and/or Hyper-V environments. Solid understanding of networking fundamentals, including TCP/IP, VLANs, DNS, DHCP, routing, and switching. Proven experience providing Break & Fix support in enterprise environments. Ability to diagnose and resolve complex infrastructure and networking issues. Experience with backup and disaster recovery solutions. Scripting experience with PowerShell and/or Python is advantageous. Mandatory Requirements Valid CCNA Certification (Cisco Certified Network Associate). Preferred Qualifications Nutanix Certification (NCP or equivalent). Soft Skills Strong professionalism and customer-facing skills. Ability to remain calm and effective during critical incidents. Proactive problem-solving mindset. Strong organizational and time-management skills. Ability to work collaboratively within distributed teams. Commitment to delivering high-quality technical support and customer satisfaction.",
-  "matched": [
-   "routing",
-   "cisco",
-   "vlan",
-   "switching",
-   "aci"
-  ],
-  "score": 95,
-  "msg_id": 31
- },
  "62c67282cc": {
   "title": "IT Systems Administrator & Support Engineer",
   "link": "https://iq.linkedin.com/jobs/view/it-systems-administrator-support-engineer-at-rahal-4455743517",
@@ -246,111 +229,6 @@
   "score": 65,
   "msg_id": 38
  },
- "a1274ad9a8": {
-  "title": "Technical Service Operations Lead (TSO Lead), Baku",
-  "link": "https://az.linkedin.com/jobs/view/technical-service-operations-lead-tso-lead-baku-at-xsolla-4397169515",
-  "company": "Xsolla",
-  "location": "Baku, Baku Ekonomic Zone, Azerbaijan",
-  "source": "LinkedIn",
-  "snippet": "We are looking for a Technical Service Operations Lead (TSO Lead) who is operationally driven, collaborative, analytical, and a strong communicator to join our Global Technical Operations (GTO) team. The best candidate will be someone who thrives in a fast-paced, highly collaborative, and exceptionally dynamic setting and is excited to help coordinate incident response alongside cross-functional teams, identify trends and patterns in production issues, improve how we communicate with partners during incidents, and drive continuous improvement through post-incident reviews. Strong incident management experience, ITIL knowledge, and observability/monitoring expertise are essential, along with experience in technical operations, SRE, or NOC environments supporting high-availability platforms (payments, e-commerce, SaaS, or gaming). The ability to communicate clearly and effectively in English — both written and verbal — across technical and executive audiences will be key to your success in this role. If you're passionate about driving operational excellence and platform reliability at scale and love ensuring the reliability and uptime of commerce and payment solutions that game developers and players depend on, we would love to hear from you! About Us Xsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie to AAA, companies partner with Xsolla to help them fund, distribute, market, and monetize their games. Grounded in the belief in the future of video games, Xsolla is resolute in the mission to bring opportunities together, and continually make new resources available to creators. Headquartered and incorporated in Los Angeles, California, Xsolla operates as the merchant of record and has helped over 1,500+ game developers to reach more players and grow their businesses around the world. With more paths to profits and ways to win, developers have all the things needed to enjoy the game. For more information, visit xsolla.com . Responsibilities Serve as Incident Commander for major incidents — coordinating cross-functional response teams, driving investigation, making escalation decisions, and ensuring incidents are resolved within SLA targets. Own all incident communications: draft and send clear, timely updates to senior leadership, Customer Success, and partner/customer contacts throughout the incident lifecycle, and manage customer-facing status page updates (status.xsolla.com). Facilitate blameless Post-Incident Reviews (PIRs) for major incidents — leading root cause identification, assigning corrective actions with clear owners and deadlines, and tracking them to closure. During non-incident periods, proactively analyze incident trends, recurring issues, and production bugs — identify patterns, create Problem tickets, and report findings and recommendations to product and engineering teams on a regular cadence. Enforce the incident management fra",
-  "matched": [
-   "monitoring",
-   "aci"
-  ],
-  "score": 65,
-  "msg_id": 39
- },
- "37b2330e3c": {
-  "title": "Team Leader Field Service",
-  "link": "https://az.linkedin.com/jobs/view/team-leader-field-service-at-sicpa-4476560527",
-  "company": "SICPA",
-  "location": "Baku, Baku Ekonomic Zone, Azerbaijan",
-  "source": "LinkedIn",
-  "snippet": "Established in 1927, SICPA is a Swiss private technology company that supports the effective governance and long-term prosperity of nations. SICPA sets the pulse of sovereignty , enabling governments to protect their citizens, sovereign assets, and economies. Best known for securing the majority of the world’s banknotes, SICPA operates across five continents. Today, our platform for sovereignty delivers integrated solutions safeguarding revenue mobilisation, natural resources, health, and brand protection as well as digital sovereignty and secure public services. ROLE Lead a team of Field Service Technicians, Marking Operator and Mobile Marking Operators with supervising and coordinating service activities. Provide 2nd level technical support to ensure efficient and effective operation of our solution. Perform daily maintenance, troubleshooting tasks and provide on-site technical support. Key Responsibilities Coordination of Service activities (on-duty, maintenance) KPI reporting towards management Develop and train teams Provide the 2nd level support for Field Service Technicians Ensure the resolution of incidents within specific time constraints Perform user management and routine system administration tasks Manage and maintain servers and data center equipment Respond to requests of other technical teams Troubleshoot and resolve IT issues Perform monitoring activities Install, configure, optimize & maintain systems, applications and servers Maintain accurate and updated documentation Identify situations requiring urgent attention and escalate as appropriate Coordinate deployments with other Field Operations Technicians and other teams Provide feedback and contribute to improvement initiatives It might be needed that TL also works occasionally shifts. PROFILE Bachelor's degree and technical competence in a relevant field, or equivalent combination of training, and/or experience Minimum 5 years of experience in maintaining and troubleshooting equipment preferable in a factory environment Fluent in English (minimum C1 level). Good written and verbal communication Ability to diagnose and analyze mechanical, electrical, application issues and analyze application server logs Experience with Microsoft office tools (Excel / Word) Strong troubleshooting skills and demonstrated abilities to diagnose and analyze technical issues Experience in managing and troubleshooting MS Windows and IT Network Ability to lead small team Ability to work under pressure Customer oriented attitude Knowledge in one or more of the following fields a plus: Experience troubleshooting computer networks Knowledge of basic IT support tools: FTP, SSH, Putty, SVN, Remote Access Knowledge of basic IT support procedures and tools Knowledge of basic PLC setup and programming WHY JOIN US? Join a global leader in trust technologies with a mission that matters. Be at the strategic heart of a financially sound and innovation-driven company. Collaborate with high-level experts and work on",
-  "matched": [
-   "monitoring",
-   "troubleshooting",
-   "data center"
-  ],
-  "score": 75,
-  "msg_id": 40
- },
- "2d8a7c1f45": {
-  "title": "IT Infrastructure/Systems Engineer ID92976",
-  "link": "https://co.linkedin.com/jobs/view/it-infrastructure-systems-engineer-id92976-at-agileengine-4484540417",
-  "company": "AgileEngine",
-  "location": "Pereira, Risaralda, Colombia",
-  "source": "LinkedIn",
-  "snippet": "AgileEngine is an Inc. 5000 company that creates award-winning software for Fortune 500 brands and trailblazing startups across 17+ industries. We rank among the leaders in areas like application development and AI/ML, and our people-first culture has earned us multiple Best Place to Work awards. WHY JOIN US If you're looking for a place to grow, make an impact, and work with people who care, we'd love to meet you! ABOUT THE ROLE We are looking for an IT Infrastructure Engineer to design, build, and support corporate networks, servers, and storage across on-premise and cloud environments. MUST HAVES - 6+ years of hands-on engineering experience with enterprise local and wide area networks, servers and storage systems. - Network Equipment Experience: hands-on experience with Palo Alto, Cisco, and Juniper equipment and software. - Strong experience deploying and administering firewalls, switches and wireless infrastructure (Physical and Virtual). - Extensive knowledge and hands-on experience with Microsoft Server operating Systems & Active Directory. - Strong experience with cloud compute and storage (AWS and Azure) with cloud first approach. - Experience working in a SOX regulated company a must. - Previous experience developing disaster recovery and business continuity solutions. - Experience with Microsoft collaboration suite (Office 365 Mail, Teams, SharePoint, OneDrive). - Experience with patch deployment required. - Self-sufficient, self-managed, self-motivated, must be effective working independently. - A service-oriented mindset with a focus on creating value for our internal customers and business partners. - High energy and ability to work independently in a very fast growth environment. - Discipline to document your work required. - Ability to work with a project oriented approach for deliverables. - Work schedule flexibility required as some work must be completed after business hours. - Experience interfacing with and managing vendors and managed service providers. - Experience operating in a 24x7 international company (US & EMEA). - Excellent interaction and communication skills; ability to communicate (both written and verbal) clearly and concisely. - Upper-intermediate English level. NICE TO HAVES - Minimum AA degree in Information Systems, related field, or equivalent experience. - Cisco Certification a plus. - AWS/Azure Certifications a plus. - Networking certifications preferred. - Experience with network and systems monitoring a plus. - Experience with ITIL a plus. - Experience with Linux a plus. - Previous experience in healthcare, life-science, pharma or bio company a plus. WHAT YOU WILL DO - Responsible for the design, build and support of corporate networks, servers, storage, telephony and systems. - Implement observable, secure and fault-tolerant solutions. - Provide technical leadership, support and direction across multiple teams and domains. - Serve as an internal escalation point for day-to-day operations. - Plan and ex",
-  "matched": [
-   "palo alto",
-   "cisco",
-   "monitoring",
-   "firewall",
-   "aci"
-  ],
-  "score": 95,
-  "msg_id": 41
- },
- "09469799b4": {
-  "title": "IT Infrastructure/Systems Engineer ID92976",
-  "link": "https://co.linkedin.com/jobs/view/it-infrastructure-systems-engineer-id92976-at-agileengine-4484543185",
-  "company": "AgileEngine",
-  "location": "Manizales, Caldas, Colombia",
-  "source": "LinkedIn",
-  "snippet": "AgileEngine is an Inc. 5000 company that creates award-winning software for Fortune 500 brands and trailblazing startups across 17+ industries. We rank among the leaders in areas like application development and AI/ML, and our people-first culture has earned us multiple Best Place to Work awards. WHY JOIN US If you're looking for a place to grow, make an impact, and work with people who care, we'd love to meet you! ABOUT THE ROLE We are looking for an IT Infrastructure Engineer to design, build, and support corporate networks, servers, and storage across on-premise and cloud environments. MUST HAVES - 6+ years of hands-on engineering experience with enterprise local and wide area networks, servers and storage systems. - Network Equipment Experience: hands-on experience with Palo Alto, Cisco, and Juniper equipment and software. - Strong experience deploying and administering firewalls, switches and wireless infrastructure (Physical and Virtual). - Extensive knowledge and hands-on experience with Microsoft Server operating Systems & Active Directory. - Strong experience with cloud compute and storage (AWS and Azure) with cloud first approach. - Experience working in a SOX regulated company a must. - Previous experience developing disaster recovery and business continuity solutions. - Experience with Microsoft collaboration suite (Office 365 Mail, Teams, SharePoint, OneDrive). - Experience with patch deployment required. - Self-sufficient, self-managed, self-motivated, must be effective working independently. - A service-oriented mindset with a focus on creating value for our internal customers and business partners. - High energy and ability to work independently in a very fast growth environment. - Discipline to document your work required. - Ability to work with a project oriented approach for deliverables. - Work schedule flexibility required as some work must be completed after business hours. - Experience interfacing with and managing vendors and managed service providers. - Experience operating in a 24x7 international company (US & EMEA). - Excellent interaction and communication skills; ability to communicate (both written and verbal) clearly and concisely. - Upper-intermediate English level. NICE TO HAVES - Minimum AA degree in Information Systems, related field, or equivalent experience. - Cisco Certification a plus. - AWS/Azure Certifications a plus. - Networking certifications preferred. - Experience with network and systems monitoring a plus. - Experience with ITIL a plus. - Experience with Linux a plus. - Previous experience in healthcare, life-science, pharma or bio company a plus. WHAT YOU WILL DO - Responsible for the design, build and support of corporate networks, servers, storage, telephony and systems. - Implement observable, secure and fault-tolerant solutions. - Provide technical leadership, support and direction across multiple teams and domains. - Serve as an internal escalation point for day-to-day operations. - Plan and ex",
-  "matched": [
-   "palo alto",
-   "cisco",
-   "monitoring",
-   "firewall",
-   "aci"
-  ],
-  "score": 95,
-  "msg_id": 42
- },
- "f0e8eefb05": {
-  "title": "Ingeniero Junior de Infraestructura IT",
-  "link": "https://co.linkedin.com/jobs/view/ingeniero-junior-de-infraestructura-it-at-ghl-4462556347",
-  "company": "GHL",
-  "location": "Ibagué, Tolima, Colombia",
-  "source": "LinkedIn",
-  "snippet": "GHL HOTELES está buscándote para que formes parte de su equipo de trabajo como su Ingeniero Junior de Infraestructura IT y nos ayudes a # CrearExperiencias Contribuyendo a la implementación y mantenimiento de infraestructuras de tecnología de la información, garantizando su disponibilidad, seguridad y eficiencia 🏨🔒💻. Requisitos Buscamos profesional en Ingeniería de Sistemas, Informática, Telecomunicaciones o un campo relacionado. Se valoran cursos o certificaciones adicionales. Certificaciones deseadas en CompTIA Network+, Cisco CCENT, AWS Certified Cloud Practitioner and Microsoft Azure Fundamentals. Es importante que tengas 1 año de experiencia en experiencia en roles relacionados con infraestructura de TI, ya sea a través de prácticas, trabajos a tiempo parcial o empleo a tiempo completo. Conocimiento en servidores, virtualización, almacenamiento, backup y recuperación y automatización. Durante el proceso observaremos y valoraremos las siguientes competencias Adaptabilidad & Flexibilidad. Aprendizaje Digital Iniciativa. Pensamiento Estratégico. Orientación al cliente. Productividad. Comunicación & Empatía. Trabajo en Equipo. Beneficios En nuestra Compañía contamos con un completo Plan de Beneficios , diseñado para Crear Experiencias con Gente Feliz😊. Aquí encontrarás la posibilidad de desarrollar tu plan de carrera , acceder a descuentos en alojamiento, alimentos & bebidas , así como a convenios especiales y muchos beneficios más pensados para ti. Te invitamos a ser parte de nuestra familia y vivir la Experiencia de trabajar para la Operadora Hotelera de mayor crecimiento en la región📈. Quiénes somos? GHL es el grupo hotelero de mayor crecimiento de la región, con experiencia de más de 50 años en el mercado, con presencia en 11 países y 63 Operaciones Hoteleras multimarcas. ¡Somos Creadores de experiencias! En GHL Hoteles, entendemos que el trabajo no debe ser concebido sólo como una transacción o como un fin, desde nuestro enfoque, es un medio que posibilita a las personas la consecución de sus propósitos y metas a largo plazo, a través de nuestra visión, crear experiencias con gente feliz. Sabemos que las personas felices son por lo general más sociables, flexibles y creativas, son más capaces de tolerar las frustraciones cotidianas y los problemas del día a día, son más compasivas con los menos afortunados y mas empáticas con los demás, por eso es parte también de nuestra visión, ser los mejores empleadores de la región. Para esto, promovemos un buen clima laboral, la igualdad, el respeto por los derechos humanos, la no discriminación, el trabajo no forzado, el respeto por la diversidad, la inclusión y ambientes laborales saludables y seguros. ¡Nuestros Principios y Valores! Los principios y valores de GHL reflejan lo que es realmente importante para la Compañía, no cambian con el tiempo y son fundamentales para nuestra Cultura Organizacional SOMOS Íntegros La Integridad nos obliga a mantener una conducta permanente acorde",
-  "matched": [
-   "cisco",
-   "aci"
-  ],
-  "score": 65,
-  "msg_id": 43
- },
- "f8fbc2dab1": {
-  "title": "Infrastructure Engineer & SRE ID98508",
-  "link": "https://co.linkedin.com/jobs/view/infrastructure-engineer-sre-id98508-at-agileengine-4484105184",
-  "company": "AgileEngine",
-  "location": "Manizales, Caldas, Colombia",
-  "source": "LinkedIn",
-  "snippet": "AgileEngine is an Inc. 5000 company that creates award-winning software for Fortune 500 brands and trailblazing startups across 17+ industries. We rank among the leaders in areas like application development and AI/ML, and our people-first culture has earned us multiple Best Place to Work awards. WHY JOIN US If you're looking for a place to grow, make an impact, and work with people who care, we'd love to meet you! ABOUT THE ROLE We are looking for a Infrastructure Engineer & SRE to operate and improve a Kubernetes-based API platform across public and private cloud environments, including automation, tooling, and incident management. MUST HAVES - Hands-on experience of at least 4 years operating Kubernetes in production , ideally with Service Mesh. - Strong Linux and command line fundamentals. - Confident debugging and troubleshooting complex systems, from the application layer through to lower-level infrastructure. - Experience working with a public cloud provider, preferably Azure or AWS. - Upper-intermediate English level. NICE TO HAVES - Working knowledge of Grafana, Prometheus, Loki and Tempo is a plus. - Scripting or coding in Python or Java is a strong plus. - CI/CD, infrastructure as code such as Helm or Terraform is a plus. - Financial services background is not required. WHAT YOU WILL DO - Operate and maintain the Kubernetes-based platform across public and private cloud environments. - Work with observability tooling to ensure alerts are actionable through up-to-date runbooks and documentation. - Manage incidents from end-to-end, including incident response, root cause analysis, and post-incident reviews. - Onboard and support new clients onto the platform. - Build automation and diagnostic tooling that cuts manual effort and evaluates performance. - Identify and deliver process improvements. - Support software and hardware upgrades and keep components up to date. - Proactively manage capacity so the platform scales with demand. PERKS AND BENEFITS - Professional growth : Mentorship, TechTalks, and personalized growth roadmaps. - Competitive compensation : USD-based pay with education, fitness, and team activity budgets. - Exciting projects : Modern solutions with Fortune 500 and top product companies. - Flextime : Flexible schedule with remote and office options.",
-  "matched": [
-   "troubleshooting",
-   "aci"
-  ],
-  "score": 65,
-  "msg_id": 44
- },
- "b8093fc006": {
-  "title": "Infrastructure Engineer & SRE ID98508",
-  "link": "https://co.linkedin.com/jobs/view/infrastructure-engineer-sre-id98508-at-agileengine-4483894619",
-  "company": "AgileEngine",
-  "location": "Pereira, Risaralda, Colombia",
-  "source": "LinkedIn",
-  "snippet": "AgileEngine is an Inc. 5000 company that creates award-winning software for Fortune 500 brands and trailblazing startups across 17+ industries. We rank among the leaders in areas like application development and AI/ML, and our people-first culture has earned us multiple Best Place to Work awards. WHY JOIN US If you're looking for a place to grow, make an impact, and work with people who care, we'd love to meet you! ABOUT THE ROLE We are looking for a Infrastructure Engineer & SRE to operate and improve a Kubernetes-based API platform across public and private cloud environments, including automation, tooling, and incident management. MUST HAVES - Hands-on experience of at least 4 years operating Kubernetes in production , ideally with Service Mesh. - Strong Linux and command line fundamentals. - Confident debugging and troubleshooting complex systems, from the application layer through to lower-level infrastructure. - Experience working with a public cloud provider, preferably Azure or AWS. - Upper-intermediate English level. NICE TO HAVES - Working knowledge of Grafana, Prometheus, Loki and Tempo is a plus. - Scripting or coding in Python or Java is a strong plus. - CI/CD, infrastructure as code such as Helm or Terraform is a plus. - Financial services background is not required. WHAT YOU WILL DO - Operate and maintain the Kubernetes-based platform across public and private cloud environments. - Work with observability tooling to ensure alerts are actionable through up-to-date runbooks and documentation. - Manage incidents from end-to-end, including incident response, root cause analysis, and post-incident reviews. - Onboard and support new clients onto the platform. - Build automation and diagnostic tooling that cuts manual effort and evaluates performance. - Identify and deliver process improvements. - Support software and hardware upgrades and keep components up to date. - Proactively manage capacity so the platform scales with demand. PERKS AND BENEFITS - Professional growth : Mentorship, TechTalks, and personalized growth roadmaps. - Competitive compensation : USD-based pay with education, fitness, and team activity budgets. - Exciting projects : Modern solutions with Fortune 500 and top product companies. - Flextime : Flexible schedule with remote and office options.",
-  "matched": [
-   "troubleshooting",
-   "aci"
-  ],
-  "score": 65,
-  "msg_id": 45
- },
  "db142c5ef5": {
   "title": "Field Service Technician",
   "link": "https://az.linkedin.com/jobs/view/field-service-technician-at-sicpa-4477636760",
@@ -365,34 +243,134 @@
   "score": 65,
   "msg_id": 46
  },
- "a09853bbcf": {
-  "title": "Senior IT Infrastructure Engineer ID92977",
-  "link": "https://co.linkedin.com/jobs/view/senior-it-infrastructure-engineer-id92977-at-agileengine-4475433976",
-  "company": "AgileEngine",
-  "location": "Pereira, Risaralda, Colombia",
+ "390d9bd73b": {
+  "title": "Network Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/network-uzman%C4%B1-at-do%C4%9Fu%C5%9F-teknoloji-4444412925",
+  "company": "Doğuş Teknoloji",
+  "location": "Çayırova District, Kocaeli, Türkiye",
   "source": "LinkedIn",
-  "snippet": "AgileEngine is an Inc. 5000 company that creates award-winning software for Fortune 500 brands and trailblazing startups across 17+ industries. We rank among the leaders in areas like application development and AI/ML, and our people-first culture has earned us multiple Best Place to Work awards. WHY JOIN US If you're looking for a place to grow, make an impact, and work with people who care, we'd love to meet you! ABOUT THE ROLE We are looking for a Senior IT Infrastructure Engineer to design, operate, and improve the systems and infrastructure behind corporate IT services and business applications. MUST HAVES - Bachelor’s degree in Computer Science, Information Technology, Engineering, or a related field, or equivalent practical experience. - 4+ years of progressive experience designing, implementing, and supporting enterprise IT infrastructure. - Strong experience with Windows and Linux server administration, virtualization, storage, backup, monitoring, and troubleshooting . - Experience supporting cloud infrastructure and understanding dependencies across compute, storage, networking, identity, and security services. - Experience with Active Directory or comparable identity platforms, enterprise authentication, privileged access, and service-account management . - Experience with infrastructure lifecycle management, patching, vulnerability remediation, change control, incident management, and technical documentation . - Demonstrated ability to troubleshoot complex infrastructure issues across multiple technology layers and teams. - Experience building or maintaining automation and repeatable operational processes. - Ability to create clear implementation plans, assess risk, define rollback procedures, and execute changes in a controlled manner. - Strong written and verbal communication skills, with the ability to explain technical issues to both technical and non-technical stakeholders. - Ability to prioritize competing work, take ownership of outcomes, and operate effectively in a regulated or security-conscious environment. - Upper-intermediate English level. NICE TO HAVES - Experience with VMware, Nutanix, or comparable virtualization and hyperconverged infrastructure platforms. - Experience with AWS infrastructure services, cloud security, cloud cost awareness, and infrastructure-as-code practices. - Experience with Microsoft 365, endpoint or systems-management platforms, configuration management, and enterprise monitoring tools. - Experience with enterprise backup and recovery platforms, immutable backups, recovery testing, and off-site or cloud-based protection. - Experience with PowerShell, Python, Bash, Ansible, Terraform, or comparable automation tools. - Experience in healthcare, medical device, life sciences, or another regulated industry. - Familiarity with ITIL practices, security frameworks, audit evidence, and formal change-management processes. - Relevant certifications such as Microsoft, AWS, VMware, Nutanix, ITIL, or compara",
+  "snippet": "Sen de teknolojiye yön vermekle kalmayıp, aynı zamanda topluma ve bireylere dokunabileceğin empatinin gücüyle şekillenen bir evde çalışmak istersen Network Uzmanı rolümüze hemen başvur! Doğuş Teknoloji’de seni neler bekliyor? Doğuş Grubu’nun parçası olma, Sürekli gelişen, etkileşimli ve ilham veren takımlarla çalışma fırsatı, İlham veren liderler eşliğinde potansiyelini gerçekleştirebileceğin destekleyici ve geliştirici iş ortamı, Ekipler arası çapraz proje iş birlikleri ve rotasyon imkânı, Sana özel gelişim planı ve bu planı destekleyecek zengin eğitim & gelişim fırsatları, Sosyalliğini ve etkileşimini artırabileceğin kulüpler, etkinlikler, Doğum Günü İzni, İngilizceni geliştirebileceğin konuşma kulüpleri, Dijital cüzdanım uygulaması ile ihtiyacına göre seçebileceğin esnek yan haklar, Invendo ile girişimcilik fikirlerinin hayata geçebileceği hatta şirketleşebileceğin mentorluk desteği. Network Uzmanı pozisyonu nelerden sorumludur? Kablolu/kablosuz network cihazlarının ve haberleşme sistemlerinin yönetiminin sağlanması Network sistemlerinin izlenmesi, kapasite planları, performans yönetimi ve yedeklemesinin yapılması ve hatalara karşı analizler gerçekleştirip düzeltici aksiyonlar alınması, Cisco/Aruba/HPE Router ve switch cihazlarının kurulum, konfigürasyon ve güncellemelerinin yapılması LAN/WAN, VLAN, routing/switching altyapılarının kurulumu ve yönetimi Yönetilen cihazlarının SIEM ürünlerine doğru loglama mekanizmasının kurulumu/bakımı Projelerde network konusunda diğer birimlerle çalışıp mimari tasarımlarda bulunmak Bu Ekibe Nasıl Birini Arıyoruz? Birlikte yeni fikirler üreteceğimiz, başarıdan başarıya koşacağımız bir çalışma arkadaşı arıyoruz. Sen de; Elektrik, Elektronik, Haberleşme, Matematik, Bilgisayar Mühendisliği veya benzeri lisans programından mezun Routing, Switching, Wireless konularında minimum 3 yıl deneyimli Network Monitoring araçlarının kurulumu ve yönetimi konularında tecrübeli Cisco ve Aruba network ürünlerinde deneyimi olan NAC altyapılarının kurulması ve yönetimi konusunda iyi derecede tecrübeli Network saha kurulumu tecrübesi olan Network Monitoring araçlarının kurulumu ve yönetimi tecrübesi olan Tercihen Load Balancer – WAF yönetimi konusunda tecrübeli Tercihen İyi derecede İngilizce bilen Tercihen CCNP sertifikasına sahip İletişim becerileri kuvvetli insanı, deneyimi ve teknolojiyi odağa alarak yürüttüğümüz başarılı, yenilikçi, sürdürülebilir projelerin bir parçası olmak istersen başvurunu bekliyoruz! Çünkü #YenilikSendeBaşlar Hakkımızda 2012 yılında bilgi teknolojileri alanına değer katma heyecanıyla Doğuş Grubu’nun bir parçası olarak kurulduk. İlk günden beri genç kadromuzla yeni teknolojilerin peşinden koşarak, çevik ve güvenilir çalışma kültürünü benimsedik. Ülkemizde ve küresel pazarlarda bilişim sektöründe ilklere imza atan teknoloji şirketlerinden biriyiz. Türkiye’nin önde gelen Ar-Ge merkezlerinden biri olarak, Üretken Yapay Zeka, Veri Analitiği, Sistem Entegrasyonu, CRM ve ERP çözümleri, Altyapı ve Network, Sibe",
   "matched": [
+   "routing",
+   "cisco",
    "monitoring",
-   "troubleshooting"
+   "switching",
+   "vlan"
   ],
-  "score": 65,
-  "msg_id": 47
+  "score": 95,
+  "msg_id": 49
  },
- "8d8c9c58dc": {
-  "title": "Senior Cloud/DevOps Engineer ID92208",
-  "link": "https://co.linkedin.com/jobs/view/senior-cloud-devops-engineer-id92208-at-agileengine-4474600754",
-  "company": "AgileEngine",
-  "location": "Pereira, Risaralda, Colombia",
+ "ae46c989e7": {
+  "title": "Kıdemli Ağ Sistemleri Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/k%C4%B1demli-a%C4%9F-sistemleri-uzman%C4%B1-at-di%CC%87as-teknoloji-4467386742",
+  "company": "DİAS Teknoloji",
+  "location": "Ataşehir, Istanbul, Türkiye",
   "source": "LinkedIn",
-  "snippet": "AgileEngine is an Inc. 5000 company that creates award-winning software for Fortune 500 brands and trailblazing startups across 17+ industries. We rank among the leaders in areas like application development and AI/ML, and our people-first culture has earned us multiple Best Place to Work awards. WHY JOIN US If you're looking for a place to grow, make an impact, and work with people who care, we'd love to meet you! ABOUT THE ROLE We are looking for a Senior Cloud/DevOps Engineer to operate and improve the cloud infrastructure and reliability layers behind an enterprise data platform in a regulated healthcare environment. The mandatory requirements are 5+ years of experience in Cloud Engineering, DevOps, or Site Reliability Engineering, advanced hands-on experience with AWS EKS and Kubernetes, experience administering and troubleshooting Argo Workflows , and strong English communication skills. MUST HAVES - 5+ years of professional experience in Cloud Engineering, DevOps or Site Reliability Engineering. - Strong hands-on experience operating AWS infrastructure in production environments. - Advanced experience with Kubernetes and Amazon EKS , including workload operations, troubleshooting, access, observability, capacity, and reliability. - Hands-on experience administering and troubleshooting Argo Workflows or comparable workflow orchestration platforms. - Strong Infrastructure as Code experience with Terraform and source-controlled infrastructure practices. - Experience building, hardening, and supporting CI/CD pipelines and production release processes. - Strong experience with monitoring, logging, alerting, and incident-routing tools such as Splunk, PagerDuty, Opsgenie, or comparable platforms. - Demonstrated ability to lead complex incident resolution, perform root-cause analysis, and translate findings into preventive improvements. - Proficiency in automation and scripting using Python, Shell, Bash, or similar languages. - Ability to make well-reasoned technical decisions, identify tradeoffs, estimate work, and drive improvements across a complex platform. - Experience mentoring engineers and collaborating effectively with Data Engineering, Security, Governance, Analytics, and business stakeholders. - Strong written and verbal English communication skills, with the ability to work directly with client stakeholders. - Availability to work within the LatAm service window of approximately 9:00 AM to 6:00 PM Eastern Time and participate in an agreed on-call rotation. NICE TO HAVES - Experience supporting data-platform infrastructure involving Snowflake, dbt, Fivetran, HVR, Tableau Cloud, or custom ingestion pipelines. - Familiarity with data-specific observability platforms such as SYNQ. - Experience modernizing or migrating legacy orchestration and ingestion solutions such as Boomi or AWS Data Pipeline. - Experience with service-management and change-control tools such as Freshservice and Jira. - Experience operating in healthcare, life sciences",
+  "snippet": "Heyecan verici yolculuğumuzda Ataşehir lokasyonumuzda bize eşlik edecek Kıdemli Ağ Sistemleri Uzmanı arıyoruz. Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği veya ilgili bölümlerinden mezun, Ağ sistemleri yönetimi alanında en az 5 yıl deneyimli, Routing, Switching ve VPN teknolojileri konusunda bilgi ve uygulama deneyimine sahip, Cisco, Juniper, Fortinet, Huawei, Ruijie, H3C veya benzeri kurumsal ağ çözümleri üzerinde çalışmış, TCP/IP, VLAN, DHCP, DNS ve benzeri ağ protokolleri konusunda ileri düzey bilgi sahibi, Ağ erişim politikaları ve erişim yönetimi çözümleri hakkında deneyimli, Ağ performansı izleme, kapasite yönetimi ve sorun giderme süreçlerinde aktif rol almış, Analitik düşünme, problem çözme ve iletişim becerileri güçlü, Dokümantasyon süreçlerinde titiz çalışan, ISO 9001, ISO 27001 ve benzeri yönetim sistemleri hakkında bilgi sahibi. Tercihen CCNP, CCIE, NSE, JNCIA/JNCIS, HCIP veya benzeri sertifikalara sahip, Ağ otomasyonu, network monitoring ve merkezi yönetim platformları konusunda deneyimli, Büyük ölçekli kurumsal ağ projelerinde görev almış. Görev ve Sorumluluklar Kurumun ağ altyapısının kesintisiz ve verimli şekilde çalışmasını sağlamak, Ağ performansını izlemek, analiz etmek ve iyileştirme çalışmalarını yürütmek, Ağ güvenliği politikalarının uygulanmasına ve geliştirilmesine katkıda bulunmak, Yeni ofis ve lokasyonların ağ altyapı kurulumlarını planlamak ve devreye almak, Ağ cihazlarının kurulum, konfigürasyon, bakım ve yönetim süreçlerini yürütmek, Kapasite planlaması yapmak ve düzenli performans raporları hazırlamak, Olası altyapı sorunlarını proaktif olarak tespit ederek gerekli aksiyonları almak, İş sürekliliğini destekleyecek yedeklilik ve erişilebilirlik çözümlerini yönetmek, Ağ teknolojilerindeki gelişmeleri takip ederek uygun çözümlerin kurum altyapısına entegrasyonunu sağlamak, Ağ otomasyonu ve izleme araçlarını kullanarak operasyonel verimliliği artırmak, Altyapı, sistem ve bilgi güvenliği ekipleriyle koordineli çalışarak süreçleri geliştirmek, Dönüşümlü nöbet süreçlerinde görev almak ve kritik durumlarda gerekli müdahaleleri gerçekleştirmek, Ağ topolojileri ve teknik dokümantasyonun güncelliğini sağlamak, Bilgi güvenliği ve kalite yönetim sistemleri kapsamında belirlenen politika, prosedür ve standartlara uygun çalışmak. Neden Biz? Kritik ve stratejik altyapı projelerinde görev alma fırsatı, Yeni teknolojilerle çalışma ve teknik gelişim imkânı, Uzman ekiplerle birlikte öğrenme ve üretme kültürü, Kurumsal ve sürdürülebilir teknoloji ortamında kariyer gelişimi. Kişisel verilerinizin işlenmesine ilişkin detaylı bilgiye Çalışan Adayı Aydınlatma Metni üzerinden ulaşabilirsiniz.",
   "matched": [
+   "routing",
+   "cisco",
+   "vpn",
    "monitoring",
-   "troubleshooting",
-   "aci",
-   "routing"
+   "switching",
+   "vlan"
   ],
-  "score": 85,
-  "msg_id": 48
+  "score": 95,
+  "msg_id": 50
+ },
+ "f0471a960b": {
+  "title": "Network Kıdemli Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/network-k%C4%B1demli-uzman%C4%B1-at-innova-4481898446",
+  "company": "Innova",
+  "location": "Ankara, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Innova Bilişim Çözümleri A.Ş, farklı teknolojilerde bilgi birikimine sahip yaklaşık 1300 kişilik profesyonel kadrosu ile Türkiye’nin önde gelen bilişim çözümleri firmasıdır. 1999’dan bugüne telekomünikasyon, finans, üretim, kamu ve hizmet sektörleri başta olmak üzere her sektördeki kuruluşlara platform bağımsız çözümler sunan İnnova, uluslararası standartlarda ürettiği çözümleri şimdiye kadar 4 kıtada 37 ülkeye ihraç etmeyi başarmıştır. 2007 yılından bu yana Türk Telekom Grubu Şirketleri bünyesinde yer alan İnnova Bilişim Çözümleri A.Ş, İstanbul ve Ankara ana ofislerinin yanı sıra Türkiye'nin çeşitli bölgelerine yayılmış 12 ofisi üzerinden faaliyetlerine devam etmektedir. Genel Nitelikler: - Tercihen Üniversitelerin Bilgisayar, Elektrik, Elektronik Mühendisliği ve benzeri bölümlerinde lisans eğitimini tamamlamış, - Alanında en az 4 yıl deneyimli, - Güçlü sahiplenme duygusu, dokümantasyon disiplinine sahip, - Ekip çalışmasına yatkın, uyumlu, analitik düşünme, karar alma ve problem çözme yeteneğine sahip, - Yazılı ve sözlü İngilizce bilgisine sahip, - Ağ Teknolojileri konusunda uygulamalı deneyime sahip; - Routing & Switching alanında teknik eğitim almış ya da kendini geliştirmeye başlamış (BGP, OSPF, ISIS, MPLS tercih sebebidir), - Kablosuz ağ, core network ve güvenlik bileşenlerinin entegrasyonunu öğrenmeye istekli - Cisco WLC , Nexus , ASA / Firepower , IOS XE ürün ve işletim sistemlerinin en az birinde çalışmış, - CCNA/CCNP sertifikasına (Wireless, Enterprise veya Security) veya uygulamalı teknik uzmanlığa sahip, - Pozisyon için Ankara’da i ikamet eden adaylar tercih edilecektir. Görev Tanımı: - Kurumsal ve servis sağlayıcı ihtiyaçlarına uygun kablosuz ağ mimarilerinin arıza takibi, çözümü, geliştirilmesi ve sürdürülebilirliğinin sağlanması. - Controller tabanlı ve merkezi ağ mimarilerinin arıza çözümü ve yönetilmesi. - Uçtan uca network mimarisinin (Wireless, core, security) bütüncül olarak iyileştirilmesi. - Ağ topolojileri ve teknik dokümantasyonun hazırlanması ve güncel tutulması. - Operasyon ekiplerine karmaşık problemlerde L2 ve L3 teknik seviyede destek verilmesi, - Üreticiler ile POC (Proof of Concept) çalışmalarının yürütülmesi ve çözümlerin teknik olarak değerlendirilmesi. - Üretici destek süreçlerinin (case yönetimi) takip edilmesi ve sonuçlandırılması. - Kritik sistem problemleri için kök neden analizi yapılması ve kalıcı çözümler üretilmesi. - Yeni teknolojilerin araştırılması, değerlendirilmesi ve sisteme adaptasyonunun sağlanması. - İç ekipler ve gerektiğinde müşteriler için teknik referans noktası olarak destek verilmesi.",
+  "matched": [
+   "bgp",
+   "routing",
+   "nexus",
+   "cisco",
+   "switching",
+   "ospf"
+  ],
+  "score": 95,
+  "msg_id": 51
+ },
+ "6f2367959d": {
+  "title": "Kıdemli Ağ ve Altyapı Uzmanı ( Ankara/İstanbul)",
+  "link": "https://tr.linkedin.com/jobs/view/k%C4%B1demli-a%C4%9F-ve-altyap%C4%B1-uzman%C4%B1-ankara-i%CC%87stanbul-at-padran-information-technologies-inc-4432417310",
+  "company": "Padran Information Technologies Inc.",
+  "location": "Greater Ankara",
+  "source": "LinkedIn",
+  "snippet": "2020 yılında İstanbul'da kurulan Padran Bilgi Teknolojileri, anahtar teslim yazılım geliştirme ve yönetilen servisler sunarak Türkiye'nin bankacılık, sigortacılık ve telekomünikasyon sektörlerinde önde gelen şirketlerle çalışmaktadır. ISTQB akredite eğitim merkezi olarak hem müşterilerine hem de çalışanlarına resmi ISTQB eğitimleri sunan Padran, aynı zamanda Open Text (eski adıyla Micro Focus), Microsoft, IBM ve AWS iş ortaklıklarıyla müşterilerine kendi alanlarında dünyanın en iyi yazılımlarını sağlamaktadır. Padran Bilgi Teknolojileri olarak büyümeye ve başarıya odaklanmış ekip arkadaşları arıyoruz! Bu pozisyonda danışmanlık verdiğimiz müşterilerimizde görev yapacak ve Türkiye'nin önde gelen şirketlerinde projelerde yer alacaksınız. İş Tanımı Ağ (Network) yönetimi ve mühendisliği alanında en az 8-10 yıl arası derinlemesine operasyonel deneyim, Enterprise ölçekte Routing (BGP, OSPF vb.) ve Switching (STP/RSTP, VRRP, LACP, Stack mimarileri) protokollerinde ileri düzey uzmanlık, Büyük ölçekli yapılarda MPLS, SD-WAN mimarileri ve güvenli şubeler arası Site-to-Site VPN (IPsec) teknolojilerinin tasarımı ve yönetimi konusunda tecrübe, Citrix ADC (NetScaler) platformu üzerinde Layer 4 / Layer 7 Load Balancing, Content Switching, SSL Offloading ve sertifika yönetimi süreçlerinde yetkinlik, Dış dünyadan kurumsal altyapıya erişim süreçlerinde Citrix Gateway (ICA Proxy / Reverse Proxy) ve yük dengeleme mimarilerinin takibi ve operasyonel yönetimi, Ağ erişim kontrolü (NAC) süreçlerinde FortiNAC (veya Aruba ClearPass, Cisco ISE) mimarilerinin kurulumu, cihaz tanılama (profiling), görünürlük (visibility) ve dinamik 802.1X/MAB politika tasarimi konularında derin tecrübe, HP Aruba (veya benzeri Cisco vb.) kurumsal ağ çözümleri, omurga (backbone) ve kenar anahtarlayıcı (edge switch) yönetiminde yetkinlik, Kurumsal ölçekte Kablosuz Ağ (WLAN) altyapılarının (Controller, Access Point, site survey) yönetimi ve optimizasyonu, FortiGate (veya benzeri enterprise) güvenlik duvarı (Firewall) yönetimi, NAT kuralları, routing entegrasyonu ve problem giderme becerisi, Ağ performans izleme, trafik analizi ve log inceleme araçlarına (PRTG, SolarWinds, Wireshark, NetFlow vb.) hakimiyet, Tercihen DDoS koruma çözümleri ve ağ katmanı güvenlik teknolojileri konusunda bilgi/tecrübe sahibi olmak. Neden Padran Bilgi Teknolojileri? Türkiye'nin önde gelen şirketleri ile çalışma fırsatı İş ortaklarımız Microsoft, IBM, AWS ve Open Text ile sektörün öncü teknolojilerini kullanma imkânı ISTQB akredite eğitim merkezi olarak kariyer gelişimi ve sertifika fırsatları Uzaktan / Hibrit çalışma modeli ile esnek ve verimli çalışma ortamı APPLY FOR THIS JOB",
+  "matched": [
+   "bgp",
+   "routing",
+   "fortigate",
+   "solarwinds",
+   "cisco",
+   "vpn",
+   "stp",
+   "switching",
+   "firewall",
+   "ospf",
+   "ipsec"
+  ],
+  "score": 95,
+  "msg_id": 52
+ },
+ "79b16ff71b": {
+  "title": "Network Specialist",
+  "link": "https://tr.linkedin.com/jobs/view/network-specialist-at-kepler-club-4483464613",
+  "company": "Kepler Club",
+  "location": "Sisli, Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "About Us Kepler was established in 2018 with the support of domestic and international investors and is among Turkey’s fast-growing and innovative companies. Today, the Kepler Group operates internationally with companies located in the Netherlands, Luxembourg, and Latvia in Europe, and China and Malaysia in Asia. Kepler is the only company providing accommodation and shower services within the terminal building of Istanbul Sabiha Gökçen Airport. As of 2024, Kepler has expanded its international operations by launching services at Kuala Lumpur International Airport and opening its third location at Riga International Airport, now operating across three different countries. Roles and Responsibilities Manages and optimizes network infrastructure across Türkiye, Malaysia, and Latvia locations in terms of performance, security, and continuity Designs, installs, and maintains LAN / WAN / WLAN network systems Configures and manages network devices such as routers, switches, firewalls, and access points Establishes and manages secure VPN connections between multiple locations Implements network security policies including firewall rules, access control lists (ACLs), and segmentation structures Monitors network performance and ensures continuous improvement through analysis and optimization Performs advanced troubleshooting and root cause analysis; develops permanent solutions to network issues Designs and deploys network infrastructure for new office and location setups Maintains accurate and up-to-date network documentation, configurations, and inventory records Supports high availability and redundancy solutions to ensure uninterrupted system operations Coordinates with service providers and follows up SLA processes Collaborates with IT teams to resolve network-related technical issues effectively Ensures compliance with information security policies and data protection regulations (KVKK, GDPR, etc.) Identifies potential security vulnerabilities and implements preventive and corrective actions Contributes to backup, recovery, and disaster recovery processes Provides after-hours technical support when required for critical systems Coordinates with external vendors and agencies when necessary Supports continuous improvement by following new technologies and network trends Qualifications Bachelor’s degree in Computer Engineering, Electrical/Electronics Engineering, Information Technologies, or related fields Proven experience in network administration or network engineering Strong knowledge of LAN, WAN, WLAN, VPN technologies and network protocols (TCP/IP, DNS, DHCP, etc.) Hands-on experience with network devices such as Cisco, Fortinet, Palo Alto, or similar Solid understanding of network security principles, firewall management, and segmentation Experience in troubleshooting complex network issues and performing root cause analysis Familiarity with network monitoring and performance analysis tools Experience in managing multi-site or international netw",
+  "matched": [
+   "cisco",
+   "troubleshooting",
+   "vpn",
+   "monitoring",
+   "firewall",
+   "palo alto"
+  ],
+  "score": 95,
+  "msg_id": 53
+ },
+ "d43f08e069": {
+  "title": "Ağ Sistemleri Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/a%C4%9F-sistemleri-uzman%C4%B1-at-di%CC%87as-teknoloji-4467383784",
+  "company": "DİAS Teknoloji",
+  "location": "Ataşehir, Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Heyecan verici yolculuğumuzda Ataşehir lokasyonumuzda bize eşlik edecek Ağ Sistemleri Uzmanı arıyoruz. Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği veya ilgili bölümlerinden mezun, Ağ sistemleri yönetimi alanında en az 2 yıl deneyimli, Ağ teknolojileri ve altyapı yönetimi konusunda temel bilgi sahibi, Routing, Switching ve VPN teknolojileri hakkında bilgi sahibi ve bu alanda kendini geliştirmeye istekli, Cisco, Juniper, Fortinet, Huawei, Ruijie, H3C veya benzeri kurumsal ağ çözümleri hakkında temel bilgi sahibi, TCP/IP, VLAN, DHCP, DNS ve benzeri ağ protokolleri konusunda bilgi sahibi, Ağ erişim yönetimi ve güvenliği konularına ilgi duyan, Ağ izleme ve temel sorun giderme araçlarını kullanabilen, Analitik düşünme, problem çözme ve iletişim becerileri gelişmiş, Dokümantasyon süreçlerinde dikkatli ve düzenli çalışan, ISO 9001, ISO 27001 ve benzeri yönetim sistemleri hakkında temel bilgi sahibi. Tercihen CCNA, NSE, JNCIA veya benzeri teknik sertifikalara sahip, Ağ izleme (Network Monitoring) ve merkezi yönetim platformları konusunda bilgi sahibi, Kurumsal ağ altyapılarında görev almış, Ağ otomasyonu ve süreç iyileştirme konularına ilgi duyan. Görev ve Sorumluluklar Şirket ağ altyapısının günlük operasyonlarını yürütmek ve sürekliliğine katkı sağlamak, Ağ performansını izlemek, tespit edilen sorunları analiz etmek ve çözüm süreçlerine destek olmak, Ağ güvenliği politika ve prosedürlerinin uygulanmasına katkı sağlamak, Yeni lokasyon ve ofislerde yapılacak ağ kurulum ve konfigürasyon çalışmalarına destek vermek, Ağ cihazlarının kurulum, bakım ve temel yapılandırma işlemlerini gerçekleştirmek, Ağ performansı ve kapasitesine ilişkin raporlama çalışmalarına destek olmak, Ağ altyapısındaki arıza ve kesintilerin giderilmesinde aktif rol almak, İş sürekliliğini destekleyen yedeklilik ve yedekleme süreçlerinde görev almak, Yeni teknolojileri takip ederek ağ altyapısının geliştirilmesine katkıda bulunmak, Ağ otomasyonu ve izleme araçlarının etkin kullanımına destek vermek, Altyapı ve bilgi güvenliği ekipleriyle koordineli çalışmak, Ağ topolojileri ve teknik dokümantasyonun güncelliğini sağlamak, Bilgi güvenliği ve kalite yönetim sistemleri kapsamında belirlenen politika ve prosedürlere uygun çalışmak, Dönüşümlü nöbet süreçlerinde görev almak ve gerekli durumlarda destek sağlamak. Neden Biz? Kurumsal ölçekte ağ altyapıları üzerinde çalışma fırsatı, Yeni teknolojiler ve projelerle teknik gelişimini destekleyen çalışma ortamı, Deneyimli ekiplerle birlikte öğrenme ve uzmanlaşma imkânı, Kariyer gelişimine ve sürekli öğrenmeye önem veren kurumsal yapı, Ağ teknolojileri alanında farklı projelerde yer alma fırsatı. Kişisel verilerinizin işlenmesine ilişkin detaylı bilgiye Çalışan Adayı Aydınlatma Metni üzerinden ulaşabilirsiniz.",
+  "matched": [
+   "routing",
+   "cisco",
+   "vpn",
+   "monitoring",
+   "switching",
+   "vlan"
+  ],
+  "score": 95,
+  "msg_id": 54
+ },
+ "ec339fc319": {
+  "title": "System and Network Administration Team Member",
+  "link": "https://tr.linkedin.com/jobs/view/system-and-network-administration-team-member-at-farplas-4481883279",
+  "company": "Farplas",
+  "location": "Kocaeli, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Farplas is a leading automotive supplier collaborating with global automotive giants such as Toyota, Renault, Hyundai, Kia, Ford, Stellantis, and Togg. We design and implement our innovative solutions using advanced technology and world-class manufacturing processes. With our state-of-the-art facilities, automation systems, and strong commitment to sustainability, we are building a smarter, greener, and more connected mobility future. At Farplas, we believe in the values of Resilience, Passion, People, Purpose, Progress, and Planet . These values shape both our technological innovations and our approach to creating meaningful career opportunities for our employees. What Does the System and Network Administration Team Member Do at Farplas? Installation and management of virtualization platforms Management of Microsoft Services Operation of Storage and Backup systems Management and monitoring of monitoring systems Implementation and monitoring of IT policies Provision of support to our domestic and international companies within the scope of IT services Management of network devices and software Management of licenses Ensuring compliance with regulations Realization of system infrastructure project studies for the implementation of digital transformation projects What Are the Requirements for a System and Network Administration Team Member at Farplas? Knowledge and experience in Microsoft systems (Active Directory, DHCP, DNS, CA, NPS, IIS, Cluster, etc.) Proficient in TCP/IP, Switching & Routing and Network Management products, Experience in LAN, WAN, wireless, firewall management and troubleshooting, Experienced in backup and business continuity solutions (Vmware, Netbackup, Commvault, etc.) Proficient in English, Experienced in EDR, XDR, DLP, Monitoring, Siem applications Proficient in 27001 and preferably Tisax processes. Basic Basis knowledge Proficient in VMware, HCI and server management. Proficient in SAP&Hana architectures. Graduated from relevant departments of universities. Not restricted from traveling abroad Completed military service for male candidates, Residing/able to reside in Istanbul, Asia or Kocaeli region What Does the Recruitment Process Look Like? Submit Your Application Competency-Based Interview Assessment Tools Reference Check Final Steps & Offer You can explore all job and internship opportunities at Farplas via LinkedIn and Kariyer.net. If you share our passion and values, we look forward to meeting you,",
+  "matched": [
+   "routing",
+   "troubleshooting",
+   "monitoring",
+   "switching",
+   "firewall",
+   "aci"
+  ],
+  "score": 95,
+  "msg_id": 55
  }
 }
