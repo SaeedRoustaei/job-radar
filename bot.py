@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Job Radar v6 (final) — networking jobs in Iraq, Azerbaijan & Armenia.
+Job Radar v7 (final) — English networking jobs in Turkey, Azerbaijan,
+Iraq, Armenia & Tajikistan.
 
-- Runs twice a day (09:00 & 18:00 Tehran) via GitHub Actions — no manual runs
-- Scans LinkedIn (guest API), job.am, vakansiyam.az, vacanciesiniraq.com
-  and 8 public Telegram job channels
-- English ads only, >=60% skill match with resume.txt (title + ad text)
-- Deduplicates across runs (seen.json)
-- Each proposal has a "📝 Cover letter" button; when you tap it, the bot
-  builds a tailored PDF cover letter and sends it here as a downloadable file
+- GitHub Actions, twice a day (09:00 & 18:00 Tehran) + a 30-min callback run
+- Sources: LinkedIn guest API (5 countries), job.am, vacanciesiniraq.com,
+  unjobs.org (Tajikistan) and public Telegram job channels
+- English ads only, >=75% skill match with resume.txt (title + ad text)
+- Location validated against allowed countries/cities (no Colombia!)
+- Each ad is tagged International / Local / Unknown company type
+- "📝 Cover letter" button builds a tailored PDF and sends it as a file
 
 Secrets: BOT_TOKEN, CHAT_ID
 Repo files: resume.txt
@@ -41,7 +42,7 @@ STATE_DAYS = 45
 REQUEST_TIMEOUT = 30
 DELAY = 2
 
-MATCH_THRESHOLD = 60   # show ads scoring >= this
+MATCH_THRESHOLD = 75   # show ads scoring >= this
 
 SIGNATURE = (
     "Saeed Roustaei\n"
@@ -57,6 +58,9 @@ KEYWORDS = [
     "infrastructure engineer", "routing", "switching", "cisco",
     "aci", "vxlan", "ospf", "bgp", "vlan", "stp", "ccna", "ccnp",
     "ccie", "sd-wan", "firewall", "şəbəkə", "ցանց", "شبكات", "شبکه",
+    "ağ mühendisi", "ağ uzmanı", "network mühendisi",
+    "сетевой инженер", "системный администратор", "it specialist",
+    "it engineer", "telecom engineer",
 ]
 
 SKILLS = [
@@ -68,6 +72,43 @@ SKILLS = [
     "windows server", "wireshark", "monitoring", "zabbix", "nagios",
     "solarwinds", "python", "automation", "ansible", "voip", "sip",
     "azure", "aws", "vmware", "data center", "troubleshooting",
+]
+
+# known international employers / NGOs / multinationals
+INTERNATIONAL_ORGS = [
+    "united nations", "undp", "unicef", "unhcr", "unops", "unfpa",
+    "world food programme", "wfp", "world health organization", "who ",
+    "iom", "osce", "world bank", "ifc ", "adb ", "ebRD", "usaid",
+    "giz ", "drc ", "norwegian refugee", "nrc ", "international rescue",
+    "save the children", "oxfam", "mercy corps", "acted", "care ",
+    "cruz roja", "medecins", "msf", "embassy", "consulate", "delegation of the european union",
+    "ericsson", "nokia", "huawei", "cisco systems", "siemens", "zte",
+    "ibm", "microsoft", "oracle", "sap ", "accenture", "deloitte",
+    "pwc", "kpmg", "ernst & young", " ey ", "capgemini", "atos",
+    "veon", "beeline", "vodafone", "orange", "telefonica", "tcell",
+    "ucell", "bakcell", "azercell", "nar ", "asiacell", "zain", "korek",
+    "fastlink", "ucom", "viva-mts", "team telecom", "turkcell",
+    "turk telekom", "vodafone", "maersk", "dhl", "kuehne", "bollore",
+]
+
+ALLOWED_COUNTRIES = [
+    "Turkey", "Azerbaijan", "Iraq", "Armenia", "Tajikistan",
+    "Türkiye", "Turkiye",
+]
+ALLOWED_CITIES = [
+    # Turkey
+    "istanbul", "ankara", "izmir", "bursa", "antalya", "adana", "konya",
+    "gaziantep", "kayseri", "esenyurt", "gebze",
+    # Azerbaijan
+    "baku", "bakı", "ganja", "ganja", "sumqayit", "mingachevir",
+    # Iraq
+    "baghdad", "erbil", "arbil", "hewler", "basra", "basrah", "mosul",
+    "sulaymaniyah", "sulaimani", "slemani", "kirkuk", "najaf", "karbala",
+    "duhok", "duhok", "basmat",
+    # Armenia
+    "yerevan", "erevan", "gyumri", "vanadzor",
+    # Tajikistan
+    "dushanbe", "khujand", "bokhtar", "khorog", "istaravshan", "tursunzoda",
 ]
 
 KEYWORD_RE = re.compile(
@@ -84,18 +125,27 @@ SESSION.headers.update({
     "Accept-Language": "en",
 })
 
-LINKEDIN_LOCATIONS = ["Iraq", "Azerbaijan", "Armenia"]
+LINKEDIN_LOCATIONS = ["Turkey", "Azerbaijan", "Iraq", "Armenia", "Tajikistan"]
 LINKEDIN_KEYWORDS = ["network engineer", "network administrator", "NOC engineer"]
 
 TG_CHANNELS = [
-    {"slug": "jobs_inarmenia",   "country": "Armenia"},
-    {"slug": "bestjobinarmenia", "country": "Armenia"},
-    {"slug": "JobBroadcast",     "country": "Armenia"},
-    {"slug": "jobsarm",          "country": "Armenia"},
-    {"slug": "Rabota_Az",        "country": "Azerbaijan"},
-    {"slug": "vakansiyam_az",    "country": "Azerbaijan"},
-    {"slug": "awezajobs",        "country": "Iraq"},
-    {"slug": "allkurdistanjobs", "country": "Iraq"},
+    # Armenia
+    {"slug": "jobs_inarmenia",        "country": "Armenia"},
+    {"slug": "bestjobinarmenia",      "country": "Armenia"},
+    {"slug": "JobBroadcast",          "country": "Armenia"},
+    {"slug": "jobsarm",               "country": "Armenia"},
+    # Azerbaijan
+    {"slug": "Rabota_Az",             "country": "Azerbaijan"},
+    {"slug": "vakansiyam_az",         "country": "Azerbaijan"},
+    # Iraq
+    {"slug": "awezajobs",             "country": "Iraq"},
+    {"slug": "allkurdistanjobs",      "country": "Iraq"},
+    # Turkey
+    {"slug": "eleman_arayanlar",      "country": "Turkey"},
+    {"slug": "istanbul_jobs_isilanlari", "country": "Turkey"},
+    {"slug": "jobsintr",              "country": "Turkey"},
+    # Tajikistan (US Embassy — English-language vacancies in Dushanbe)
+    {"slug": "usembassydushanbe",     "country": "Tajikistan"},
 ]
 
 
@@ -118,6 +168,30 @@ def is_english(text):
         return False
     latin = [c for c in letters if c.isascii()]
     return len(latin) / len(letters) > 0.6
+
+
+def location_allowed(location):
+    """Kill LinkedIn's worldwide fuzz-matching (e.g. Colombia)."""
+    low = (location or "").lower()
+    if not low:
+        return False
+    tokens = [t.strip() for t in re.split(r"[,،]", low)]
+    if any(t.strip() in {c.lower() for c in ALLOWED_COUNTRIES}
+           for t in tokens):
+        return True
+    return any(city in low for city in ALLOWED_CITIES)
+
+
+def company_type(job):
+    hay = f"{job.get('company', '')} {job.get('snippet', '')[:600]}".lower()
+    for org in INTERNATIONAL_ORGS:
+        if org.lower() in hay:
+            return "🌍 بین‌المللی"
+    if job.get("source", "").startswith("UNjobs"):
+        return "🌍 بین‌المللی"
+    if job.get("company"):
+        return "🏠 محلی"
+    return "❔ نامشخص"
 
 
 def load_json(path, default):
@@ -151,8 +225,8 @@ def score_job(job, my_skills):
     """0-100 match between the ad (title + text) and the resume's skills."""
     text = f"{job['title']} {job.get('snippet', '')} {job.get('company', '')}".lower()
     matched = [s for s in my_skills if s in text]
-    score = 45                                   # title already keyword-matched
-    score += min(50, 10 * len(matched))          # skills overlap
+    score = 40                                   # title already keyword-matched
+    score += min(55, 11 * len(matched))          # skills overlap
     return min(100, score), matched
 
 
@@ -178,7 +252,6 @@ def make_cover_letter(job, matched):
 
 
 def make_cover_pdf(text):
-    """Build a simple one-page A4 PDF (English text) as bytes."""
     pdf = FPDF(orientation="P", unit="mm", format="A4")
     pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
@@ -195,7 +268,6 @@ def make_cover_pdf(text):
 
 # ================================================================ sources
 def linkedin_job_details(link):
-    """Fetch the full description of one LinkedIn job via the guest API."""
     m = re.search(r"(\d{6,})", link.split("?")[0])
     if not m:
         return ""
@@ -232,15 +304,18 @@ def linkedin_search(keyword, location):
         loc_el = card.select_one("span.job-search-card__location")
         if not a or not title_el:
             continue
+        loc = clean(loc_el.get_text()) if loc_el else location
+        if not location_allowed(loc):
+            continue                      # LinkedIn's fuzzy worldwide results
         jobs.append({
             "title": clean(title_el.get_text()),
             "link": stable_link(urljoin(url, a.get("href", ""))),
             "company": clean(company_el.get_text()) if company_el else "",
-            "location": clean(loc_el.get_text()) if loc_el else location,
+            "location": loc,
             "source": "LinkedIn",
             "snippet": "",
         })
-    print(f"[+] LinkedIn {location} / '{keyword}': {len(jobs)}")
+    print(f"[+] LinkedIn {location} / '{keyword}': {len(jobs)} (after location filter)")
     return jobs
 
 
@@ -300,6 +375,40 @@ def vacancies_in_iraq(query):
     return jobs
 
 
+def unjobs_tajikistan():
+    """UN & international-organization vacancies posted in Dushanbe."""
+    url = "https://unjobs.org/duty_stations/dyu"
+    jobs = []
+    try:
+        resp = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+    except Exception as exc:
+        print(f"[!] unjobs: {exc}")
+        return jobs
+    soup = BeautifulSoup(resp.text, "html.parser")
+    seen = set()
+    for anchor in soup.find_all("a", href=True):
+        href = anchor["href"]
+        if "/view/" not in href:
+            continue
+        title = clean(anchor.get_text(" ", strip=True))
+        if not title or len(title) < 4 or len(title) > 150:
+            continue
+        if not KEYWORD_RE.search(title):
+            continue
+        link = stable_link(urljoin(url, href))
+        if link in seen:
+            continue
+        seen.add(link)
+        jobs.append({
+            "title": title, "link": link, "company": "",
+            "location": "Dushanbe, Tajikistan",
+            "source": "UNjobs", "snippet": "UN / international organization vacancy",
+        })
+    print(f"[+] UNjobs Tajikistan: {len(jobs)}")
+    return jobs
+
+
 def telegram_channel(channel):
     url = f"https://t.me/s/{channel['slug']}"
     jobs = []
@@ -349,16 +458,13 @@ def collect_all():
         ):
             jobs[job["link"]] = job
         time.sleep(DELAY)
-    for job in generic_board(
-        "https://www.vakansiyam.az/en/vakansiyalar/it",
-        "Vakansiyam.az", "Azerbaijan", "/en/vakansiyalar/",
-    ):
-        jobs[job["link"]] = job
-    time.sleep(DELAY)
     for q in ["network engineer", "network administrator"]:
         for job in vacancies_in_iraq(q):
             jobs[job["link"]] = job
         time.sleep(DELAY)
+    for job in unjobs_tajikistan():
+        jobs[job["link"]] = job
+    time.sleep(DELAY)
     for channel in TG_CHANNELS:
         for job in telegram_channel(channel):
             jobs[job["link"]] = job
@@ -408,7 +514,6 @@ def edit_message(msg_id, text):
 
 
 def process_callbacks(seen, jobs_store, state):
-    """Handle 'cover letter' / dismiss button presses since last run."""
     offset = state.get("offset", 0)
     try:
         updates = tg_api("getUpdates", {
@@ -471,7 +576,8 @@ def propose(job, matched, score, jobs_store):
         f"🎯 <b>{html.escape(job['title'])}</b> — match {score}٪\n"
         f"🏢 {html.escape(job.get('company') or '—')}"
         f" | 📍 {html.escape(job.get('location') or '—')}"
-        f" | 🌐 {html.escape(job['source'])}\n"
+        f" | 🌐 {html.escape(job['source'])}"
+        f" | {company_type(job)}\n"
         f"🧩 {html.escape(', '.join(sorted(matched)[:8]) or '—')}\n"
         f"📝 {html.escape(job.get('snippet', '')[:350])}\n"
         f"🔗 {job['link']}"
@@ -500,7 +606,6 @@ def main():
     process_callbacks(seen, jobs_store, state)
 
     if CALLBACK_ONLY:
-        # between scans: only process button presses, exit fast
         save_json(JOBS_FILE, jobs_store)
         save_json(STATE_FILE, state)
         return
@@ -520,7 +625,6 @@ def main():
         if not is_english(f"{job['title']} {job.get('snippet', '')}"):
             continue
 
-        # LinkedIn ads have no snippet from search — fetch the full text once
         if job["source"] == "LinkedIn" and not job.get("snippet"):
             desc = linkedin_job_details(job["link"])
             if desc:
