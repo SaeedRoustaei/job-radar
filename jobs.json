@@ -41,18 +41,18 @@
   "source": "LinkedIn",
   "snippet": "Job Summary End-to-end responsibility for IP network architecture, including HLD, LLD, and BOQ reviews with vendors, and day-to-day operation of large-scale IPRAN networks supporting 2G, 3G, 4G, and 5G services. Key Responsibilities Network Design & Planning · Design, review, and validate HLD and LLD documents. · Review and validate BOQ with vendors and internal stakeholders. · Lead IP network planning and optimization for IPRAN (2G/3G/4G/5G) environments. · Ensure designs align with scalability, resiliency, security, and operational best practices. Network Operations & Technologies · Operate and support large-scale Service Provider IP networks. · Act as an SME for advanced technologies, including: EVPN, SR-MPLS & SRv6, BGP, IS-IS, L2VPN, L3VPN, VXLAN. · Troubleshoot complex network issues and lead root cause analysis. Security & AAA · Design, deploy, and operate security solutions including: FortiGate firewalls, Cisco ISE. · Strong expertise in: AAA (TACACS+, RADIUS), IPsec & SSL VPN, High Availability (HA) architectures. · Ensure secure access control and compliance with security standards. Vendor & Stakeholder Management · Work closely with vendors during design, implementation, and optimization phases. · Evaluate vendor proposals, designs, and technical solutions. · Support multi-vendor environments and interoperability. Required Technical Skills · Minimum 10 years of experience in IP network design, planning, and operations. · Strong experience in IPRAN networks (2G/3G/4G/5G). · Deep knowledge of Service Provider routing and switching technologies. · Multi-vendor experience with: Cisco, Huawei, Nokia, Fortinet Certifications (Required / Preferred) · CCIE Service Provider (Required or Strongly Preferred) · HCIE Datacom · CCIE Security or CCNP Security Personal & Professional Skills · 10+ years of hands-on experience in IP network operations, design, and planning. The · deep technical expertise in modern Service Provider technologies, strong security knowledge, and proven multi-vendor experience. · Strong teamwork and collaboration skills. · Ability to work under pressure in critical environments. · Team-friendly attitude with excellent communication skills. · Sharp decision-making and problem-solving abilities. · Willingness to provide 24/7 availability and on-call support when required.",
   "matched": [
-   "fortigate",
-   "routing",
-   "cisco",
-   "vpn",
    "firewall",
-   "ipsec",
+   "fortigate",
    "bgp",
+   "vpn",
+   "vxlan",
+   "cisco",
+   "ipsec",
    "switching",
-   "vxlan"
+   "routing"
   ],
   "score": 95,
-  "msg_id": 26
+  "msg_id": 56
  },
  "9d31e26c31": {
   "title": "Network Technician (Cable Network)",
@@ -106,13 +106,13 @@
   "source": "LinkedIn",
   "snippet": "Job Type Full-time Description If you are looking for an exciting career opportunity in the IT, engineering, software development, logistics, and project management fields, Linchpin Solutions is the place to be! We are currently hiring for a dynamic and experienced Satellite Communications FSR. Clearance: Active DoD Secret Clearance Work Schedule: Onsite daily with regional travel. Role Overview The FSRs will work as an integrated team of technicians, for our Government client supporting the installation, troubleshooting, and repair of MWR Global Internet Connect Program (ICP) platform locations throughout designated areas of responsibility. This is a 24x7x365 environment requiring overseas deployment. The primary location will be in Iraq and Jordan with frequent travel throughout Southwest Asia. Additional TDY assignments may include travel to Europe, Africa, and South America. MWR ICP is a satellite and terrestrial communications program providing deployed US service members, support staff, and contractors with Internet access at deployed locations throughout the world. By Light is looking for FSRs with the ability to navigate the deployed environment, resolve service problems, perform maintenance; and install, configure, and test VSAT and terrestrial internet services in military-deployed areas of operation. General Skillset Experience with Microsoft Office Verbal and written communication skills Ability to work both collaboratively and individually Critical Thinking Skills Ability to give presentations and briefings as needed Specific Skillset Perform installation, maintenance, and repair of deployed systems. Install, inventory, test, and modify equipment as required. Cable networks, including but not limited to, VSAT, baseband, LAN, and wireless devices IAW established standards and Government approved design, fabrication, and installation specifications. Troubleshoot and repair VSAT, LAN, and wireless hardware. On call 24x7 to provide onsite support and respond to trouble calls utilizing convoys, MilAir and commercial travel throughout the region. Coordinate the introduction of new MWR ICP technologies and equipment. Coordinate the introduction of new MWR ICP technologies and equipment. Requirements Education & Certifications High School Diploma or GED equivalent. Bachelor's Degree in IT, Computer Engineering or other technical field is preferred Experience Requirements Knowledge of VSAT communication equipment. IP fundamentals, Cisco routing, and firewall technology knowledge. Ability to communicate technical information clearly and concisely. Proficient with Microsoft suite applications. Basic network protocols, troubleshooting, and repair. Basic computer troubleshooting and repair. Demonstrated ability to work independently or under general direction Preferred Experience iDirect modem experience In-theatre air travel knowledge Military signal or telecommunications background Understanding of military organizations and Infantry/Combined A",
   "matched": [
-   "routing",
-   "cisco",
    "firewall",
-   "troubleshooting"
+   "troubleshooting",
+   "cisco",
+   "routing"
   ],
-  "score": 85,
-  "msg_id": 30
+  "score": 84,
+  "msg_id": 57
  },
  "1f74c2bb3c": {
   "title": "Senior Network/Infrastructure engineer",
@@ -216,15 +216,15 @@
   "source": "LinkedIn",
   "snippet": "Heyecan verici yolculuğumuzda Ataşehir lokasyonumuzda bize eşlik edecek Kıdemli Ağ Sistemleri Uzmanı arıyoruz. Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği veya ilgili bölümlerinden mezun, Ağ sistemleri yönetimi alanında en az 5 yıl deneyimli, Routing, Switching ve VPN teknolojileri konusunda bilgi ve uygulama deneyimine sahip, Cisco, Juniper, Fortinet, Huawei, Ruijie, H3C veya benzeri kurumsal ağ çözümleri üzerinde çalışmış, TCP/IP, VLAN, DHCP, DNS ve benzeri ağ protokolleri konusunda ileri düzey bilgi sahibi, Ağ erişim politikaları ve erişim yönetimi çözümleri hakkında deneyimli, Ağ performansı izleme, kapasite yönetimi ve sorun giderme süreçlerinde aktif rol almış, Analitik düşünme, problem çözme ve iletişim becerileri güçlü, Dokümantasyon süreçlerinde titiz çalışan, ISO 9001, ISO 27001 ve benzeri yönetim sistemleri hakkında bilgi sahibi. Tercihen CCNP, CCIE, NSE, JNCIA/JNCIS, HCIP veya benzeri sertifikalara sahip, Ağ otomasyonu, network monitoring ve merkezi yönetim platformları konusunda deneyimli, Büyük ölçekli kurumsal ağ projelerinde görev almış. Görev ve Sorumluluklar Kurumun ağ altyapısının kesintisiz ve verimli şekilde çalışmasını sağlamak, Ağ performansını izlemek, analiz etmek ve iyileştirme çalışmalarını yürütmek, Ağ güvenliği politikalarının uygulanmasına ve geliştirilmesine katkıda bulunmak, Yeni ofis ve lokasyonların ağ altyapı kurulumlarını planlamak ve devreye almak, Ağ cihazlarının kurulum, konfigürasyon, bakım ve yönetim süreçlerini yürütmek, Kapasite planlaması yapmak ve düzenli performans raporları hazırlamak, Olası altyapı sorunlarını proaktif olarak tespit ederek gerekli aksiyonları almak, İş sürekliliğini destekleyecek yedeklilik ve erişilebilirlik çözümlerini yönetmek, Ağ teknolojilerindeki gelişmeleri takip ederek uygun çözümlerin kurum altyapısına entegrasyonunu sağlamak, Ağ otomasyonu ve izleme araçlarını kullanarak operasyonel verimliliği artırmak, Altyapı, sistem ve bilgi güvenliği ekipleriyle koordineli çalışarak süreçleri geliştirmek, Dönüşümlü nöbet süreçlerinde görev almak ve kritik durumlarda gerekli müdahaleleri gerçekleştirmek, Ağ topolojileri ve teknik dokümantasyonun güncelliğini sağlamak, Bilgi güvenliği ve kalite yönetim sistemleri kapsamında belirlenen politika, prosedür ve standartlara uygun çalışmak. Neden Biz? Kritik ve stratejik altyapı projelerinde görev alma fırsatı, Yeni teknolojilerle çalışma ve teknik gelişim imkânı, Uzman ekiplerle birlikte öğrenme ve üretme kültürü, Kurumsal ve sürdürülebilir teknoloji ortamında kariyer gelişimi. Kişisel verilerinizin işlenmesine ilişkin detaylı bilgiye Çalışan Adayı Aydınlatma Metni üzerinden ulaşabilirsiniz.",
   "matched": [
-   "routing",
-   "cisco",
    "vpn",
-   "monitoring",
+   "cisco",
    "switching",
-   "vlan"
+   "monitoring",
+   "vlan",
+   "routing"
   ],
   "score": 95,
-  "msg_id": 50
+  "msg_id": 58
  },
  "f0471a960b": {
   "title": "Network Kıdemli Uzmanı",
@@ -234,15 +234,15 @@
   "source": "LinkedIn",
   "snippet": "Innova Bilişim Çözümleri A.Ş, farklı teknolojilerde bilgi birikimine sahip yaklaşık 1300 kişilik profesyonel kadrosu ile Türkiye’nin önde gelen bilişim çözümleri firmasıdır. 1999’dan bugüne telekomünikasyon, finans, üretim, kamu ve hizmet sektörleri başta olmak üzere her sektördeki kuruluşlara platform bağımsız çözümler sunan İnnova, uluslararası standartlarda ürettiği çözümleri şimdiye kadar 4 kıtada 37 ülkeye ihraç etmeyi başarmıştır. 2007 yılından bu yana Türk Telekom Grubu Şirketleri bünyesinde yer alan İnnova Bilişim Çözümleri A.Ş, İstanbul ve Ankara ana ofislerinin yanı sıra Türkiye'nin çeşitli bölgelerine yayılmış 12 ofisi üzerinden faaliyetlerine devam etmektedir. Genel Nitelikler: - Tercihen Üniversitelerin Bilgisayar, Elektrik, Elektronik Mühendisliği ve benzeri bölümlerinde lisans eğitimini tamamlamış, - Alanında en az 4 yıl deneyimli, - Güçlü sahiplenme duygusu, dokümantasyon disiplinine sahip, - Ekip çalışmasına yatkın, uyumlu, analitik düşünme, karar alma ve problem çözme yeteneğine sahip, - Yazılı ve sözlü İngilizce bilgisine sahip, - Ağ Teknolojileri konusunda uygulamalı deneyime sahip; - Routing & Switching alanında teknik eğitim almış ya da kendini geliştirmeye başlamış (BGP, OSPF, ISIS, MPLS tercih sebebidir), - Kablosuz ağ, core network ve güvenlik bileşenlerinin entegrasyonunu öğrenmeye istekli - Cisco WLC , Nexus , ASA / Firepower , IOS XE ürün ve işletim sistemlerinin en az birinde çalışmış, - CCNA/CCNP sertifikasına (Wireless, Enterprise veya Security) veya uygulamalı teknik uzmanlığa sahip, - Pozisyon için Ankara’da i ikamet eden adaylar tercih edilecektir. Görev Tanımı: - Kurumsal ve servis sağlayıcı ihtiyaçlarına uygun kablosuz ağ mimarilerinin arıza takibi, çözümü, geliştirilmesi ve sürdürülebilirliğinin sağlanması. - Controller tabanlı ve merkezi ağ mimarilerinin arıza çözümü ve yönetilmesi. - Uçtan uca network mimarisinin (Wireless, core, security) bütüncül olarak iyileştirilmesi. - Ağ topolojileri ve teknik dokümantasyonun hazırlanması ve güncel tutulması. - Operasyon ekiplerine karmaşık problemlerde L2 ve L3 teknik seviyede destek verilmesi, - Üreticiler ile POC (Proof of Concept) çalışmalarının yürütülmesi ve çözümlerin teknik olarak değerlendirilmesi. - Üretici destek süreçlerinin (case yönetimi) takip edilmesi ve sonuçlandırılması. - Kritik sistem problemleri için kök neden analizi yapılması ve kalıcı çözümler üretilmesi. - Yeni teknolojilerin araştırılması, değerlendirilmesi ve sisteme adaptasyonunun sağlanması. - İç ekipler ve gerektiğinde müşteriler için teknik referans noktası olarak destek verilmesi.",
   "matched": [
-   "bgp",
-   "routing",
    "nexus",
+   "bgp",
+   "ospf",
    "cisco",
    "switching",
-   "ospf"
+   "routing"
   ],
   "score": 95,
-  "msg_id": 51
+  "msg_id": 59
  },
  "6f2367959d": {
   "title": "Kıdemli Ağ ve Altyapı Uzmanı ( Ankara/İstanbul)",
@@ -252,20 +252,20 @@
   "source": "LinkedIn",
   "snippet": "2020 yılında İstanbul'da kurulan Padran Bilgi Teknolojileri, anahtar teslim yazılım geliştirme ve yönetilen servisler sunarak Türkiye'nin bankacılık, sigortacılık ve telekomünikasyon sektörlerinde önde gelen şirketlerle çalışmaktadır. ISTQB akredite eğitim merkezi olarak hem müşterilerine hem de çalışanlarına resmi ISTQB eğitimleri sunan Padran, aynı zamanda Open Text (eski adıyla Micro Focus), Microsoft, IBM ve AWS iş ortaklıklarıyla müşterilerine kendi alanlarında dünyanın en iyi yazılımlarını sağlamaktadır. Padran Bilgi Teknolojileri olarak büyümeye ve başarıya odaklanmış ekip arkadaşları arıyoruz! Bu pozisyonda danışmanlık verdiğimiz müşterilerimizde görev yapacak ve Türkiye'nin önde gelen şirketlerinde projelerde yer alacaksınız. İş Tanımı Ağ (Network) yönetimi ve mühendisliği alanında en az 8-10 yıl arası derinlemesine operasyonel deneyim, Enterprise ölçekte Routing (BGP, OSPF vb.) ve Switching (STP/RSTP, VRRP, LACP, Stack mimarileri) protokollerinde ileri düzey uzmanlık, Büyük ölçekli yapılarda MPLS, SD-WAN mimarileri ve güvenli şubeler arası Site-to-Site VPN (IPsec) teknolojilerinin tasarımı ve yönetimi konusunda tecrübe, Citrix ADC (NetScaler) platformu üzerinde Layer 4 / Layer 7 Load Balancing, Content Switching, SSL Offloading ve sertifika yönetimi süreçlerinde yetkinlik, Dış dünyadan kurumsal altyapıya erişim süreçlerinde Citrix Gateway (ICA Proxy / Reverse Proxy) ve yük dengeleme mimarilerinin takibi ve operasyonel yönetimi, Ağ erişim kontrolü (NAC) süreçlerinde FortiNAC (veya Aruba ClearPass, Cisco ISE) mimarilerinin kurulumu, cihaz tanılama (profiling), görünürlük (visibility) ve dinamik 802.1X/MAB politika tasarimi konularında derin tecrübe, HP Aruba (veya benzeri Cisco vb.) kurumsal ağ çözümleri, omurga (backbone) ve kenar anahtarlayıcı (edge switch) yönetiminde yetkinlik, Kurumsal ölçekte Kablosuz Ağ (WLAN) altyapılarının (Controller, Access Point, site survey) yönetimi ve optimizasyonu, FortiGate (veya benzeri enterprise) güvenlik duvarı (Firewall) yönetimi, NAT kuralları, routing entegrasyonu ve problem giderme becerisi, Ağ performans izleme, trafik analizi ve log inceleme araçlarına (PRTG, SolarWinds, Wireshark, NetFlow vb.) hakimiyet, Tercihen DDoS koruma çözümleri ve ağ katmanı güvenlik teknolojileri konusunda bilgi/tecrübe sahibi olmak. Neden Padran Bilgi Teknolojileri? Türkiye'nin önde gelen şirketleri ile çalışma fırsatı İş ortaklarımız Microsoft, IBM, AWS ve Open Text ile sektörün öncü teknolojilerini kullanma imkânı ISTQB akredite eğitim merkezi olarak kariyer gelişimi ve sertifika fırsatları Uzaktan / Hibrit çalışma modeli ile esnek ve verimli çalışma ortamı APPLY FOR THIS JOB",
   "matched": [
-   "bgp",
-   "routing",
-   "fortigate",
-   "solarwinds",
-   "cisco",
-   "vpn",
-   "stp",
-   "switching",
    "firewall",
+   "stp",
+   "fortigate",
+   "bgp",
+   "vpn",
    "ospf",
-   "ipsec"
+   "cisco",
+   "ipsec",
+   "solarwinds",
+   "switching",
+   "routing"
   ],
   "score": 95,
-  "msg_id": 52
+  "msg_id": 60
  },
  "79b16ff71b": {
   "title": "Network Specialist",
@@ -275,15 +275,15 @@
   "source": "LinkedIn",
   "snippet": "About Us Kepler was established in 2018 with the support of domestic and international investors and is among Turkey’s fast-growing and innovative companies. Today, the Kepler Group operates internationally with companies located in the Netherlands, Luxembourg, and Latvia in Europe, and China and Malaysia in Asia. Kepler is the only company providing accommodation and shower services within the terminal building of Istanbul Sabiha Gökçen Airport. As of 2024, Kepler has expanded its international operations by launching services at Kuala Lumpur International Airport and opening its third location at Riga International Airport, now operating across three different countries. Roles and Responsibilities Manages and optimizes network infrastructure across Türkiye, Malaysia, and Latvia locations in terms of performance, security, and continuity Designs, installs, and maintains LAN / WAN / WLAN network systems Configures and manages network devices such as routers, switches, firewalls, and access points Establishes and manages secure VPN connections between multiple locations Implements network security policies including firewall rules, access control lists (ACLs), and segmentation structures Monitors network performance and ensures continuous improvement through analysis and optimization Performs advanced troubleshooting and root cause analysis; develops permanent solutions to network issues Designs and deploys network infrastructure for new office and location setups Maintains accurate and up-to-date network documentation, configurations, and inventory records Supports high availability and redundancy solutions to ensure uninterrupted system operations Coordinates with service providers and follows up SLA processes Collaborates with IT teams to resolve network-related technical issues effectively Ensures compliance with information security policies and data protection regulations (KVKK, GDPR, etc.) Identifies potential security vulnerabilities and implements preventive and corrective actions Contributes to backup, recovery, and disaster recovery processes Provides after-hours technical support when required for critical systems Coordinates with external vendors and agencies when necessary Supports continuous improvement by following new technologies and network trends Qualifications Bachelor’s degree in Computer Engineering, Electrical/Electronics Engineering, Information Technologies, or related fields Proven experience in network administration or network engineering Strong knowledge of LAN, WAN, WLAN, VPN technologies and network protocols (TCP/IP, DNS, DHCP, etc.) Hands-on experience with network devices such as Cisco, Fortinet, Palo Alto, or similar Solid understanding of network security principles, firewall management, and segmentation Experience in troubleshooting complex network issues and performing root cause analysis Familiarity with network monitoring and performance analysis tools Experience in managing multi-site or international netw",
   "matched": [
-   "cisco",
+   "palo alto",
+   "firewall",
    "troubleshooting",
    "vpn",
-   "monitoring",
-   "firewall",
-   "palo alto"
+   "cisco",
+   "monitoring"
   ],
   "score": 95,
-  "msg_id": 53
+  "msg_id": 61
  },
  "d43f08e069": {
   "title": "Ağ Sistemleri Uzmanı",
@@ -293,14 +293,130 @@
   "source": "LinkedIn",
   "snippet": "Heyecan verici yolculuğumuzda Ataşehir lokasyonumuzda bize eşlik edecek Ağ Sistemleri Uzmanı arıyoruz. Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği veya ilgili bölümlerinden mezun, Ağ sistemleri yönetimi alanında en az 2 yıl deneyimli, Ağ teknolojileri ve altyapı yönetimi konusunda temel bilgi sahibi, Routing, Switching ve VPN teknolojileri hakkında bilgi sahibi ve bu alanda kendini geliştirmeye istekli, Cisco, Juniper, Fortinet, Huawei, Ruijie, H3C veya benzeri kurumsal ağ çözümleri hakkında temel bilgi sahibi, TCP/IP, VLAN, DHCP, DNS ve benzeri ağ protokolleri konusunda bilgi sahibi, Ağ erişim yönetimi ve güvenliği konularına ilgi duyan, Ağ izleme ve temel sorun giderme araçlarını kullanabilen, Analitik düşünme, problem çözme ve iletişim becerileri gelişmiş, Dokümantasyon süreçlerinde dikkatli ve düzenli çalışan, ISO 9001, ISO 27001 ve benzeri yönetim sistemleri hakkında temel bilgi sahibi. Tercihen CCNA, NSE, JNCIA veya benzeri teknik sertifikalara sahip, Ağ izleme (Network Monitoring) ve merkezi yönetim platformları konusunda bilgi sahibi, Kurumsal ağ altyapılarında görev almış, Ağ otomasyonu ve süreç iyileştirme konularına ilgi duyan. Görev ve Sorumluluklar Şirket ağ altyapısının günlük operasyonlarını yürütmek ve sürekliliğine katkı sağlamak, Ağ performansını izlemek, tespit edilen sorunları analiz etmek ve çözüm süreçlerine destek olmak, Ağ güvenliği politika ve prosedürlerinin uygulanmasına katkı sağlamak, Yeni lokasyon ve ofislerde yapılacak ağ kurulum ve konfigürasyon çalışmalarına destek vermek, Ağ cihazlarının kurulum, bakım ve temel yapılandırma işlemlerini gerçekleştirmek, Ağ performansı ve kapasitesine ilişkin raporlama çalışmalarına destek olmak, Ağ altyapısındaki arıza ve kesintilerin giderilmesinde aktif rol almak, İş sürekliliğini destekleyen yedeklilik ve yedekleme süreçlerinde görev almak, Yeni teknolojileri takip ederek ağ altyapısının geliştirilmesine katkıda bulunmak, Ağ otomasyonu ve izleme araçlarının etkin kullanımına destek vermek, Altyapı ve bilgi güvenliği ekipleriyle koordineli çalışmak, Ağ topolojileri ve teknik dokümantasyonun güncelliğini sağlamak, Bilgi güvenliği ve kalite yönetim sistemleri kapsamında belirlenen politika ve prosedürlere uygun çalışmak, Dönüşümlü nöbet süreçlerinde görev almak ve gerekli durumlarda destek sağlamak. Neden Biz? Kurumsal ölçekte ağ altyapıları üzerinde çalışma fırsatı, Yeni teknolojiler ve projelerle teknik gelişimini destekleyen çalışma ortamı, Deneyimli ekiplerle birlikte öğrenme ve uzmanlaşma imkânı, Kariyer gelişimine ve sürekli öğrenmeye önem veren kurumsal yapı, Ağ teknolojileri alanında farklı projelerde yer alma fırsatı. Kişisel verilerinizin işlenmesine ilişkin detaylı bilgiye Çalışan Adayı Aydınlatma Metni üzerinden ulaşabilirsiniz.",
   "matched": [
-   "routing",
-   "cisco",
    "vpn",
-   "monitoring",
+   "cisco",
    "switching",
+   "monitoring",
+   "vlan",
+   "routing"
+  ],
+  "score": 95,
+  "msg_id": 63
+ },
+ "1b78802013": {
+  "title": "Network Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/network-uzman%C4%B1-at-icterra-information-and-communication-technologies-4463007807",
+  "company": "ICterra Information and Communication Technologies",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "ICTERRA HAKKINDA ICterra, Münih, İstanbul ve Ankara'da ofisleri bulunan küresel bir yazılım mühendisliği şirketidir. 30 yıllık yazılım geliştirme deneyimini teknoloji uzmanlığı ve kanıtlanmış metodolojilerle birleştirerek, küresel olarak birden fazla sektörde müşterilerimize yenilikçi çözümler sunuyoruz. 150'den fazla yazılım uzmanıyla, yazılım geliştirme ve test hizmetleri sağlayarak dünyanın en iyi BT ve savunma şirketleriyle stratejik ortaklıklar kuruyoruz. Finans sektöründe faaliyet gösteren müşterimiz ile birlikte yürütmüş olduğumuz projelerimiz için Network Uzmanı olarak müşteri lokasyonundan ve uzaktan çalışabilecek enerjik ekip arkadaşları arıyoruz. GENEL NİTELİKLER Üniversitelerin Bilgisayar, Elektrik-Elektronik, Elektronik ve Haberleşme veya ilgili mühendislik bölümlerinden mezun, Ağ yönetimi, tasarımı ve operasyonlarında en 5 yıl deneyimli, LAN/WAN altyapıları, aktif ağ cihazları kurulumu, yönetimi ve optimizasyonu konularında deneyimli, Routing protokolleri (BGP, OSPF, EIGRP, Multicast) konusunda tecrübeli Switching protokolleri (STP, RSTP, VTP, VxLAN, Port Security) konularında uzman, MPLS, VRF, 802.1X mimarilerine hâkim, Aşağıdaki Teknolojilerde operasyon ve altyapı yönetimi tecrübesi olan Cisco Collaboration Sistemleri (CUCM, CME, CMS ve IPT) Cisco ACI Cisco SD-WAN mimarisi kurulum ve yönetiminde deneyimli Cisco ISE Cisco WLC Network izleme araçları (SolarWinds, NetFlow/sFlow, , PRTG vb.) yönetiminde bilgi sahibi, Proje planlama yapabilen, operasyonel seviyede teknik liderlik sergileyebilen, İyi seviyede İngilizce teknik dokümantasyon okuyup yazabilen, Tercihen CCNP sertifikasyona sahip, Ekip çalışmasını teşvik eden, güçlü iletişim, koordinasyon becerilerine sahip.",
+  "matched": [
+   "stp",
+   "bgp",
+   "aci",
+   "ospf",
+   "vxlan",
+   "cisco",
+   "solarwinds",
+   "switching",
+   "routing"
+  ],
+  "score": 95,
+  "msg_id": 62
+ },
+ "3c0e6a969f": {
+  "title": "Senior Network Administrator",
+  "link": "https://tr.linkedin.com/jobs/view/senior-network-administrator-at-beymen-group-4460451346",
+  "company": "Beymen Group",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Beymen, one of the significant performers of Turkey and the world luxury fashion scene, and Turkey's leading brands Network and Divarese, joined the investment fund of Mayhoola as Beymen Group in 2019. As a continuance of Mayhoola's investments since 2015, this move is the biggest foreign investment ever made in the Turkish luxury retail and fashion industry. In addition to Beymen Group, the Mayhoola’s mutual fund portfolio includes world-leading brands such as Valentino, Balmain and Pal Zileri. Following the motto of moving towards the future by renewing itself every day and keeping the spirit of the time, Beymen Group invites you to the inspiring world of fashion by presenting more than 900 brands all together in Beymen stores, boutiques of world-famous brands, Beymen Club, Network and Divarese stores, e-commerce and mobile applications. Beymen Group , a company that stands out with its principles, values, and commitment to social responsibility, is looking for a Senior Network Administrator to join our team! We seek passionate, creative, and courageous professionals who embrace continuous learning and prioritize customer satisfaction. Responsibilities Graduated from relevant university departments. At least 5 years of experience in the relevant field. Proficient in LAN, WAN, VOIP, BGP, MPLS, SD-WAN, Load Balancing, URL Filtering, VPN, and SSL technologies. Experienced in Routing, Switching, and Wireless networking. Knowledgeable in data center network management, installation, and troubleshooting. Skilled in firewall management and IPS/IDS security products. Experienced in NAC (Network Access Control) management. Proficient in English at a level sufficient to follow technical literature. Analytical thinker with strong teamwork skills. Requirements Configure core switches, edge switches, wireless access points, and firewall devices in Beymen’s network infrastructure. Ensure the efficient operation of the network infrastructure and compliance with Information Security Policies. Create network topology diagrams, determine infrastructure requirements, and establish network hardware/software infrastructure. Perform wired and wireless network installations in stores and headquarters, oversee cabling infrastructure design, and conduct testing. Troubleshoot network issues, provide solutions, and follow up on problem resolution. Monitor network device performance, track failures, perform routine maintenance, and carry out software updates. Monitor bandwidth usage of data lines and manage upgrade, cancellation, and relocation processes. Manage IP address blocks and VPN systems. Ensure the continuous operation of uninterruptible power supply (UPS) systems. Follow new technological developments and propose implementation suggestions. Be experienced in configuring and managing Router, Switch, WAN Optimization, IP Telephony, Wireless LAN, NGFW, NAC, SSL VPN, Load Balancer, and SD-WAN systems. Manage operating systems of network hardware and software vendors",
+  "matched": [
+   "firewall",
+   "troubleshooting",
+   "data center",
+   "bgp",
+   "vpn",
+   "switching",
+   "routing"
+  ],
+  "score": 95,
+  "msg_id": 64
+ },
+ "1b42bab979": {
+  "title": "Network İşletim ve Operasyon Uzmanı (Vardiyalı)",
+  "link": "https://tr.linkedin.com/jobs/view/network-i%CC%87%C5%9Fletim-ve-operasyon-uzman%C4%B1-vardiyal%C4%B1-at-akbank-4477076593",
+  "company": "Akbank",
+  "location": "Gebze, Kocaeli, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Network İşletim ve Operasyon Uzmanı (Vardiyalı) Ne İş Yapar? 7/24 vardiyalı çalışma düzeninde ağ altyapısının ve hatların sürekli olarak izlenmesi ve performans sorunlarının tespitini sağlar Ağ ve hatlar üzerinde oluşabilecek problemleri hızlıca tespit eder, çözüm önerileri geliştirir ve uygular Ağ yönetim araçları ve izleme sistemleri kullanarak anomali tespiti yapar, raporlar ve ilgili ekiplerle paylaşır Ağ performans iyileştirmek için düzenli bakım ve optimizasyon işlemleri gerçekleştirir Acil durumlarda hızlı müdahale ederek iş sürekliliğini sağlar Çeşitli ağ cihazları ( Router, Switch vb. ) üzerinde konfigürasyon, güncelleme ve sorun giderme işlemlerini gerçekleştirir Teknik dokümantasyon hazırlar ve süreçlerin iyileştirmesine katkıda bulunur IT ekiplerimiz ile koordineli çalışarak projelere destek sağlar Hangi niteliklere sahip olmalı Ağ yönetimi, işletimi ve izleme konusunda en az 3 yıl deneyiml Cisco gibi ağ cihazları, SD-WAN ve protokolleri konusunda bilgi sahib Network izleme araçları (Solarwinds, Grafana, Zabbix vb.) çalışma deneyimi sahib TCP/IP, LAN/WAN, VPN, DNS, DHCP gibi ağ protokollerinde uzmanlık sahib Servis sağlayıcıların MPLS şebekesi gibi kullanılan altyapılar hakkında bilgi sahib Vardiyalı çalışma düzenine uyum sağlayabile CCNA, CCNP veya benzeri ağ sertifikalarına sahib İyi derece ingilice bilen",
+  "matched": [
+   "aci",
+   "vpn",
+   "cisco",
+   "solarwinds"
+  ],
+  "score": 84,
+  "msg_id": 65
+ },
+ "df6617ebeb": {
+  "title": "Ağ ve Güvenlik Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/a%C4%9F-ve-g%C3%BCvenlik-uzman%C4%B1-at-ary-holding-4466674993",
+  "company": "ARY HOLDING",
+  "location": "Gemlik Bucağı, Bursa, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "ARY Holding; Kimya, lojistik, madencilik, liman işletmeciliği ve enerji başta olmak üzere 9 farklı sektörde faaliyet gösteren; 5.000’i aşkın çalışanıyla yurt içi ve yurt dışında sürdürülebilirlik ve verimlilik odaklı yatırımlarını sürdürerek uzun vadeli değer yaratma vizyonuyla büyümeye devam etmektedir. ARY Holding bünyesinde Gemlik Gemport Liman İşletmeciliğinde istihdam edilmek üzere Teknoloji & Altyapı birimine bağlı \"Ağ ve Güvenlik Uzmanı\" arıyoruz. GENEL NİTELİKLER: Üniversitelerin Bilgisayar Mühendisliği, Yönetim Bilişim sistemleri vb. bölümlerinden mezun, Kurumsal network altyapılarında (LAN, WAN, WLAN) en az 2 yıl deneyim sahibi TCP/IP, routing ve switching konularında ileri seviyede bilgi sahibi, Dynamic routing protokollerine (OSPF, BGP tercihen) hakim, VLAN, STP, LACP, VRF gibi L2/L3 teknolojilerinde tecrübeli, Siber Güvenlik, Güvenlik Duvarı, VPN (IPsec, SSL VPN) ve network güvenliği konularında deneyim sahibi, Dokümantasyon ve raporlama disiplinine sahip, Wireless network teknolojileri (Wi-Fi 5/6/7) konusunda deneyimli, SD-WAN teknolojileri hakkında bilgi sahibi, Ağ izleme ve analiz araçlarının (Wireshark, nmap, Zabbix, PRTG, SolarWinds vb.) 1 veya birkaçı hakkında deneyimli, Arıza tespit konusunda analitik düşünebilen ve hızlı aksiyon alabilen, NOC ekranlarıve LOG analizi konusunda denetimli, İŞİN TANIMI: Kurumun LAN, WAN ve WLAN altyapılarının kurulum, yönetim ve sürekliliğinden sorumlu olmak, Mevcut network altyapısının performans, kapasite ve güvenlik açısından iyileştirilmesini sağlamak, Wireless altyapılarda (AP, controller, RF optimizasyon) planlama, devreye alma ve iyileştirme çalışmalarını yapmak, Network izleme sistemleri üzerinden (Zabbix vb.) alarm takibi, kök neden analizi ve proaktif aksiyon almak, Yeni devreye alınacak sistemler (CCTV, IP telefon, IoT vb.) için network entegrasyonlarını planlamak ve uygulamak, Şubeler ve saha lokasyonları ile merkez arasında kesintisiz ve güvenli bağlantıyı sağlamak, Proje bazlı çalışmalarda (network dönüşümü, segmentasyon, veri merkezi geçişleri vb.) aktif rol almak, Dokümantasyon, topoloji diyagramları ve standartların güncel tutulmasını sağlamak. Neden Bize Katılmalısınız? İnovasyon, iş birliği ve sürekli gelişimi teşvik eden bir kültüre sahibiz. Sektör uzmanlarıyla çalışma, heyecan verici zorlukları üstlenme ve stratejilerimize gerçek bir etki yapma fırsatına sahip olacaksınız.",
+  "matched": [
+   "stp",
+   "bgp",
+   "vpn",
+   "ospf",
+   "ipsec",
+   "solarwinds",
+   "switching",
+   "vlan",
+   "routing"
+  ],
+  "score": 95,
+  "msg_id": 66
+ },
+ "69bfbdc918": {
+  "title": "Network engineer and administrator of CUCM",
+  "link": "https://uz.linkedin.com/jobs/view/network-engineer-and-administrator-of-cucm-at-muk-4391213076",
+  "company": "MUK",
+  "location": "Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "Requirements Higher education; 3+ years of work experience; Experience with IP telephony systems: Asterisk, Cisco Call Manager; VoIP gateways; Experience in configuring / administering video conferencing systems, messaging: Cisco Jabber, Cisco Telepresence, Cisco Expressway; Knowledge of TCP\\IP protocol stack; Knowledge of OSPF, BGP, IPsec, GRE, SIP, ARP; VLAN, NAT, PBR, STP, Syslog; Experience in administration of Cisco network L2-L3 equipment (routers, switches); Experience in administering VPN, Firewall-systems Cisco ASA, Fortinet; Experience with virtualization systems VMware ESXi, vSphere, vCenter. Responsibilities Monitoring of the network, services, applications; Maintenance of the network infrastructure in good operating condition; Providing external access to the company's services; Ensuring the protection and security of the network; Search and elimination of arising problems; Development, improvement, modernization of the network and telephony; Interaction with providers, telecom operators; Diagnosis of hardware and software problems; Periodic maintenance of network equipment; Installation of network equipment; Installation eplacement of components, consumables; Installation of updates; Drawing up plans/reporting; Backup estoration of configurations, software; Advice/assistance to users on network and telephony problems. Personal Qualities Responsibility; Strong inter-personal skills; Punctuality; Organizational skills.",
+  "matched": [
+   "firewall",
+   "stp",
+   "bgp",
+   "vpn",
+   "ospf",
+   "cisco",
+   "ipsec",
+   "monitoring",
    "vlan"
   ],
   "score": 95,
-  "msg_id": 54
+  "msg_id": 67
+ },
+ "e0826ba850": {
+  "title": "IT NETWORK ENGINEER",
+  "link": "https://uz.linkedin.com/jobs/view/it-network-engineer-at-desol-tech-4433295280",
+  "company": "DESOL Tech",
+  "location": "Mang`it, Qashqadaryo Region, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "Home Careers IT Network Engineer IT NETWORK ENGINEER IT Network apply now Share YES? Then we have jobs for you! here is how you will contribute We Fully Entrust You With These Responsibilities Install, configure, support, and maintain software, hardware, networks, servers, routers, and cablings. Ensure optimal performance and high availability for all software, hardware, and networks. Troubleshoot and monitor networks, servers, and workstation computer software/hardware problems to maintain an efficient environment with minimal interruption to the operation. Set up user accounts and permissions. Perform role-based access control to ensure that only authorized users can access specific resources/information based on their responsibilities. Monitor and manage user’s network usage, protect users from unsafe, dangerous, illegal, and harmful websites or materials. Maintain backups of all critical network components and files, ensuring that current backups are kept secure at a confidential location. Other duties and responsibilities will be directed by IT Leader or Director/Unit Head. Your Qualifications And Skills A deep understanding of network hardware and software. Confident with evaluating and recommending cost-effective solutions. Exhibit good judgment in all cases and be comfortable making decisions. Able to work unsupervised effectively and efficiently. Rich experience in multitasking, prioritizing, and communicating in a fast paced environment. Good verbal/written communication and interpersonal skills. Demonstrated knowledge of structured cabling, fiber optic network infrastructure/design and installation. Proven ability to provide operating enterprise services such as routing & switching, VPN, firewall, wireless network, etc. Aptitude to learn new technologies and techniques quickly. Ability to work independently and collaborate with a team. BONUS POINTS CCNA (Cisco Certified Network Associate) or other equivalent certifications are highly desirable. Bachelor’s degree in IT/Computer Science or equivalent hands-on experience in software companies. At least 2+ years of proven experience in Network Engineer position. Good command of written and spoken English. what you will enjoy Competitive Salary Rewards & Recognitions Premium Healthcare Meals & Refreshments Transparent Career Path Team-building Activities Sport Facilities where you will be working at 1 Quang Trung street, Ward 10, Go Vap District, Ho Chi Minh City, Vietnam Don’t see your role? Apply here! Click to upload your resume We accept .doc, .docx, .pdf files up to 5MB Email sent Sending failed Company Services Competencies About DESOL Careers Contact DESOL CONTACT INFO Phone +84 336 061 091 Fax +84 336 061 091 Email support@desol-tech.com LOCATION 1 Quang Trung Street, Ward 10, Go Vap District, Ho Chi Minh City, Vietnam © 2022 DESOL Technologies",
+  "matched": [
+   "firewall",
+   "aci",
+   "vpn",
+   "cisco",
+   "switching",
+   "routing"
+  ],
+  "score": 95,
+  "msg_id": 68
  }
 }
