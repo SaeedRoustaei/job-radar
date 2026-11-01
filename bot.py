@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Job Radar v8.1 — ENGLISH networking jobs in Iraq, Tajikistan,
+Job Radar v8.2 — ENGLISH networking jobs in Iraq, Tajikistan,
 Armenia, Turkey, Uzbekistan & Azerbaijan.
 
-- GitHub Actions, twice a day (09:00 & 18:00 Tehran) + 30-min callback runs
-- Sources: LinkedIn guest API (6 countries), job.am, vacanciesiniraq.com,
-  unjobs.org (Tajikistan & Uzbekistan) and public Telegram job channels
-- REAL language detection (stopword-based): Latin-script languages like
-  Turkish/Azeri/Uzbeki that are NOT English are rejected
-- Location validated against allowed countries/cities
-- Each ad tagged International / Local / Unknown
-- "📝 Cover letter" button -> tailored PDF sent as a downloadable file
+Fixes in this version:
+- Language check now runs AFTER the full LinkedIn description is fetched
+  (before, title-only ads were wrongly rejected as non-English)
+- English detection is gentler on short texts (titles) and knows
+  common job-domain words
+- LinkedIn rate limiting handled: 7s between requests + one retry
+  after a 70s pause on HTTP 429
 
 Secrets: BOT_TOKEN, CHAT_ID
 Repo files: resume.txt
@@ -41,7 +40,8 @@ RESUME_TXT = "resume.txt"
 
 STATE_DAYS = 45
 REQUEST_TIMEOUT = 30
-DELAY = 2
+DELAY = 7              # polite gap between LinkedIn hits
+RATE_LIMIT_PAUSE = 70  # wait after an HTTP 429, then retry once
 
 MATCH_THRESHOLD = 75   # show ads scoring >= this
 
@@ -75,7 +75,7 @@ SKILLS = [
     "azure", "aws", "vmware", "data center", "troubleshooting",
 ]
 
-# English stopwords — a real English ad uses these constantly
+# common English words — a real English ad uses these constantly
 EN_WORDS = {
     "the", "and", "for", "with", "our", "you", "your", "will", "we",
     "are", "is", "of", "in", "to", "a", "an", "as", "at", "on", "be",
@@ -83,6 +83,12 @@ EN_WORDS = {
     "must", "required", "requirements", "skills", "years", "company",
     "job", "position", "role", "apply", "please", "about", "this",
     "that", "or", "from", "by", "their", "they", "not", "but", "all",
+    # job-domain words (help short texts like titles)
+    "network", "engineer", "engineering", "vacancy", "vacancies",
+    "salary", "office", "contract", "project", "support", "service",
+    "responsibilities", "duties", "qualified", "education", "degree",
+    "description", "benefits", "deadline", "location", "full-time",
+    "part-time", "remote", "employer", "employees", "technical",
 }
 
 INTERNATIONAL_ORGS = [
@@ -184,23 +190,25 @@ def job_id(link):
 
 def is_english(text):
     """
-    Real English detection:
-    1) >=90% of the letters must be plain ASCII (kills Cyrillic, Arabic,
-       Armenian and heavily accented Turkish text)
-    2) enough common English words must appear (kills Latin-script
-       Turkish/Azeri/Uzbeki ads that are not English)
+    Real English detection.
+    - >=85% of the letters must be plain ASCII (kills Cyrillic, Arabic,
+      Armenian and heavily accented Turkish text)
+    - enough common English words must appear; the bar scales with text
+      length so short titles are not unfairly rejected
     """
-    if not text or len(text) < 10:
+    if not text or len(text) < 8:
         return False
     letters = [c for c in text if c.isalpha()]
     if not letters:
         return False
     ascii_letters = [c for c in letters if c.isascii()]
-    if len(ascii_letters) / len(letters) < 0.90:
+    if len(ascii_letters) / len(letters) < 0.85:
         return False
     words = re.findall(r"[a-z']+", text.lower())
     hits = sum(1 for w in words if w in EN_WORDS)
-    return hits >= 4
+    # long texts: need 4 hits; short texts (titles): 2 is enough
+    needed = 4 if len(words) > 60 else 2
+    return hits >= needed
 
 
 def location_allowed(location):
@@ -315,6 +323,24 @@ def linkedin_job_details(link):
     return clean(desc.get_text(" ", strip=True))[:3000]
 
 
+def get_with_retry(url):
+    """GET that pauses and retries once on HTTP 429 (rate limit)."""
+    for attempt in (1, 2):
+        try:
+            resp = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            return resp
+        except requests.exceptions.HTTPError as exc:
+            if (exc.response is not None and exc.response.status_code == 429
+                    and attempt == 1):
+                print("[!] 429 rate limited — waiting "
+                      f"{RATE_LIMIT_PAUSE}s, then retrying…")
+                time.sleep(RATE_LIMIT_PAUSE)
+                continue
+            raise
+    return None
+
+
 def linkedin_search(keyword, location):
     url = (
         "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
@@ -322,8 +348,10 @@ def linkedin_search(keyword, location):
     )
     jobs = []
     try:
-        resp = SESSION.get(url, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
+        resp = get_with_retry(url)
+        if resp is None:
+            print(f"[!] LinkedIn {location} / '{keyword}': failed after retry")
+            return jobs
     except Exception as exc:
         print(f"[!] LinkedIn {location} / '{keyword}': {exc}")
         return jobs
@@ -651,31 +679,31 @@ def main():
     print(f"[*] resume skills found: {len(my_skills)}")
 
     now_iso = datetime.now(timezone.utc).isoformat()
-    proposed, rejected_lang = 0, 0
+    proposed, rejected_lang, below_threshold, no_desc = 0, 0, 0, 0
     for job in collect_all():
         if job["link"] in seen:
             continue
 
-        # language gate on what we have so far
+        # LinkedIn ads: fetch the FULL description FIRST, then judge language
+        if job["source"] == "LinkedIn" and not job.get("snippet"):
+            desc = linkedin_job_details(job["link"])
+            if desc:
+                job["snippet"] = desc
+                time.sleep(2)
+            else:
+                no_desc += 1
+                time.sleep(2)
+
+        # language gate on the full text we now have
         if not is_english(f"{job['title']} {job.get('snippet', '')}"):
             seen[job["link"]] = now_iso
             rejected_lang += 1
             continue
 
-        # LinkedIn ads: fetch the full description, then re-check language
-        if job["source"] == "LinkedIn" and not job.get("snippet"):
-            desc = linkedin_job_details(job["link"])
-            if desc:
-                job["snippet"] = desc
-                time.sleep(1)
-                if not is_english(f"{job['title']} {job['snippet']}"):
-                    seen[job["link"]] = now_iso
-                    rejected_lang += 1
-                    continue
-
         score, matched = score_job(job, my_skills)
         seen[job["link"]] = now_iso
         if score < MATCH_THRESHOLD:
+            below_threshold += 1
             continue
         try:
             propose(job, matched, score, jobs_store)
@@ -695,6 +723,8 @@ def main():
     save_json(JOBS_FILE, jobs_store)
     save_json(STATE_FILE, state)
     print(f"[*] non-English ads rejected: {rejected_lang}")
+    print(f"[*] below match threshold: {below_threshold}")
+    print(f"[*] LinkedIn ads without description: {no_desc}")
     print(f"[*] proposals sent: {proposed}")
 
 
