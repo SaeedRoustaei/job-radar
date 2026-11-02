@@ -436,5 +436,22 @@
   ],
   "score": 95,
   "msg_id": 69
+ },
+ "87fb7f79a6": {
+  "title": "Access Network Engineer",
+  "link": "https://iq.linkedin.com/jobs/view/access-network-engineer-at-ruyat-technologies-4486131561",
+  "company": "Ruyat Technologies",
+  "location": "Sulaymaniyah, Sulaymaniyah Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "We are hiring in the capacity of Access Network Engineer Job Description and Key Area of Accountabilities: The Access Network will play a crucial role in designing, implementing, and maintaining FTTx networks to ensure high-speed and reliable broadband connectivity for residential and business customers. This role involves managing a team of network professionals, implementing monitoring tools, ensuring the overall reliability and security of the network, and address incidents in a timely and efficient manner. Duties and Responsibilities: Design and plan FTTx networks based on capacity requirements, coverage, and scalability. Collaborate with stakeholders to understand project goals and deliver high-performance FTTx solutions. Configure and turn up BNG routers, OLTs, ONTs and related equipment and software Configure and turn up CGNAT, DHCP, DNS and related equipment and software Create and maintain comprehensive documentation for FTTH network designs, configurations, and procedures. Evaluate overall network scalability, performance and recommend improvements Perform in-depth troubleshooting, analysis and isolation of network events, tracking and management of network events to resolution Develop system test plans, create specific test suites and procedures, write test summary reports, document and verify defects through a defect tracking system Qualifications and Technical Skills: Good knowledge of fiber optic technologies, FTTx architectures In-depth knowledge of BNG, OLT, CGNAT, and DHCP. In-depth knowledge of GPON/EPON standards. Good understanding of routing and switching protocols in the context of FTTH networks. Very good English and Arabic languages. Strong knowledge of networking protocols, monitoring tools, and incident response procedures. Excellent communication and interpersonal skills. Relevant certifications (CCNA & CCNP) are a plus. Problem solving and ability to resolve conflicts and come up with creative solutions. Self-motivation to learning and seeking for the information continuously. Time management, meet deadlines and get the most out of the workday. All qualified applicants are kindly asked to submit their resume to hr@ruyat.tech",
+  "matched": [
+   "monitoring",
+   "routing",
+   "troubleshooting",
+   "switching",
+   "aci"
+  ],
+  "score": 95,
+  "msg_id": 70
  }
 }
