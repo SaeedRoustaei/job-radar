@@ -453,5 +453,31 @@
   ],
   "score": 95,
   "msg_id": 70
+ },
+ "02a1f1a69b": {
+  "title": "Senior Network Engineer",
+  "link": "https://tr.linkedin.com/jobs/view/senior-network-engineer-at-smartme-technology-4441543004",
+  "company": "Smartme Technology",
+  "location": "Ankara, Ankara, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Konum: Ankara — On-site (İş yerinde) Pozisyon Hakkında Büyük ölçekli ve kurumsal bir BT altyapısının ağ omurgasını tasarlayacak, işletecek ve güvenliğini sağlayacak deneyimli bir Network Mühendisi arıyoruz. Cisco ağ teknolojilerinde güçlü, güvenlik duvarı ve güvenlik çözümlerine hâkim; kritik ve yoğun trafikli bir ortamda inisiyatif alabilen profesyoneller için. Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Elektronik-Haberleşme Mühendisliği, Yönetim Bilişim Sistemleri veya ilgili bölümlerinden mezun En az 5 yıl ağ yönetimi, TCP/IP protokolleri, yönlendirme (routing), anahtarlama (switching) ve altyapı yapılandırmaları konusunda deneyimli Cisco ürünlerinde (Catalyst/Nexus switch, ISR/ASR router,) güçlü ve pratik deneyim sahibi Yönlendirme ve anahtarlama protokollerine hâkim: BGP, OSPF, EIGRP, VLAN, STP, VRF, HSRP/VRRP Güvenlik duvarı teknolojilerinde deneyimli: Fortinet (FortiGate) ve Palo Alto başta olmak üzere firewall yönetimi VPN (IPSec/SSL), IPS/IDS , SD-WAN ve Proxy konularında deneyim sahibi Load Balancer ve WAF ürünleri ve teknolojilerinde deneyimli Kablosuz ağ teknolojileri ve cihazları (kurumsal Wi-Fi, controller mimarisi) hakkında bilgili Sistemsel izleme ve raporlama araçlarını ( PRTG, Zabbix vb.) aktif şekilde kullanabilen Sistem tarafında bilgi sahibi : Windows Server, Active Directory, DNS/DHCP ve temel sanallaştırma (VMware) kavramlarına aşina; ağ-sistem entegrasyonunda ekiple ortak çalışabilecek Ağ otomasyonu / betikleme (Python, PowerShell) bilgisi tercih sebebidir Tercihen CCNA , CCNP veya benzeri network sertifikalarına sahip Yeniliklere açık, öğrenmeye istekli, motivasyonu yüksek Takım çalışmasına yatkın, çözüm odaklı ve analitik düşünme becerisine sahip; yoğun tempoda çalışabilen Görev ve Sorumluluklar Kurumsal ağ altyapısının (LAN/WAN/WLAN) tasarımı, kurulumu, yapılandırılması ve sürekliliğinin sağlanması Cisco switch ve router altyapısının yönetimi, yönlendirme protokollerinin (BGP/OSPF) yapılandırılması ve optimizasyonu Fortinet ve Palo Alto güvenlik duvarlarının yönetimi, kural (policy) tasarımı, VPN ve IPS/IDS yapılandırması SD-WAN, Load Balancer ve WAF çözümlerinin işletilmesi ve iyileştirilmesi Kablosuz ağ altyapısının yönetimi ve kapasite/performans planlaması Ağ performansının izleme araçlarıyla (PRTG, Zabbix vb.) sürekli takibi, proaktif tespit ve kök neden analizi Ağ güvenliği politikalarının uygulanması, segmentasyon ve erişim kontrollerinin yönetimi Sistem ekibiyle koordineli çalışarak ağ-sistem entegrasyon süreçlerine katkı sağlamak Ağ topolojisi, yapılandırma ve dokümantasyonun güncel tutulması Arıza/olay (incident) yönetiminde aktif rol alarak yoğun taleplere hızlı ve kalıcı çözüm üretmek",
+  "matched": [
+   "palo alto",
+   "fortigate",
+   "switching",
+   "ipsec",
+   "bgp",
+   "vpn",
+   "ospf",
+   "stp",
+   "cisco",
+   "routing",
+   "vlan",
+   "firewall",
+   "nexus",
+   "catalyst"
+  ],
+  "score": 95,
+  "msg_id": 71
  }
 }
