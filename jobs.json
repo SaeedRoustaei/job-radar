@@ -479,5 +479,22 @@
   ],
   "score": 95,
   "msg_id": 71
+ },
+ "ca5df5f53d": {
+  "title": "Nutanix Engineer / Networking IT Support Engineer (Break & Fix Support) - Iraq",
+  "link": "https://iq.linkedin.com/jobs/view/nutanix-engineer-networking-it-support-engineer-break-fix-support-iraq-at-itproposal-4478013695",
+  "company": "ITproposal",
+  "location": "Baghdad, Baghdad Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "About the job Nutanix Engineer / Networking IT Support Engineer (Break & Fix Support) - Iraq Nutanix Engineer / Networking IT Support Engineer (Break & Fix Support) Location: Iraq Employment Type: Freelance (On-Call Basis) Priority: Low Requirements: ID/ Passport/ valid work permit and CCNA Certification Role Overview We are seeking an experienced Nutanix Engineer / Networking IT Support Engineer to provide Break & Fix support services across enterprise infrastructure environments. This freelance, on-call role requires a highly skilled professional who can diagnose, troubleshoot, and resolve hardware, network, and infrastructure-related incidents efficiently while maintaining a high level of customer service and professionalism. The ideal candidate will possess strong technical expertise in Nutanix and networking technologies, hold a valid CCNA certification, and demonstrate excellent communication skills with fluent English proficiency. Key Responsibilities Provide onsite and remote Break & Fix support for networking and infrastructure-related incidents. Deploy, configure, and manage Nutanix HCI environments (AOS, AHV, Prism). Perform system upgrades, patching, and lifecycle management activities. Troubleshoot and resolve hardware, software, virtualization, and network issues. Diagnose and resolve network connectivity problems involving TCP/IP, VLANs, DNS, DHCP, and related technologies. Implement and support backup and disaster recovery solutions. Respond to critical incidents and service requests within agreed response times. Collaborate with global and regional teams on infrastructure and cloud-related projects. Maintain accurate technical documentation, incident reports, and service records. Ensure professional interaction with end users, stakeholders, and customers at all times. Required Skills & Experience Minimum 5 years of experience in infrastructure, virtualization, networking, or IT support engineering. Strong hands-on experience with the Nutanix ecosystem (AOS, AHV, Prism). Experience supporting VMware and/or Hyper-V environments. Solid understanding of networking fundamentals, including TCP/IP, VLANs, DNS, DHCP, routing, and switching. Proven experience providing Break & Fix support in enterprise environments. Ability to diagnose and resolve complex infrastructure and networking issues. Experience with backup and disaster recovery solutions. Scripting experience with PowerShell and/or Python is advantageous. Mandatory Requirements Valid CCNA Certification (Cisco Certified Network Associate). Preferred Qualifications Nutanix Certification (NCP or equivalent). Soft Skills Strong professionalism and customer-facing skills. Ability to remain calm and effective during critical incidents. Proactive problem-solving mindset. Strong organizational and time-management skills. Ability to work collaboratively within distributed teams. Commitment to delivering high-quality technical support and customer satisfaction.",
+  "matched": [
+   "vlan",
+   "routing",
+   "aci",
+   "switching",
+   "cisco"
+  ],
+  "score": 95,
+  "msg_id": 72
  }
 }
