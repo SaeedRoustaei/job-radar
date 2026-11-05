@@ -496,5 +496,21 @@
   ],
   "score": 95,
   "msg_id": 72
+ },
+ "535b571cf2": {
+  "title": "System Administrator",
+  "link": "https://uz.linkedin.com/jobs/view/system-administrator-at-juru-4487758166",
+  "company": "Juru",
+  "location": "Tashkent, Tashkent, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "About The Role Juru is looking for an experienced System Administrator to maintain reliable, secure IT services across its offices and projects. The role is based in our Tashkent office and owns IT systems and network infrastructure administration, cybersecurity and user support, ensuring that staff have dependable access to the systems they need. Job Responsibilities Infrastructure and Service Reliability: Administer Windows Server, Active Directory, Group Policy, DNS, DHCP and virtualisation platforms such as Hyper-V or VMware; support Linux systems where required. Manage gateways, switches, wireless networks, VLANs, firewalls, VPNs and inter-office connectivity; maintain video surveillance and its retention settings. Plan server migrations, upgrades and infrastructure projects, with documented risks, tested rollback plans and post-implementation reviews. Operate backups, offsite copies and recovery procedures; conduct and document restore tests. Administer Remote Monitoring and Management (RMM) tools for patching, software deployment, monitoring, alerting and remote support; maintain engineering software (CAD/BIM/CDE) licence servers, associated file servers and automation servers. Monitor availability and performance, resolve incidents to root cause and maintain practical continuity and recovery documentation. Platform Administration and Access Management: Administer Google Workspace and Microsoft 365, including users, groups, shared drives, Teams, security settings, sharing and retention policies, and interoperability. Own joiner, mover and leaver processes: account provisioning, licensing, access changes and timely access revocation. Implement approved file structures, permissions and data classification controls across corporate storage. Provide technical administration for Asana, corporate chat, document/PDF tools and approved AI platforms; manage accounts, authentication and access controls. Automate routine administration using PowerShell, Python, Bash or Apps Script; document scripts and configurations for handover. Cybersecurity: Administer endpoint protection and Endpoint Detection and Response (EDR); triage security alerts, investigate incidents and remediate affected devices. Manage vulnerability and patch exposure, prioritise remediation by risk and report unresolved issues to management. Run phishing simulations under management authorisation and deliver security awareness and secure-access guidance. Review internal applications and hosted services for authentication, secrets management and access control before deployment; track remediation. Licensing Assets and Vendors: Maintain the IT asset register from procurement and naming through maintenance and secure disposal; specify hardware to business-unit needs. Own the licence and subscription register across infrastructure, collaboration, business applications, engineering software and AI tools; track entitlements, usage and renewal dates. Reclaim unused seats, right-size subscri",
+  "matched": [
+   "vpn",
+   "vlan",
+   "monitoring",
+   "firewall"
+  ],
+  "score": 84,
+  "msg_id": 73
  }
 }
