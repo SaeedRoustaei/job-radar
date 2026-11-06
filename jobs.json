@@ -512,5 +512,52 @@
   ],
   "score": 84,
   "msg_id": 73
+ },
+ "31ff89ba4c": {
+  "title": "Ağ Yönetimi Uzmanı(2)",
+  "link": "https://tr.linkedin.com/jobs/view/a%C4%9F-y%C3%B6netimi-uzman%C4%B1-2-at-tein-technology-4486212173",
+  "company": "Tein Technology",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Ağ Yönetimi Uzmanı İstanbul | Hibrit Deneyim: Minimum 5 yıl Kritik, kesintisiz ve yüksek erişilebilirlik gerektiren ağ altyapılarında görev alacak Ağ Yönetimi Uzmanı arayışımız bulunmaktadır. İş Tanımı Cisco ACI mimarisi ile MPLS network yapısının yönetimi ve operasyonunun gerçekleştirilmesi, LAN/WAN altyapılarının yönetimi, optimizasyonu ve sürekliliğinin sağlanması, Cisco router, switch, AP, SD-WAN, ISE ve F5 Load Balancer altyapılarının uçtan uca yönetimi, Cisco Collaboration (CUCM, IPT) ve video konferans sistemlerinin operasyon ve arıza yönetiminin yürütülmesi, Ağ altyapısında kapasite planlama, performans takibi ve iyileştirme çalışmalarının gerçekleştirilmesi, Ağ güvenliği ve erişim politikalarının uygulanması, Teknik projelerde planlama ve operasyonel seviyede teknik liderlik yapılması. Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Elektronik ve Haberleşme Mühendisliği veya ilgili bölümlerinden mezun, Ağ yönetimi, tasarımı ve operasyonunda en az 5 yıl deneyimli, Tercihen bankacılık veya finans sektöründe benzer altyapılarda çalışmış, LAN/WAN altyapıları ve aktif ağ cihazlarının kurulum, yönetim ve optimizasyonunda deneyimli, BGP, OSPF, EIGRP ve Multicast konularına hâkim, STP, RSTP, VTP, VXLAN ve Port Security konularında deneyimli, MPLS, VRF ve 802.1X teknolojilerine hâkim, Cisco ACI: Fabric mimarisi, Tenant, Contract ve EPG yönetimi konusunda deneyimli, Cisco SD-WAN ve uygulama tabanlı trafik yönlendirme konusunda bilgi sahibi, Cisco ISE: NAC, 802.1X, TACACS+ ve RADIUS entegrasyonlarında deneyimli, Cisco WLC & AP altyapılarında deneyimli, Cisco Collaboration sistemleri (CUCM, CME, CMS, IPT) konusunda deneyimli, F5 Load Balancer yönetimi konusunda bilgi sahibi, SolarWinds, NetFlow/sFlow ve PRTG gibi network izleme ve analiz araçlarını kullanabilen, İyi seviyede İngilizce teknik dokümantasyon okuyup yazabilen, Proje planlama ve teknik liderlik yetkinliğine sahip, Tercihen CCNP sertifikasına sahip. gizem.yildirim@tein.com.tr",
+  "matched": [
+   "aci",
+   "bgp",
+   "solarwinds",
+   "ospf",
+   "stp",
+   "cisco",
+   "vxlan"
+  ],
+  "score": 95,
+  "msg_id": 74
+ },
+ "86939d2db8": {
+  "title": "Network Administrator",
+  "link": "https://az.linkedin.com/jobs/view/network-administrator-at-azroksan-4486227666",
+  "company": "AZROKSAN",
+  "location": "Sumgayit, Absheron - Khizi, Azerbaijan",
+  "source": "LinkedIn",
+  "snippet": "Vacancy: Network Administrator About the Job We are looking for a skilled and proactive Network Administrator to join our IT infrastructure team. The successful candidate will be responsible for managing, maintaining, and optimizing enterprise network environments, ensuring high availability, security, and operational continuity across the organization. The role requires strong technical expertise in routing, switching, network security, troubleshooting, and enterprise network operations. Key Responsibilities Network Infrastructure Management Design, implement, and maintain enterprise network infrastructure (LAN/WAN/WLAN). Configure and manage network devices including routers, switches, and wireless systems. Ensure network availability, scalability, and performance optimization. Routing & Switching Configure and troubleshoot Layer 2 and Layer 3 technologies including VLAN, STP, OSPF, BGP, and static routing. Manage inter-VLAN routing, traffic engineering, and network segmentation. Perform routing optimization and redundancy implementation. Network Security Configure and maintain firewall solutions such as Palo Alto, FortiGate, Cisco ASA, or equivalent. Implement and manage VPN solutions including IPSec and SSL VPN. Apply network security best practices aligned with ISO 27001 and NIST standards. Manage ACLs, NAT, DMZ environments, and secure remote connectivity solutions. Network Monitoring & Performance Monitor network performance using tools such as PRTG, Zabbix, and SolarWinds. Perform traffic analysis, bandwidth monitoring, and capacity planning. Identify and resolve network bottlenecks and performance issues. High Availability & Redundancy Design and implement high availability network architectures including HSRP, VRRP, failover, and load balancing technologies. Ensure business continuity and infrastructure resilience. Wireless Infrastructure Configure and manage enterprise wireless solutions including Ubiquiti, Cisco, and Aruba platforms. Optimize Wi-Fi coverage, security, and performance using WPA2/WPA3 standards. Incident & Problem Management Troubleshoot complex network issues within production environments. Perform root cause analysis (RCA) and implement preventive solutions. Support incident management processes aligned with ITIL practices. Documentation & Governance Maintain updated network diagrams, IP addressing plans, SOPs, and configuration backups. Participate in change management and infrastructure standardization processes. Prepare technical reports and provide regular operational updates to management. Required Qualifications Bachelor’s degree in Information Technology, Network Engineering, Computer Science, or related field. Minimum 4+ years of experience in enterprise network administration. Strong hands-on experience with: Routing & Switching technologies Firewall administration (Palo Alto, FortiGate,) VPN technologies (IPSec, SSL VPN) Enterprise wireless infrastructure Solid understanding of: TCP/IP, VLAN, STP, OSPF, BGP ",
+  "matched": [
+   "troubleshooting",
+   "aci",
+   "bgp",
+   "firewall",
+   "palo alto",
+   "solarwinds",
+   "ospf",
+   "stp",
+   "routing",
+   "cisco",
+   "monitoring",
+   "fortigate",
+   "ipsec",
+   "vlan",
+   "switching",
+   "vpn"
+  ],
+  "score": 95,
+  "msg_id": 75
  }
 }
