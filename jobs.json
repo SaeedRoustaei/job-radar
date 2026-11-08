@@ -559,5 +559,37 @@
   ],
   "score": 95,
   "msg_id": 75
+ },
+ "0f21c83023": {
+  "title": "IT & Operations Assistant",
+  "link": "https://uz.linkedin.com/jobs/view/it-operations-assistant-at-f-w-huston-medical-center-4464112858",
+  "company": "F. W. HUSTON MEDICAL CENTER",
+  "location": "Mang`it, Qashqadaryo Region, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "JOB TITLE: IT & Operations Assistant FLSA STATUS: Non-Exempt DIVISION: Business Office RATE: $18.00 - $23.00 per hour Status: Full-Time Schedule: Monday - Friday, 8:00 a.m. - 4:30 p.m. Position Summary The IT & Operations Assistant supports the daily technology and operational needs of F.W. Huston Medical Center. Working closely with the IT Manager, this position provides technical support to employees, troubleshoots computer and network issues, assists with technology systems and equipment, and helps maintain the organization's technology infrastructure. The position also assists with the organization and oversight of facility supplies and inventory, including monitoring supply levels, ordering and receiving supplies, maintaining supply areas, and coordinating supply needs with departments. This position is ideal for an individual who enjoys working with technology, solving problems, helping others, and learning new systems. IT certifications are not required; previous experience is preferred, along with a willingness and ability to learn. Essential Job Functions Demonstrate a positive attitude and provide responsive customer service to employees, patients, residents, vendors, and other contacts as appropriate. Maintain confidentiality and security of facility, employee, patient, and resident information. Utilize Windows and Microsoft 365 operating systems and applications for daily operations. Provide basic technical support and troubleshooting for computers, printers, connectivity, networks, software, and other technology-related issues. Assist with the setup, configuration, maintenance, and replacement of computers, printers, and other technology equipment. Assist with network systems, including wireless networks, switches, firewalls, and network connections. Assist with running and maintaining network lines and connections as needed. Assist with access control systems, including video surveillance and electronic door controls. Assist with system administration duties and develop proficiency with the organization's technology systems. Assist employees with technology questions, equipment use, software issues, and other technical needs. Assist with technology projects, equipment installations, system upgrades, and implementation of new technology. Communicate and coordinate with technology vendors and outside service providers as directed. Monitor facility supply and inventory levels and assist with ordering, receiving, organizing, stocking, and distributing supplies and equipment. Maintain organized supply areas and assist with departmental supply needs and annual inventory. Utilize computer systems and Microsoft 365 to maintain appropriate records related to technology, supplies, inventory, and other assigned responsibilities. Demonstrate flexibility and willingness to learn new technology, software, equipment, and processes. Perform other duties and responsibilities as assigned. Qualifications High school diploma or equivalent. Previous exp",
+  "matched": [
+   "firewall",
+   "troubleshooting",
+   "aci",
+   "monitoring"
+  ],
+  "score": 84,
+  "msg_id": 76
+ },
+ "7e59e79d68": {
+  "title": "Senior DevOps engineer (Uzbekistan)",
+  "link": "https://uz.linkedin.com/jobs/view/senior-devops-engineer-uzbekistan-at-group-ib-4478390096",
+  "company": "Group-IB",
+  "location": "Tashkent, Tashkent, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "Founded in 2003 and headquartered in Singapore, Group-IB is a leading creator of cybersecurity technologies to investigate, prevent, and fight digital crime. Combating cybercrime is in the company’s DNA, shaping its technological capabilities to defend businesses, citizens, and support law enforcement operations. Group-IB’s Digital Crime Resistance Centers (DCRCs) are located in the Middle East, Europe, Central Asia, and Asia-Pacific to help critically analyze and promptly mitigate regional and country-specific threats. These mission-critical units help Group-IB strengthen its contribution to global cybercrime prevention and continually expand its threat-hunting capabilities. About The Role We are seeking a Senior DevOps Engineer to join our Development team. In this role, you will be at the core of our technology stack — building, maintaining, and scaling high-availability systems that power our global services. You'll work with a diverse set of modern technologies, including Linux, Kubernetes, Infrastructure as Code (IaC) tools, monitoring systems, and distributed databases. This position offers the opportunity to work at the heart of a high-performance global platform, directly influencing its scalability, reliability, and resilience. You will collaborate with experienced engineers, shape best practices, and contribute to the continuous evolution of our infrastructure — ensuring that our systems remain robust, secure, and efficient at scale. YOUR MISSION Maintain and optimize core server infrastructure, including bare-metal servers, LXC containers, virtual machines, and cloud environments. Operate and support core infrastructure services such as Nginx, Puppet, GitLab, Artifactory, Nexus, Harbor, Grafana, etc. Manage and evolve infrastructure following the Infrastructure as Code (IaC) paradigm. Handle and resolve incidents related to infrastructure operations. Collaborate closely with cross-functional teams (network engineers, developers, and other technical stakeholders). Design and implement high-availability, fault-tolerant, and scalable software solutions. Monitor service performance and availability using modern observability tools, ensuring system reliability and optimal resource utilization. What We Are Looking For 4+ years of experience in Linux administration, DevOps, or Site Reliability Engineering (SRE). Strong proficiency in automating tasks using Bash or similar scripting languages. Solid understanding of networking fundamentals (TCP/IP stack, routing, DNS, etc.). Hands-on experience managing bare-metal infrastructure in production environments. Experience with configuration management systems such as Ansible or Puppet. Experience with distributed databases (Elasticsearch, Cassandra, MongoDB, MySQL, PostgreSQL, etc.). Expertise in Kubernetes administration and managing containerized workloads. Experience with IaC tools such as FluxCD or ArgoCD. Ability to design and implement high-performance, fault-tolerant, and secure infrastruct",
+  "matched": [
+   "aci",
+   "monitoring",
+   "routing",
+   "nexus"
+  ],
+  "score": 84,
+  "msg_id": 77
  }
 }
