@@ -591,5 +591,49 @@
   ],
   "score": 84,
   "msg_id": 77
+ },
+ "4d88ef349e": {
+  "title": "Kıdemli Network Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/k%C4%B1demli-network-uzman%C4%B1-at-talentown-i%CC%87nsan-kaynaklar%C4%B1-i%CC%87%C5%9Fe-al%C4%B1m-ajans%C4%B1-4487682290",
+  "company": "TalenTown İnsan Kaynakları - İşe Alım Ajansı",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": ". Kurumsal firmalarda veya finansal kurumlarda Ağ Altyapısı Operasyonları ve Mimarisinde görev alacak, karmaşık ağ topolojileri, Active-Active Veri Merkezi senaryoları, Spine-Leaf mimarileri ve WAN/LAN altyapılarına teknik düzeyde hâkim bir mühendis aranmaktadır. Sorumluluklar Karmaşık ağ topolojilerinin yönetimi. Active-Active Veri Merkezi senaryolarının tasarımı ve işletimi. Spine-Leaf mimarileri ve WAN/LAN altyapılarının yönetimi. Veri merkezi ve omurga ağ yönetiminin yürütülmesi. iBGP/eBGP, OSPF, EIGRP, route reflector, path selection ve ISP multihoming entegrasyonları içeren ileri düzey routing ve trafik mühendisliği süreçlerini yürütmek. Wireshark/tcpdump ile derinlemesine arıza giderme yapmak. STP loop'ları ile BGP flapping gibi karmaşık problemleri çözmek. Python, Ansible, SNMP/Telemetry/NetFlow araçlarıyla ağ otomasyonu ile izleme faaliyetlerini yürütmek. Nitelikler Bilgisayar, Elektrik-Elektronik, Haberleşme veya ilgili Mühendislik. Kurumsal firmalarda veya finansal kurumlarda Ağ Altyapısı Operasyonları ve Mimarisinde en az 10 yıl deneyim sahibi. Gerekli Beceriler Karmaşık ağ topolojileri, Active-Active Veri Merkezi senaryoları, Spine-Leaf mimarileri ve WAN/LAN altyapılarına teknik düzeyde hâkim. Cisco CCNP/CCIE veya Arista ACE seviyesinde derin teknik bilgi ve/veya sertifikasyona sahip. Değişim Yönetimi (Change Management) ve kriz/arıza yönetimi süreçlerinde deneyimli. Arista EOS, CloudVision, VXLAN/EVPN kumaş mimarileri, MLAG, Cisco Nexus (NX-OS) ve Catalyst platformları ile Active-Active veri merkezi (DCI) L2/L3 esnetme teknolojilerini kapsayan veri merkezi ve omurga ağ yönetimine hakim olması. iBGP/eBGP, OSPF, EIGRP, route reflector, path selection ve ISP multihoming entegrasyonları içeren ileri düzey routing ve trafik mühendisliği süreçlerini yürütebilmesi. Wireshark/tcpdump ile derinlemesine arıza giderme yapabilen. STP loop'ları ile BGP flapping gibi karmaşık problemleri çözebilen. Python, Ansible, SNMP/Telemetry/NetFlow araçlarıyla ağ otomasyonu ile izleme faaliyetlerini yürütebilecek yetkinlikte olması.",
+  "matched": [
+   "routing",
+   "catalyst",
+   "stp",
+   "vxlan",
+   "bgp",
+   "nexus",
+   "vpn",
+   "ospf",
+   "cisco"
+  ],
+  "score": 95,
+  "msg_id": 78
+ },
+ "86a8602a68": {
+  "title": "IT Specialist",
+  "link": "https://tr.linkedin.com/jobs/view/it-specialist-at-enka-i%CC%87n%C5%9Faat-ve-sanayi-a-%C5%9F-4487128506",
+  "company": "ENKA İnşaat ve Sanayi A.Ş.",
+  "location": "Beşiktaş, Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "QUALIFICATIONS AND JOB DESCRIPTION We are looking for talents to build their career as an IT Specialist for our Tuzla Data Center Project ! In ENKA family, you can; Have a chance to work for the largest engineering and construction company of Turkey, Be a part of a global company of over 19.000 employees, Build your career in a company with experience of 65+ years, Gain experience in corporate culture with a global management approach, Have access to future opportunities for working over 4 continents where we are currently operating after the successful completion of this assignment. QUALIFICATIONS Bachelor’s degree in Computer Science, Electronics, Electrical-Electronics, Telecommunications, or a related field, Minimum 3–5 years of experience in system and network operations, Preferably experienced in data center, critical infrastructure, or 24/7 operational environments, Proficiency in English sufficient to read technical documentation and communicate with vendors, Ability to adapt to shift work, scheduled maintenance, and emergency response processes as required, Strong understanding of core L2/L3 technologies, including TCP/IP, IPv4/IPv6, VLAN, Trunk, STP/RSTP, and LACP, Experienced in routing, switching, subnetting, and network troubleshooting, Knowledge of routing and redundancy protocols such as OSPF, BGP, and VRRP/HSRP, Proficient in firewalls, ACLs, NAT, VPN, and fundamental network security concepts, Experience with vendors such as Cisco, HPE/Aruba, Fortinet, etc., is preferred Experienced with products from various manufacturers, Knowledgeable about fiber optic infrastructure, SFP/SFP+/QSFP modules, patching, and physical network connections, Experienced in the installation, management, and troubleshooting of Windows Server (and preferably Linux) systems, Proficient in Active Directory, DNS, DHCP, and Group Policy, Knowledgeable about virtualization platforms such as VMware/Hyper-V, Experienced in backup, storage, and fundamental disaster recovery processes. If you apply for this job posting, you can review the clarification text prepared within the scope of KVKK s. 6698 regarding your personal data to be processed at www.enka.com.",
+  "matched": [
+   "switching",
+   "routing",
+   "troubleshooting",
+   "stp",
+   "vlan",
+   "bgp",
+   "firewall",
+   "vpn",
+   "data center",
+   "ospf",
+   "cisco"
+  ],
+  "score": 95,
+  "msg_id": 79
  }
 }
