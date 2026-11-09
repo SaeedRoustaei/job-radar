@@ -635,5 +635,28 @@
   ],
   "score": 95,
   "msg_id": 79
+ },
+ "7155f38ab7": {
+  "title": "Network Manager",
+  "link": "https://iq.linkedin.com/jobs/view/network-manager-at-prospex-development-4488885981",
+  "company": "Prospex Development",
+  "location": "Ar Riyad, Kirkuk Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "About The Role We are hiring a Network Manager to design, run and improve our enterprise network across offices, data centres and cloud. You will lead the network team and ensure fast, reliable and scalable connectivity for the business. Key Responsibilities Lead, mentor and manage network engineers and administrators. Own the network architecture, strategy and roadmap for LAN, WAN, SD-WAN, Wi-Fi and data centre networking. Ensure network availability, performance and capacity through proactive monitoring, tuning and upgrades. Manage routers, switches, wireless, load balancers, DNS, DHCP and IP address management. Oversee connectivity to cloud platforms (AWS, Azure, GCP) and hybrid or multi-site environments. Lead network projects: office rollouts, migrations, refresh cycles and new site connectivity. Manage ISPs, carriers and hardware vendors, including contracts, SLAs and escalations. Work with the security team to apply firewall, segmentation and access policies. Lead incident response and root-cause analysis for network outages. Maintain network documentation, diagrams, standards and change management (ITIL-aligned). Manage the network budget and report on KPIs (uptime, latency, incident trends) to leadership. Requirements Bachelor's degree in Computer Science, IT, Telecommunications or equivalent experience. 8+ years in network engineering or administration, including 3+ years in a leadership role. Expert knowledge of TCP/IP, routing and switching protocols (BGP, OSPF, VLANs, STP, MPLS). Hands-on experience with Cisco, Juniper, Aruba, Fortinet or similar enterprise equipment. Experience with SD-WAN, wireless design and network monitoring tools (SolarWinds, PRTG, Zabbix or similar). Experience with cloud networking and hybrid connectivity. Strong vendor, project and budget management skills. Excellent communication in English; additional languages are a plus. Nice to Have Certifications: CCNP/CCIE, JNCIP, ITIL, AWS Advanced Networking or Azure Network Engineer. Experience with network automation (Python, Ansible) and Infrastructure-as-Code. Experience managing multi-country or high-availability environments. What We Offer Competitive salary and benefits. Leadership role owning a business-critical platform Training, certification and career growth support",
+  "matched": [
+   "stp",
+   "routing",
+   "firewall",
+   "aci",
+   "ospf",
+   "switching",
+   "vlan",
+   "bgp",
+   "monitoring",
+   "cisco",
+   "solarwinds"
+  ],
+  "score": 95,
+  "msg_id": 80
  }
 }
