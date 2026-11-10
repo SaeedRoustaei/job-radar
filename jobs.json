@@ -658,5 +658,27 @@
   ],
   "score": 95,
   "msg_id": 80
+ },
+ "790e72435d": {
+  "title": "Network Güvenlik Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/network-g%C3%BCvenlik-uzman%C4%B1-at-amerikan-hastanesi-4478837840",
+  "company": "Amerikan Hastanesi",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "GENEL NİTELİKLER VE İŞ TANIMI Vehbi Koç Vakfı Sağlık Kuruluşları, Global Fortune 500 listesindeki tek Türk şirketi olan Koç Topluluğu’na bağlı hizmet veren, kar amacı gütmeyen hastaneler grubudur. Amerikan Hastanesi, Amerikan Tıp Merkezi, Koç Üniversitesi Hastanesi, Bodrum Amerikan Hastanesi, İzmir Amerikan Hastanesi ve Koç Sağlık Yanımda olarak Vehbi Koç Vakfı Sağlık Kuruluşları çatısı altında hizmet vermekteyiz. İnsan kaynağımızın en değerli varlığımız olduğunu biliyor, nitelikli insan kaynağımızı artırmak için sürekli yatırımda bulunuyoruz. Belirlediğimiz klinik yol, rehber ve talimatlarla her sene 500.000’den fazla hastaya aynı kalitede güvenilir, şeffaf ve kapsamlı tanı, tedavi ve bakım hizmeti sunuyoruz. Her geçen yıl çalışan bağlılığı endeksinin artış gösterdiği kurumlarımıza yeni üyelerin katılacak olmasından ötürü heyecan duyuyoruz. Amerikan Hastanesi Bilgi Teknolojileri Bölümü’nde görev almak üzere \"Network Güvenlik Uzmanı\" arayışımız bulunmaktadır. Görev Tanımı LAN (Yerel Alan Ağı), WLAN (Kablosuz Yerel Alan Ağı) ve WAN (Geniş Alan Ağı) yönetimi, izlenmesi ve raporlanmasını sağlamak. Veri merkezi ağ altyapılarının işletimi, kapasite planlaması ve yüksek erişilebilirlik mimarilerinin yönetimi. Kurum ağının ihtiyaçlarını tespit ederek gerekli iyileştirmeleri yapmak. NAC çözümleri üzerinden 802.1X, MAB, BYOD ve misafir erişim politikalarının yönetilmesi. Ağ güvenliği denetimleri, zafiyet yönetimi ve güvenlik iyileştirme çalışmalarında aktif görev alınmak. SD-WAN ve MPLS ve İnternet altyapılarının yönetimi, optimizasyonu ve oluşabilecek sorunların gidermek. Analiz ve izleme sistemleri ile ağ takibini yapmak. Güvenlik cihazlarının yönetimi yapmak. Load Balancer cihazlarının yönetimini yapmak. Genel Nitelikler Üniversitelerin Mühendislik bölümlerinden mezun Network alanında en az 5 yıllık deneyimi olan Büyük ölçekli LAN/WAN/WLAN tasarımı ve kurulumu aşamalarında görev almış Çok lokasyonlu ortamlarda kapasite ve performans yönetimini gerçekleştirip gerekli görülen iyileştirmelerin planlanması ve uygulanması konusunda tecrübe sahibi NAC çözümlerinde uzman Fortigate, CheckPoint, Palo Alto güvenlik ürünlerine hakim Citrix ürünlerine hakim Wireless Controller yönetiminde uzman Cisco ve Huawei network cihaz yönetiminde uzman Switching (VLAN, VxLAN, STP, LACP vs.) protokollerine hakim Dinamik Routing (BGP, OSPF vs.) protokollerine hakim ITIL uyumlu destek süreçleri hakkında bilgi sahibi Tercihen CCNA-CCNP Sertifikasına sahip Teknik seviyede İngilizce bilgisine sahip Dinamik bir ortamda çalışmaya yatkın İş birimleriyle etkili iletişim kurabilen, çözüm odaklı ve takım çalışmasında uyumlu İş takibi ve sonuçlandırılması konusunda başarılı, ekip çalışmasına yatkın Dokümantasyonu seven, yaptığı işi raporlayabilen Bilgi güvenliğini ihmal etmeyen sorunlara proje odaklı yaklaşan, çözüm yeteneği gelişmiş Aktif araç kullanabilen Seni Neler Bekliyor? Güçlü kurum kültürü ile birlikte aynı hedefe koşan tutkulu çalışma arkadaşları ve şeffaf yönetim anlayışıyla ça",
+  "matched": [
+   "fortigate",
+   "vlan",
+   "cisco",
+   "routing",
+   "ospf",
+   "palo alto",
+   "stp",
+   "bgp",
+   "switching",
+   "vxlan"
+  ],
+  "score": 95,
+  "msg_id": 81
  }
 }
