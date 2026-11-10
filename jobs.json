@@ -680,5 +680,23 @@
   ],
   "score": 95,
   "msg_id": 81
+ },
+ "80c8ac96ca": {
+  "title": "Sistem Uzmanı",
+  "link": "https://tr.linkedin.com/jobs/view/sistem-uzman%C4%B1-at-rossmann-t%C3%BCrkiye-4479858357",
+  "company": "Rossmann Türkiye",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Rossmann, kendine özgü “Drogeriemarkt” (kişisel bakım, kozmetik ve sağlık marketi) konseptiyle müşterilerine hizmet sunan Rossmann, 1972 yılında Dirk Rossmann tarafından Almanya’da kuruldu. Almanya dışında ilk mağazasını 1992 yılında Polonya’da açan “Rossmann”, halihazırda Almanya, Polonya, Macaristan, Çek Cumhuriyeti, Arnavutluk, Türkiye ve İspanya'da toplam 4.000’e yakın mağaza ve 56.000’in üzerinde çalışana sahip. Türkiye’ye 2009 yılında giren markanın, 2026 Şubat ayı itibariyle Türkiye’de 212 mağazası ve 2000’i aşkın çalışanı bulunuyor. Kimi arıyoruz ? Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Yönetim Bilişim Sistemleri veya benzeri bölümlerden mezun olan, Benzer pozisyonlarda minimum 5 yıl deneyimli, Sanallaştırma teknolojileri konusunda tecrübeli (Vmware), Windows Server rolleri ve teknolojileri konusunda deneyimli (AD, IIS, DNS, DHCP, GPO Management, WSUS vb.), TCP/IP, Routing, LAN Switching, Firewall, IPS, WAN, MPLS, VLAN, 802.1x ve VPN konularında deneyimli (Cisco, Checkpoint, Meraki vb.), Yedekleme, antivirüs ve izleme sistemleri hakkında bilgisine sahip, Çok iyi derecede yazılı ve sözlü İngilizce bilgisine sahip, Takım çalışmasında başarılı olan, Pozisyondan ne bekliyoruz? Şirket bünyesinde Sistem, Network ve Güvenlik hizmetinin sürekliliğinin sağlanması, Uygulamaların kurulum, bakım ve güncelleme operasyonlarının yapılmasıı, Sistemlerin 7x24 kesintisiz çalışması için gerekli tüm izleme, problem yönetimi ve çözüm aktivitelerini yerine getirilmesi, Gereken durumlarda ağ donanımlarının firmware ve yazılımlarının güncel tutulması, düzenli olarak loglarının incelenerek hatalara karşı önlem alınması, Sistem donanım ve yazılımlarının teknik desteğinin sağlanması, Veri yedekleme ve geri dönüş yönetimi, Sistem, Network ve Güvenlik alanında yeni teknolojilerin takip edilerek uygulanması, LAN, WAN ve kablosuz ağların yönetiminin yapılması ve güvenliğinin sağlanması ile meydana gelen sorunların giderilmesine gerektiğinde destek verilmesi, Gereken durumlarda, switch, router, access point kurulumu, yapılandırılması ve yönetilmesi. Seni neler bekliyor? Esnek çalışma saati (07:30 – 09:00 arası başlama esnekliği) Hibrit çalışma Çalışan destek programı Rossmann Akademi Tamamlayıcı Sağlık Sigortasıası Hediye çekleri (doğum günü, yıl dönümü..) Özel gün yardımları (Evlilik, doğum, Anneler Günü, Babalar Günü...) Kıdem hizmet yılı ikramiyesi",
+  "matched": [
+   "switching",
+   "vpn",
+   "vlan",
+   "routing",
+   "cisco",
+   "firewall"
+  ],
+  "score": 95,
+  "msg_id": 82
  }
 }
