@@ -698,5 +698,44 @@
   ],
   "score": 95,
   "msg_id": 82
+ },
+ "639130aaee": {
+  "title": "Network Infrastructure Coordinator",
+  "link": "https://iq.linkedin.com/jobs/view/network-infrastructure-coordinator-at-eni-4489933821",
+  "company": "Eni",
+  "location": "Basra, Al-Basra Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "Job Description Job title : Network Infrastructure Coordinator Location : Basra, Iraq Job reference # : 34119 Contract type : Fixed- term. You must be eligible to live and work in Iraq to apply for this position Language requirements : Fluency in English and Arabic. At Eni , we are looking for a Network Infrastructure Coordinator to join the Zubair Field Operating Division in Basra . You will be responsible for supervising the company’s network infrastructure and managing the installation, configuration and maintenance of network components. About The Zubair Field Operating Division Working at the Zubair Field Operating Division within Eni Iraq B.V. presents an exceptional opportunity to join a dynamic, forward-thinking team at the forefront of energy innovation. Located in the strategic Basra region, the Zubair oil and gas field stands as a critical asset within Eni’s global portfolio, playing a vital role in the exploration, production, and development of hydrocarbons and natural gas. As a member of our team, you will be involved in ground-breaking projects that not only enhance energy production but also pave the way for sustainable energy solutions. Our efforts go beyond just energy production, we actively support local communities through various initiatives in education, healthcare, and environmental sustainability. By joining us, you will help drive the future of energy while making a tangible, positive impact on the lives of people in Iraq. Together, we will work towards sustainable progress and energy solutions that benefit both local and global communities. Main Responsibilities Ensure the efficient operation and maintenance of network infrastructure, including routine checks, troubleshooting, repairs and upgrades. Install, configure, monitor and maintain network equipment, including routers, switches, access points, LAN and WAN components. Implement and manage network solutions in line with security policies, regulatory requirements and company standards. Monitor network performance, identify improvements and implement optimisation initiatives. Manage end-user data ports and patch panels, ensuring correct configuration and labelling. Ensure the quality and operability of network equipment, cabling and connectivity. Provide specialist network support for application development projects and resolve network-related issues in collaboration with the IT team. Maintain network documentation and support document control in line with company best practices. Prepare reports on network performance, security and project progress. Skills And Experience Required Minimum 5–7 years’ experience as a Network Engineer or in a similar role. Good command of English. Strong knowledge of network protocols and infrastructure, including TCP/IP, BGP, OSPF, routers, switches, WLCs and access points Experience with Cisco and Ubiquiti/UniFi networking technologies. Experience in network design, implementation, administration and installation. Strong network troub",
+  "matched": [
+   "cisco",
+   "troubleshooting",
+   "ospf",
+   "bgp"
+  ],
+  "score": 84,
+  "msg_id": 83
+ },
+ "9513016240": {
+  "title": "Senior Network & Security Engineer",
+  "link": "https://tr.linkedin.com/jobs/view/senior-network-security-engineer-at-tein-technology-4488212477",
+  "company": "Tein Technology",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Kıdemli Ağ Yönetimi Uzmanı 📍 İstanbul | Hibrit Pozisyon kapsamında LAN/WAN altyapıları, aktif ağ cihazları, routing & switching, güvenlik, kablosuz ağ, yük dengeleme ve Cisco Collaboration teknolojilerinin uçtan uca operasyonu yürütülecektir. Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Elektronik ve Haberleşme Mühendisliği veya ilgili bölümlerinden mezun, Ağ yönetimi, tasarımı ve operasyonlarında en az 5 yıl deneyimli, Tercihen bankacılık veya finans sektöründe kritik altyapı operasyonları konusunda deneyimli, LAN/WAN altyapıları, aktif ağ cihazları, güvenlik ve optimizasyon konularında güçlü teknik bilgi sahibi, Routing Protokolleri: BGP, OSPF, EIGRP ve Multicast konusunda deneyimli, Switching Protokolleri: STP, RSTP, VTP, VLAN, Port Security konularında uzman, Merkezi Ağ Güvenliği: MPLS, VRF ve IPsec VPN konularında deneyimli, Kurumsal ölçekte aşağıdaki teknolojilerin operasyon ve altyapı yönetiminde deneyimli Teknik Yetkinlikler Cisco ACI (Application Centric Infrastructure): Veri merkezi ağlarında yazılım tanımlı fabric mimarisi, tenant, contract ve EPG yönetimi, Cisco SD-WAN: Şube ve kampüs ağlarında yazılım tanımlı geniş alan ağı mimarileri, hat optimizasyonu ve uygulama tabanlı trafik yönlendirme, Cisco Collaboration Sistemleri: CUCM, CME, CMS, IPTelephony ve video konferans altyapılarının entegrasyonu ve uçtan uca yönetimi, Cisco ISE (Identity Services Engine): NAC, 802.1X, TACACS+ ve RADIUS entegrasyonları ile kurumsal ağ güvenlik politikalarının uygulanması, Cisco WLC & AP: Kurumsal kablosuz ağ kontrolcüsü ve erişim noktalarının operasyonu, F5 Load Balancer: Uygulama yük dengeleme, trafik yönetimi ve operasyonel süreklilik, Network izleme ve analiz araçları konusunda deneyimli, SolarWinds, NetFlow/SFlow, PRTG gibi network izleme ve analiz araçlarından en az birine hâkim, Operasyonel süreçlerde teknik liderlik yapabilecek, Proje planlama ve koordinasyon yetkinliğine sahip, İyi seviyede İngilizce bilen, Tercihen CCNP sertifikasına sahip. 📩 zeynep.akbulut@tein.com.tr",
+  "matched": [
+   "cisco",
+   "switching",
+   "vpn",
+   "routing",
+   "ospf",
+   "solarwinds",
+   "stp",
+   "bgp",
+   "ipsec",
+   "aci",
+   "vlan"
+  ],
+  "score": 95,
+  "msg_id": 84
  }
 }
