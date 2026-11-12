@@ -737,5 +737,26 @@
   ],
   "score": 95,
   "msg_id": 84
+ },
+ "64c85ce67a": {
+  "title": "Ağ Yönetimi Uzmanı.",
+  "link": "https://tr.linkedin.com/jobs/view/a%C4%9F-y%C3%B6netimi-uzman%C4%B1-at-tein-technology-4488515006",
+  "company": "Tein Technology",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "🌐 Ağ Yönetimi Uzmanı Deneyim: 5+ Yıl Lokasyon:İstanbul 📌 Pozisyon Hakkında Bankamızın kritik, kesintisiz ve yüksek erişilebilirlik gerektiren altyapısında görevlendirilmek üzere; yedekli veri merkezlerimizde aktif olarak kullanılan Cisco ACI mimarisi ile şubelerimizi ve kampüslerimizi birleştiren MPLS network yapısının yönetiminden sorumlu olacak bir Ağ Yönetimi Uzmanı arıyoruz. 🎯 Görev ve Sorumluluklar Ağ altyapısındaki Cisco router, switch, AP, SD-WAN, ISE, F5 Load Balancer, Cisco Collaboration (CUCM, IPT) ve video konferans sistemlerinin uçtan uca operasyon ve kapasite planlamasını yürütmek, Cisco ACI (Application Centric Infrastructure): Yedekli veri merkezinde yazılım tanımlı fabric mimarisi, tenant, contract ve EPG yönetimini gerçekleştirmek, Cisco SD-WAN: Şube ve kampüs ağlarında yazılım tanımlı geniş alan ağı mimarileri, hat optimizasyonu ve uygulama tabanlı trafik yönlendirme süreçlerini yönetmek, Cisco Collaboration Sistemleri: CUCM, CME, CMS, IP Telephony (IPT) ve video konferans altyapılarının entegrasyonunu ve arıza yönetimini sağlamak, Cisco ISE (Identity Services Engine): NAC, 802.1X, TACACS+, RADIUS entegrasyonları ile kurumsal ağ güvenlik politikalarını uygulamak, Cisco WLC & AP: Kurumsal kablosuz ağ kontrolcüsü ve erişim noktalarının operasyonunu yürütmek, F5 Load Balancer: Uygulama yük dengeleme, trafik yönetimi ve operasyonel sürekliliği sağlamak, Network İzleme ve Analiz: SolarWinds, NetFlow/sFlow, PRTG vb. izleme araçlarıyla ağ performansını takip etmek ve analiz etmek, Proje planlama süreçlerini yönetmek ve operasyonel seviyede teknik liderlik sergilemek. ✔ Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Elektronik ve Haberleşme Mühendisliği veya ilgili bölümlerinden mezun, Ağ yönetimi, tasarımı ve operasyonlarında en az 5 yıl deneyimli, Bankacılık veya finans sektöründe benzer altyapı operasyonlarında tecrübe sahibi, LAN/WAN altyapıları, aktif ağ cihazları kurulumu, yönetimi ve optimizasyonu konularına hâkim, Routing Protokolleri: BGP, OSPF, EIGRP ve Multicast konularında tecrübeli, Switching Protokolleri: STP, RSTP, VTP, VxLAN ve Port Security konularında uzman, Mimari ve Güvenlik: MPLS, VRF ve 802.1X mimarilerine hâkim, İyi seviyede İngilizce teknik dokümantasyon okuyup yazabilen. 🌟 Tercih Sebepleri Tercihen CCNP sertifikasyonuna sahip olmak. gizem.yildirim@tein.com.tr",
+  "matched": [
+   "vxlan",
+   "bgp",
+   "stp",
+   "aci",
+   "ospf",
+   "routing",
+   "solarwinds",
+   "cisco",
+   "switching"
+  ],
+  "score": 95,
+  "msg_id": 85
  }
 }
