@@ -758,5 +758,33 @@
   ],
   "score": 95,
   "msg_id": 85
+ },
+ "2b6edc2d98": {
+  "title": "Network & Security Engineer",
+  "link": "https://tr.linkedin.com/jobs/view/network-security-engineer-at-bulutistan-4488946151",
+  "company": "Bulutistan",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "We are looking for a Network Security Engineer to join our team, bringing strong expertise in network infrastructure, security operations, and connectivity solutions, preferably within financial services environments. Responsibilities Monitor, manage, and optimize network infrastructure across data centers, cloud environments, and customer connectivity points. Operate and maintain enterprise network devices and services, including routers, switches, load balancers, wireless networks, and network monitoring tools. Perform L2/L3 troubleshooting, incident management, and escalation to resolve network performance, connectivity, and availability issues. Configure and maintain VPN tunnels, MPLS, GRE, and IPsec connections to ensure secure and reliable inter-site connectivity. Implement routine firewall rule updates and network access changes in accordance with established security policies and change management procedures. Support disaster recovery (DR) network operations, redundancy planning, and network capacity management. Support secure connectivity and integration with FinTech partners, SWIFT gateways, and cloud service providers. Maintain accurate network topology diagrams, configuration inventories, operational documentation, and change records. Collaborate with cloud and infrastructure teams on service onboarding, network provisioning, and connectivity testing. Ensure network operations comply with internal standards, documentation requirements, and applicable security and compliance controls. Support internal and external audits by providing network-related documentation and operational evidence. Participate in root cause analysis (RCA) and contribute to the continuous improvement of network operations and incident management processes. Perform packet analysis and investigate suspicious network activities to support troubleshooting and security incident investigations. Qualifications Bachelor’s degree in Computer Engineering, Electrical/Electronics Engineering, or a related field 5+ years’ experience in network/security engineering, with at least 2 years in a banking or financial institution Strong knowledge of routing, switching, VLANs, STP, BGP/OSPF, and traffic optimization Experience with enterprise network platforms (Cisco, Juniper, HP/Aruba, or equivalent) Familiarity with VPN technologies, IPSec/GRE/MPLS, and load balancing Understanding of network monitoring tools (Zabbix, SolarWinds, PRTG, or similar) Ability to troubleshoot L2/L3 incidents and manage operational changes in a structured environment Preferred Skills & Certifications CCNA, CCNP Enterprise, JNCIS/JNCIP, or equivalent Basic exposure to firewall operations (Palo Alto, Fortinet, Cisco ASA, or Check Point) Understanding of ITIL processes and experience working in NOC/SOC/large-scale operations teams",
+  "matched": [
+   "data center",
+   "ospf",
+   "bgp",
+   "palo alto",
+   "monitoring",
+   "vpn",
+   "aci",
+   "cisco",
+   "stp",
+   "solarwinds",
+   "troubleshooting",
+   "switching",
+   "firewall",
+   "routing",
+   "vlan",
+   "ipsec"
+  ],
+  "score": 95,
+  "msg_id": 86
  }
 }
