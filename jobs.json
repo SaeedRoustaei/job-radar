@@ -827,5 +827,25 @@
   ],
   "score": 95,
   "msg_id": 88
+ },
+ "d2bf93a4ba": {
+  "title": "Senior Network Specialist",
+  "link": "https://tr.linkedin.com/jobs/view/senior-network-specialist-at-aras-kargo-4484321182",
+  "company": "Aras Kargo",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Our journey, which began in 1979, has grown into a strong logistics network that delivers more than 1 million shipments daily across Türkiye, with 12 Regional Directorates, 29 Transfer Centers, nearly 1,000 branches, a fleet of 3,000 vehicles, and a team of 14,000 employees.As a subsidiary of Austrian Post, we continue our operations with international strength while investing in technology and innovation through Aras Digital, expanding beyond borders through Aras Global, and supporting the unifying power of sports through our Aras Kargo Women's Volleyball Team. With our renewed identity, experience, and energy, we are setting our course toward the future. If you would like to grow, develop, and take a strong step forward in your career on this journey with us, we would be delighted to welcome you to our team As part of our Headquarters IT team, we are looking for a 'Senior Network Specialist' who will actively participate in our network infrastructure processes. Qualifications Bachelor’s degree in Computer Engineering, Electronics Engineering, or a related field. Minimum 5 years of professional experience in network security Advanced knowledge in firewall, IDS/IPS, and VPN systems management (Fortinet, Palo Alto, Cisco, etc.). Deep technical knowledge of L3-L7 network protocols, TCP/IP, routing, and switching. Proficiency in OSI model and network protocols (TCP/IP, DNS, DHCP, etc.). Experience in SIEM solutions (Fortinet, QRadar, ArcSight, etc.) for log integration and network-side configuration. Preferably experience in supporting network-related penetration tests or attack simulation processes. Holds CEH, CompTIA Security+, and CCNA/CCNP Security certifications. Experience in vendor and third-party service provider management. Excellent command of English (both written and spoken). Strong analytical thinking, problem-solving, and quick decision-making skills. Responsibilities Ensure, manage, and continuously improve the security of the company’s network infrastructure. Configure and manage firewalls, IDS/IPS, VPN, and other network security solutions (Fortinet, Palo Alto, Cisco, etc.). Analyze network traffic to detect abnormal behavior, potential threats, and security vulnerabilities. Manage network segmentation, VLAN, and ACL configurations. Plan and apply security patches on network devices. Design and maintain network architectures in compliance with security standards (ISO 27001, NIST, CIS). Configure VPN (SSL/IPSec) to ensure secure remote access. Network Security and NAC: 802.1X, MAC Authentication, and Network Access Control Holds CCNA/CCNP or Aruba ACMA/ACMP certifications, or possesses knowledge at this level, Manage DDoS protection, IDS/IPS, and NDR solutions. Support relevant teams during security incidents (Incident Response) by blocking network access, providing logs, and isolating traffic when necessary. Collaborate with SOC, Information Security, and penetration testing teams to implement network-related security measures. Moni",
+  "matched": [
+   "palo alto",
+   "vlan",
+   "ipsec",
+   "switching",
+   "cisco",
+   "routing",
+   "firewall",
+   "vpn"
+  ],
+  "score": 95,
+  "msg_id": 89
  }
 }
