@@ -847,5 +847,72 @@
   ],
   "score": 95,
   "msg_id": 89
+ },
+ "d04a4e18f4": {
+  "title": "Infrastructure Manager",
+  "link": "https://iq.linkedin.com/jobs/view/infrastructure-manager-at-prospex-development-4488887935",
+  "company": "Prospex Development",
+  "location": "Ar Riyad, Kirkuk Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "Location: Riyadh· Type: Full-time About The Role We are hiring an Infrastructure Manager to own the reliability, security and scalability of our on-premise, cloud and network environments. You will lead a team of systems, network and cloud engineers, set the infrastructure roadmap, and make sure the business runs on stable, secure and cost-efficient technology. Key Responsibilities Lead, mentor and manage the infrastructure team (systems, network, cloud and DevOps engineers). Own the infrastructure strategy and roadmap, aligned with business and growth plans. Manage cloud environments (AWS, Azure or GCP) including architecture, migration, cost optimisation and governance. Oversee servers, virtualisation, storage, networking, firewalls, VPN and data centre or hybrid environments. Ensure high availability, performance monitoring, capacity planning and incident response, with defined SLAs and uptime targets. Design and test backup, disaster recovery and business continuity plans. Work with security teams to enforce access control, patching, vulnerability management and compliance (ISO 27001, SOC 2 or local regulatory standards). Drive automation and Infrastructure-as-Code (Terraform, Ansible) and CI/CD practices. Manage vendors, contracts, licences and the infrastructure budget. Maintain documentation, runbooks and change management processes (ITIL-aligned). Report on infrastructure KPIs, risks and project status to senior leadership. Requirements Bachelor's degree in Computer Science, IT, Engineering or equivalent experience. 8+ years in infrastructure, systems or network engineering, including 2+ years in a people-management role. Hands-on experience with at least one major cloud platform and with virtualisation (VMware, Hyper-V) and Linux/Windows Server. Strong knowledge of networking (LAN/WAN, DNS, routing, firewalls, load balancing). Experience with monitoring and observability tools (Prometheus, Grafana, Datadog, Zabbix or similar). Proven track record in DR planning, security hardening and incident management. Strong vendor, budget and stakeholder management skills. Excellent communication in English; additional languages are a plus. Nice to Have Certifications: AWS/Azure/GCP Architect, CCNP, ITIL, CISSP, Kubernetes (CKA). Experience with containers and orchestration (Docker, Kubernetes). Background in fintech, SaaS or other regulated, high-availability environments. What We Offer Competitive salary and benefits. Leadership role with real ownership of the technology platform Professional development and certification support",
+  "matched": [
+   "monitoring",
+   "firewall",
+   "aci",
+   "routing",
+   "vpn"
+  ],
+  "score": 95,
+  "msg_id": 90
+ },
+ "f28e227fe5": {
+  "title": "IT Security Engineer",
+  "link": "https://iq.linkedin.com/jobs/view/it-security-engineer-at-onyxes-technologies-4491126556",
+  "company": "Onyxes Technologies",
+  "location": "Baghdad Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "Role Overview This is a full-time, on-site role located in Al Jadriyah, Baghdad. The successful candidate will be responsible for safeguarding computer systems and networks from potential security breaches to cyber threats and will work on different security tools and systems like (Vulnerability Management, Incident Response, Network Monitoring, SIEM solution, EDR System, WAF, Security Auditing and Security Documentation). He will also be part of the security operation center team to ensure the confidentiality, integrityز Key Responsibilities Support Firewalls related connectivity and performance issues. Support Web filtering system updates and URL customizations. Support Internet performance and utilization monitoring reporting Support to Keep track of utilized capacities and communicate requirement of additional capacities (licenses, storage, processing, backup, etc) at least one quarter in advance. Manage, document and address customer expectations & requirements. Support in Managing all service requests and complaints from the client through ticketing system, change the status of the tickets according to ticket life-cycle and close the tickets as per SLA. Extend the alarms monitoring to the IT-Front Office team, resolve alarms and open L-3 tickets if required. Support IPSEC tunnels configuration and maintenance. Assist with applications/tools including but not limited to SIEM, IPS, NetFlow and e-mail gateway protection. Assist with vulnerability assessments and penetration testing for specific applications, services, networks, and servers as required. Requirements BSc. Computer Engineer/Science or relevant experience CCNA Security, CompTIA Security+, CCNP Security Networking principles (Preferred) understanding of the operating Systems (Preferred) Microsoft Office skills (Word, Excel, PowerPoint, and Outlook (Preferred) Excellent verbal and written communication (Preferred) Organized and able to meet deadlines (Preferred) ISP/Communication Providers (Preferred) IT Equipment Expert (Preferred)",
+  "matched": [
+   "monitoring",
+   "firewall",
+   "aci",
+   "ipsec"
+  ],
+  "score": 84,
+  "msg_id": 91
+ },
+ "332c191836": {
+  "title": "IT Support Engineer",
+  "link": "https://uz.linkedin.com/jobs/view/it-support-engineer-at-game-company-4491134416",
+  "company": "GAME COMPANY",
+  "location": "Tashkent, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "1. JOB PURPOSE We are looking for an active and reliable IT Support Engineer to join our team in Uzbekistan. You will be responsible for setting up and maintaining local IT infrastructure, resolving daily technical issues, supporting end-users, and ensuring smooth network and system operations across the office. 2. KEY RESPONSIBILITIESNetwork & Infrastructure Maintenance Set up, configure, and troubleshoot LAN/WAN networks, Wi-Fi, routers, switches, and VPN connections. Monitor daily network status and promptly resolve connectivity or hardware issues. System & Application Administration Administer and support Google Workspace, including user creation/offboarding, group management, security settings, and email flows. Manage user support tickets, access requests, and issue tracking using Jira / Jira Service Management. Provide basic operational support and health monitoring for IBM systems/servers. User Support & Hardware Management Provide Tier 1 and Tier 2 technical support for end-users, covering Windows/macOS laptops, workstations, printers, AV equipment, and other peripherals. Handle IT onboarding and offboarding procedures, including hardware provisioning and account setup. Maintain and track IT asset inventory and technical documentation. 3. JOB REQUIREMENTSExperience At least 2 years of experience in IT Support, Helpdesk, or System/Network Administration. Technical Skills Solid knowledge of basic networking concepts, including TCP/IP, LAN/WAN, subnetting, routing/switching, Wi-Fi, and VPN setup and troubleshooting. Hands-on experience with Google Workspace administration and Jira. Fundamental knowledge of IBM systems/servers. Experience with ManageEngine tools is a plus but not required. Language Requirements Fluent in Russian and Uzbek. English proficiency is a plus. Soft Skills Strong troubleshooting mindset and problem-solving skills. Good customer service attitude and willingness to support end-users. Ability to work independently and manage daily tasks efficiently.",
+  "matched": [
+   "monitoring",
+   "routing",
+   "switching",
+   "troubleshooting",
+   "vpn"
+  ],
+  "score": 95,
+  "msg_id": 92
+ },
+ "c1b5888e13": {
+  "title": "IT Support Engineer",
+  "link": "https://uz.linkedin.com/jobs/view/it-support-engineer-at-client-company-game-industry-4491129299",
+  "company": "Client Company (Game Industry)",
+  "location": "Tashkent, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "Job Title: IT Support Engineer / IT Support Specialist Location: Uzbekistan (Onsite) Employment Type: Full-time Industry: Information Technology / Operations 1. JOB PURPOSE We are looking for an active and reliable IT Support Engineer to join our team in Uzbekistan. You will be responsible for setting up and maintaining local IT infrastructure, resolving daily technical issues, supporting end-users, and ensuring smooth network and system operations across the office. 2. KEY RESPONSIBILITIESNetwork & Infrastructure Maintenance Set up, configure, and troubleshoot LAN/WAN networks, Wi-Fi, routers, switches, and VPN connections. Monitor daily network status and promptly resolve connectivity or hardware issues. System & Application Administration Administer and support Google Workspace, including user creation/offboarding, group management, security settings, and email flows. Manage user support tickets, access requests, and issue tracking using Jira / Jira Service Management. Provide basic operational support and health monitoring for IBM systems/servers. User Support & Hardware Management Provide Tier 1 and Tier 2 technical support for end-users, covering Windows/macOS laptops, workstations, printers, AV equipment, and other peripherals. Handle IT onboarding and offboarding procedures, including hardware provisioning and account setup. Maintain and track IT asset inventory and technical documentation. 3. JOB REQUIREMENTSExperience At least 2 years of experience in IT Support, Helpdesk, or System/Network Administration. Technical Skills Solid knowledge of basic networking concepts, including TCP/IP, LAN/WAN, subnetting, routing/switching, Wi-Fi, and VPN setup and troubleshooting. Hands-on experience with Google Workspace administration and Jira. Fundamental knowledge of IBM systems/servers. Experience with ManageEngine tools is a plus but not required. Language Requirements For Vietnamese Candidates: Good English communication skills, with working proficiency in communicating with international stakeholders and understanding technical documentation. Willingness to relocate to Uzbekistan. For Local Candidates (Uzbekistan): Fluent in Russian and Uzbek. English proficiency is a plus. Soft Skills Strong troubleshooting mindset and problem-solving skills. Good customer service attitude and willingness to support end-users. Ability to work independently and manage daily tasks efficiently. 4. BENEFITSFor Relocation Candidates (Vietnam) Comprehensive relocation package, including flight tickets, visa/work permit sponsorship, and accommodation support. General Benefits Competitive salary package based on experience and capabilities. Professional, multicultural, and dynamic working environment. Healthcare and leave policies according to company standards. Opportunities for technical growth and career advancement in IT Infrastructure.",
+  "matched": [
+   "monitoring",
+   "routing",
+   "switching",
+   "troubleshooting",
+   "vpn"
+  ],
+  "score": 95,
+  "msg_id": 93
  }
 }
