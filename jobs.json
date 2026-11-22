@@ -1009,5 +1009,23 @@
   ],
   "score": 95,
   "msg_id": 98
+ },
+ "bc2e6a3b3c": {
+  "title": "System and Infrastructure Administrator",
+  "link": "https://uz.linkedin.com/jobs/view/system-and-infrastructure-administrator-at-the-vault-4482472436",
+  "company": "The Vault",
+  "location": "Tashkent, Tashkent, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "The System & Infrastructure Administrator is responsible for the day-to-day administration, support, security, and reliable operation of the company's corporate IT environment. The role ensures that user access, infrastructure, internal services, networks, endpoints, and core business systems remain available, secure, and properly maintained to support daily business operations. Responsibilities Manage the full employee access lifecycle (Joiner-Mover-Leaver) across Microsoft 365, Active Directory, GitLab, 1C-related systems, Slack, ClickUp, Vaultwarden, VPN, file storage, and other corporate services Provision and revoke accounts, access, licences, MFA, SSO, VPN access, equipment, and company assets; update access promptly when employees change roles or leave Administer Microsoft 365/Entra ID, Windows Server, Active Directory, Group Policy, DNS, DHCP, file services, Linux systems, and SMB-based shared storage Maintain server and virtualisation infrastructure, storage, backups, internal services, and remote-access solutions Administer office networks, Wi-Fi, VLANs, VPNs, firewalls, switches, routers, DNS records, domains, and TLS certificates Monitor infrastructure and backup jobs, perform regular recovery tests, apply patches and updates, and troubleshoot incidents Operate endpoint protection, EDR, vulnerability-management, logging, and SIEM tools; triage alerts and escalate security incidents when required Provide infrastructure-level support for SWIFT, 1C-related systems, corporate websites, and internal web services Provide L2-L3 support for employee endpoints and workplace technology, including advanced troubleshooting, hardware replacement, OS and application issues, access-related problems, encryption, VPN connectivity, and escalated technical incidents Manage the lifecycle of laptops, peripherals, IT assets, software licences, subscriptions, repairs, and approved purchases Maintain technical documentation, asset and access records, recovery procedures, and operational runbooks; automate repetitive tasks where appropriate Requirements 3+ years of hands-on experience in system administration, infrastructure support, or corporate IT operations Strong practical knowledge of Windows Server, Active Directory, Group Policy, Microsoft 365/Entra ID, DNS, DHCP, and access management Working knowledge of Linux administration and troubleshooting Strong understanding of TCP/IP, VLANs, routing, NAT, VPNs, Wi-Fi, firewalls, NAS, and SMB Experience with virtualisation, Proxmox, ZFS, LVM, storage systems, backup systems, and recovery procedures Experience with Docker, GitLab CI, and container registries Understanding of RBAC, least privilege, MFA, SSO, privileged and service accounts, access reviews, patching, endpoint security, and incident escalation General knowledge of cloud providers and cloud concepts, including compute, storage, networking, IAM, monitoring, backups, shared responsibility, and basic cost awareness Experience supporting employee devic",
+  "matched": [
+   "vlan",
+   "routing",
+   "troubleshooting",
+   "monitoring",
+   "vpn",
+   "firewall"
+  ],
+  "score": 95,
+  "msg_id": 99
  }
 }
