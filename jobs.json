@@ -1027,5 +1027,22 @@
   ],
   "score": 95,
   "msg_id": 99
+ },
+ "ec4ebb2f4f": {
+  "title": "Network & System Engineer",
+  "link": "https://tr.linkedin.com/jobs/view/network-system-engineer-at-servicepark-4489725579",
+  "company": "Servicepark",
+  "location": "Ankara, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Servicepark olarak uzun yıllardır bilişim sektöründe olan kaliteli bir ekip ile, müşterilerimize en yüksek kalitede çözüm ve danışmanlık hizmetleri sağlayarak özellikle kritik operasyonların güvende kalmasını ve verimli çalışmasını sağlıyoruz. Müşterilerimizin sorunlarına ve isteklerine özel çözümler sağlayacak hizmetlerimizi; global dünyanın gereksinimleri karşılayan, yüksek teknolojiye uygun hale getirerek her geçen gün geliştiriyoruz. Takım olmaya, kariyerinizde ilerlemeye ve Servicepark Bilişim'in hedeflerine doğru ilerlemesine katkıda bulunmaya inanıyorsanız, birlikte ilerlemek için bize katılın. Ankara, Yenimahalle 'de çalışmalarını sürdüren müşterimiz bünyesinde görev almak üzere Network & System Engineer arayışımız bulunmaktadır. Görev ve Sorumluluklar Kurumsal IT altyapısının (network, sunucu ve güvenlik duvarı işletilmesi) izlenmesi ve iyileştirilmesi, LAN/WAN, VLAN, VPN, Firewall ve routing/switching altyapılarının kurulumu ve yönetimi, Fiziksel ve sanal sunucuların (Windows/Linux) kurulumu, konfigürasyonu ve bakımı (Bulut ortamında), Temel siber güvenlik bileşenlerine hakimiyet (Firewall, IDS/IPS, VPN, NAC, endpoint güvenliği, loglama ve izleme sistemleri), OT ortamları (SCADA, DCS, PLC ağları) ile IT sistemleri arasındaki entegrasyonun güvenli şekilde yönetilmesi, Yedekleme, felaket kurtarma (DR) ve iş sürekliliği süreçlerinin yürütülmesi, Sistem ve ağ izleme, loglama ve performans takibi, OT ağlarında segmentasyon , erişim kontrolü ve temel siber güvenlik uygulamalarının hayata geçirilmesi, ISO/IEC 27001 gereklilikleri hakkında bilgi sahibi (bilgi güvenliği politikaları, risk değerlendirme, erişim kontrolü, loglama, olay yönetimi ve dokümantasyon süreçleri), Dış tedarikçiler ve entegratörlerle teknik koordinasyon, Dokümantasyon, envanter ve teknik prosedürlerin oluşturulması. Genel Nitelikler Network ve sistem yönetimi alanında en az 5 yıl deneyimli, Routing, switching, firewall (tercihen Fortinet vb.) konularında bilgi ve tecrübe sahibi, Windows Server, Active Directory, Linux temel yönetim bilgisine sahip, Sanallaştırma ve yedekleme teknolojileri konusunda deneyimli, OT altyapılarına temel seviyede hakim, (SCADA/DCS mimarisi, endüstriyel ağlar, Purdue modeli farkındalığı) IT/OT siber güvenlik prensipleri hakkında bilgi sahibi, Analitik düşünme, problem çözme ve dokümantasyon becerisi güçlü, Ankara, Yenimahalle lokasyonuna ulaşım problemi yaşamayacak adaylarımızın başvurularını bekliyoruz.",
+  "matched": [
+   "vlan",
+   "routing",
+   "switching",
+   "vpn",
+   "firewall"
+  ],
+  "score": 95,
+  "msg_id": 100
  }
 }
