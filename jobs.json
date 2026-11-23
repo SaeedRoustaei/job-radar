@@ -1044,5 +1044,82 @@
   ],
   "score": 95,
   "msg_id": 100
+ },
+ "d0840b5e38": {
+  "title": "Senior Network Engineer",
+  "link": "https://tr.linkedin.com/jobs/view/senior-network-engineer-at-penta-consulting-4493622314",
+  "company": "Penta Consulting",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Penta Consulting are a technology service provider and leading outsourced partner helping to deliver professional and managed solutions across EMEA. We're looking for a highly skilled ACI Network Engineer to join a growing team supporting complex transformation projects across enterprise and service provider environments. This is an opportunity to work on cutting-edge Cisco ACI, VXLAN, Nexus, MPLS, and Data Center modernisation projects, acting as a trusted technical advisor for some of the industry's most challenging network environments. What You'll Be Doing Design, architect, and support large-scale Cisco ACI, VXLAN, and Data Center Network infrastructures Lead the design and implementation of Service Provider and Enterprise Data Center architectures Deploy and optimize routing technologies including BGP, OSPF, ISIS, MPLS, and QoS Deliver solutions across Cisco Nexus 9000, 7000, and 5000 platforms Create technical documentation including HLDs, LLDs, BoQs, NIPs, migration plans, and implementation guides Provide technical leadership throughout the project lifecycle, identifying risks and driving successful outcomes Work directly with customers as a trusted advisor, presenting solutions and guiding technology decisions Lead Data Center migration, transformation, and optimization projects Support complex environments spanning networking, compute, storage, virtualization, cloud, security, and applications Collaborate with project managers, consultants, and engineering teams to ensure successful delivery Mentor junior engineers and provide technical guidance across project teams Required Skills & Experience CCIE Certification (Required) Minimum 8+ years of Professional Services experience within Service Provider or large Enterprise environments Expert-level knowledge of Cisco ACI and VXLAN Strong hands-on experience with Nexus 5K, 7K, and 9K platforms Extensive knowledge of FabricPath, OTV, VDC, vPC, and ACI Strong understanding of Data Center Architecture and Design Advanced routing and switching expertise across BGP, MPLS, OSPF, ISIS, and QoS Experience designing and delivering large-scale migration and transformation programs Excellent customer-facing, presentation, and stakeholder management skills Strong documentation skills with experience producing architecture and design deliverables",
+  "matched": [
+   "ospf",
+   "bgp",
+   "switching",
+   "aci",
+   "vxlan",
+   "routing",
+   "nexus",
+   "data center",
+   "cisco"
+  ],
+  "score": 95,
+  "msg_id": 101
+ },
+ "3d5c6345b1": {
+  "title": "Ağ Yönetimi Uzmanı | İstanbul",
+  "link": "https://tr.linkedin.com/jobs/view/a%C4%9F-y%C3%B6netimi-uzman%C4%B1-i%CC%87stanbul-at-tein-technology-4492372888",
+  "company": "Tein Technology",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Ağ Yönetimi Uzmanı Deneyim: 5+ Yıl Lokasyon: İstanbul 🔴 Öncelikli ve Zorunlu Kriterler: Bankacılık sektöründe ağ altyapısı deneyimi Cisco Collaboration (CUCM, IPT, IP santral ve video konferans sistemleri) Cisco ACI / APIC Cisco ISE Cisco SD-WAN F5 Load Balancer Lisans mezuniyeti 🔹 Ağ yönetimi, tasarımı ve operasyonlarında en az 5 yıl deneyim 🔹 BGP, OSPF, EIGRP, MPLS, VRF ve 802.1X bilgisi 🔹 Cisco Router, Switch, WLC ve Access Point yönetimi deneyimi Görev ve Sorumluluklar Cisco router, switch, AP, SD-WAN, ISE, F5 Load Balancer, Cisco Collaboration (CUCM, IPT) ve video konferans sistemlerinin uçtan uca operasyonunu ve kapasite planlamasını yürütmek Cisco ACI üzerinde fabric mimarisi, tenant, contract ve EPG yönetimini gerçekleştirmek Cisco SD-WAN ile şube ve kampüs ağlarının yönetimi, hat optimizasyonu ve uygulama tabanlı trafik yönlendirmesini sağlamak CUCM, CME, CMS, IPT ve video konferans altyapılarının entegrasyonunu ve arıza yönetimini yürütmek Cisco ISE ile NAC, 802.1X, TACACS+ ve RADIUS entegrasyonlarını yönetmek, ağ güvenlik politikalarını uygulamak Cisco WLC ve AP'lerden oluşan kablosuz ağın operasyonunu yürütmek F5 Load Balancer ile yük dengeleme ve operasyonel sürekliliği sağlamak SolarWinds, NetFlow/sFlow, PRTG gibi araçlarla ağ performansını izlemek ve analiz etmek Proje planlama süreçlerini yönetmek ve operasyonel düzeyde teknik liderlik yapmak Aranan Nitelikler Bilgisayar, Elektrik-Elektronik, Elektronik ve Haberleşme Mühendisliği veya ilgili bölümlerden mezun Ağ yönetimi, tasarımı ve operasyonlarında en az 5 yıl deneyimli Bankacılık veya finans sektöründe benzer altyapı operasyonlarında tecrübeli LAN/WAN altyapıları ile aktif ağ cihazlarının kurulumu, yönetimi ve optimizasyonuna hâkim BGP, OSPF, EIGRP ve Multicast routing protokollerinde tecrübeli STP, RSTP, VTP, VxLAN ve Port Security switching protokollerinde uzman MPLS, VRF ve 802.1X mimarilerine hâkim İngilizce teknik dokümantasyonu okuyup yazabilen kubra.yildirimoglu@tein.com.tr",
+  "matched": [
+   "ospf",
+   "stp",
+   "bgp",
+   "switching",
+   "aci",
+   "vxlan",
+   "solarwinds",
+   "routing",
+   "cisco"
+  ],
+  "score": 95,
+  "msg_id": 102
+ },
+ "4e79195ea2": {
+  "title": "Kurumsal Network Uzmanı (Network - Güvenlik - Cloud)",
+  "link": "https://tr.linkedin.com/jobs/view/kurumsal-network-uzman%C4%B1-network-g%C3%BCvenlik-cloud-at-aynet-bilgi-teknolojileri-4492377828",
+  "company": "Aynet Bilgi Teknolojileri",
+  "location": "Ümraniye, Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "🌟 Kurumsal Network Uzmanı (Network • Güvenlik • Cloud) Aynet Teknoloji, 27 yılı aşkın teknoloji tecrübesi ve 17 yıldır Apple Resmi İş Ortağı olmanın gururuyla, müşterilerine uçtan uca dijital çözümler sunmaktadır. İş ortaklıklarımız arasında Adobe, Lenovo, Microsoft, Samsung, HP, Aruba, Cisco gibi dünyanın önde gelen markaları da bulunmaktadır. Büyüyen teknik ekibimize katılacak; kurumsal müşterilerimizin network, güvenlik ve cloud altyapılarının kurulumu, yönetimi ve geliştirilmesinde görev alacak, gerektiğinde sahada müşteri ziyaretleri gerçekleştirecek, gerektiğinde ise Ümraniye ofisimizden teknik operasyonları yönetecek Kurumsal Network Uzmanı arıyoruz. 💡 Başvurmadan Önce Bilmeni İsteriz Müşterilerimize uçtan uca çözüm sunuyoruz. Bu yüzden ekibimizde tek bir ürüne ya da tek bir alana kapanmak yerine, işin bütününe hâkim olmak isteyen insanlar arıyoruz. Bugün bir switch konfigüre ederken, yarın bir Fortinet firewall projesinde, ertesi gün Microsoft 365 / Intune ya da cloud tarafında görev alabilirsin. Her şeyi bugünden bilmen beklenmiyor; ama network, güvenlik, cloud ve sistem tarafında \"bunu da öğrenirim\" diyen bir merakın ve hevesin olması bizim için olmazsa olmaz. \"Ben sadece tek bir alana bakarım\" diyorsan bu pozisyon sana uygun olmayabilir. \"Yeni bir teknoloji görünce kurcalamadan duramam\" diyorsan, seni tanımak isteriz. 🙌 🎯 Sorumluluklar • Kurumsal müşterilerin ağ altyapılarının kurulum, konfigürasyon ve yönetim süreçlerini yürütmek, • Switch, router, access point ve firewall cihazlarının (Cisco, Aruba, HP, Fortinet vb.) kurulum ve optimizasyonunu gerçekleştirmek, • Kablosuz ağ (Wi-Fi) projelerinde keşif, tasarım ve devreye alma süreçlerinde görev almak, • Network güvenliği projelerinde (firewall, VPN, erişim politikaları) aktif rol almak, • Microsoft 365, Azure, Intune gibi cloud ve uç nokta yönetimi çözümlerinin kurulum ve destek süreçlerine dahil olmak, • Müşteri taleplerine yönelik teknik destek ve sorun giderme faaliyetlerini yürütmek, • Ağ performansını izlemek, analiz etmek ve iyileştirme önerileri sunmak, • Projelerin dokümantasyonunu hazırlamak ve güncel tutmak, • Üretici firmalar ve iş ortakları ile teknik koordinasyonu sağlamak. ✅ Aranan Nitelikler • Üniversitelerin ilgili bölümlerinden mezun, • Kurumsal ağ teknolojileri konusunda deneyimli, • TCP/IP, VLAN, Routing, Switching, VPN, Wireless Network konularına hâkim, • Cisco, Aruba, HP veya benzeri ağ çözümleri konusunda bilgi sahibi, • Network güvenliği ve firewall yapılandırmaları (Fortinet vb.) hakkında bilgi sahibi, • Cloud (Microsoft 365, Azure), sanallaştırma ve uç nokta yönetimi konularında bilgi sahibi ya da bu alanları öğrenmeye istekli, • Farklı teknolojilerde kendini geliştirmeye açık, çok yönlü çalışmaktan keyif alan, • Sorun çözme ve analitik düşünme becerileri güçlü, • Teknik dokümantasyon hazırlayabilecek seviyede İngilizce bilgisine sahip, • Aktif araç kullanabilen ve seyahat engeli bulunmayan. ⭐ Tercih Sebebi • Cisco, Fortinet, Aruba veya Microsoft sertifikalar",
+  "matched": [
+   "switching",
+   "vpn",
+   "routing",
+   "vlan",
+   "firewall",
+   "cisco"
+  ],
+  "score": 95,
+  "msg_id": 103
+ },
+ "ebb70491df": {
+  "title": "Senior Network Security Engineer (Staff)",
+  "link": "https://az.linkedin.com/jobs/view/senior-network-security-engineer-staff-at-azercell-telecom-llc-4493789536",
+  "company": "Azercell Telecom LLC",
+  "location": "Baku, Baku Ekonomic Zone, Azerbaijan",
+  "source": "LinkedIn",
+  "snippet": "At Azercell, we're shaping a sustainable digital future as Azerbaijan’s #1 provider of mobile, fixed, and B2B solutions. We lead with innovation, building secure and scalable infrastructure, accelerating digital adoption, and delivering seamless experiences for individuals, businesses, and the public sector. Powered by data, AI, and automation — and driven by a skilled, inclusive team — we operate with agility, trust, and a commitment to creating long-term value for our people and communities. Your key responsibilities: Design, deploy, and manage the architecture of the company’s information security infrastructure and perimeter security systems (Firewall, IPS/IDS, WAF, Load Balancer, VPN, Proxy) Design, build, and operate multi-layered DDoS protection: on-demand traffic diversion to scrubbing providers, BGP FlowSpec/RTBH-based filtering, and rate-limiting at the network edge Work with multiple DDoS protection vendors and service providers: manage integrations, compare capabilities, and coordinate with their support teams during attacks Monitor network traffic (NetFlow/sFlow) and detect volumetric and application-layer attacks and traffic anomalies in real time; respond to and analyze DDoS incidents Evaluate and select DDoS protection vendors and upstream partners; run proofs of concept and test the infrastructure’s survivability under attack Detect and investigate network security incidents Oversee vulnerability management, system hardening, and patch management Develop and implement security configurations across network infrastructure Prepare technical documentation, support internal and external audits, and produce security reports What we look for: At least 3 years of hands-on experience in cybersecurity In-depth practical experience in DDoS protection and traffic filtering (BGP FlowSpec/RTBH, traffic scrubbing, flow-based detection, rate-limiting) Hands-on experience working with several DDoS protection vendors or scrubbing providers Strong knowledge of BGP and ISP/upstream network interaction (ASN management, route announcements, traffic diversion) In-depth practical knowledge and experience in the following areas: Network and perimeter security Next-Generation Firewalls (NGFW) Strong knowledge of networking technologies (TCP/IP, VLANs, VPN, routing, firewalls) Knowledge of threat detection and prevention processes, including MITRE ATT&CK, SOC operations, and incident response Strong analytical thinking and root cause analysis skills Effective teamwork and fast decision-making under pressure Ability to work independently, prioritize effectively, and take ownership Strong technical documentation and presentation skills What we offer you: At Azercell, we believe our people are our greatest strength. When you join our team, you become part of a forward-thinking, purpose-driven company that values innovation, collaboration, and personal growth. Here's what you can expect: A Purposeful Career – Be part of projects that shape the digital future ",
+  "matched": [
+   "bgp",
+   "vpn",
+   "routing",
+   "vlan",
+   "firewall"
+  ],
+  "score": 95,
+  "msg_id": 104
  }
 }
