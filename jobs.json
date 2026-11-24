@@ -1121,5 +1121,22 @@
   ],
   "score": 95,
   "msg_id": 104
+ },
+ "5663089cd7": {
+  "title": "(English C1, remote) Technical Support Consultant, Networking (Global)",
+  "link": "https://az.linkedin.com/jobs/view/english-c1-remote-technical-support-consultant-networking-global-at-supportyourapp-4494108386",
+  "company": "SupportYourApp",
+  "location": "Baku, Baku Ekonomic Zone, Azerbaijan",
+  "source": "LinkedIn",
+  "snippet": "Who we are? SupportYourApp is a global Intelligent Support-as-a-Service leader, collaborating with top-tier tech companies like Mastercard, Calm, and MacPaw since 2010. We operate in 30+ countries and from 90+ countries, and support customers in 60 languages, helping SaaS, software, and hardware brands deliver secure, world-class customer and technical support. Join our community as a Technical Support Consultant today and thrive in a multicultural and multilingual environment while enjoying your home office. Unlock your potential by mastering new skills and achieving challenging goals in cooperation with our People First management approach. Excited? Let's see what it takes. What you will do: Deliver outstanding technical support via emails and chats; Build strong and lasting customer relationships; Keep up with evolving tools and technology; Handle sensitive customer data with care and security; Apply the latest and greatest customer happiness practices; Maintain deep understanding of client solutions and meet KPI; Communicate with developers and cross-functional specialists What you need to succeed in this role: Excellent English communication skills (at least C1 level); Experience in a technical support role; Networking experience (IPsec Tunnels, DNS, packet tracing, understanding of ports, role of firewall); Strong understanding of Network infrastructure (VPN, routing, split tunneling, WireGuard connector based tunnels); Strong understanding of network protocols (OpenVPN, IKEv2, WireGuard); Ability to read log files; Familiarity with operating Windows, Linux, MacOS, Android and iOS; Positive, proactive and responsible attitude; Personal computer (at least 8Gb of RAM) with a stable internet connection (minimum 50 Mbps-download and 40 Mbps-upload) Will be a great plus: Experience with AWS, Azure; Knowledge about function of IDP/SSO (G-Suite, Azure AD); Customer facing experience Benefits: Flexible schedule; Opportunity to cooperate fully remotely; Inclusive international environment; Compensation in USD; Rewards for referring friends; Balance between project workload and personal time, but also - internal health policy; Responsive leadership interested in your development and long-lasting cooperation; Greenhouse conditions for self-development; A culture built on trust, with no time-tracking requirements The items listed in this section may vary depending on the terms of your engagement. Certain benefits and conditions typically apply to employees; independent contractors may not be eligible for all of these. The specific terms, including compensation, benefits, and work conditions, will be clearly defined in your agreement if selected You can learn more about the company and its culture by visiting our official website and social pages on Facebook, Instagram, and LinkedIn. So if you're a proactive Support Specialist who thrives on solving problems, ensuring customer satisfaction, and delivering outstanding service, don't miss this opportunity",
+  "matched": [
+   "vpn",
+   "routing",
+   "ipsec",
+   "aci",
+   "firewall"
+  ],
+  "score": 95,
+  "msg_id": 105
  }
 }
