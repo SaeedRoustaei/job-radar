@@ -1209,5 +1209,25 @@
   ],
   "score": 95,
   "msg_id": 109
+ },
+ "e2930cf0e2": {
+  "title": "Network & Security Engineer",
+  "link": "https://tr.linkedin.com/jobs/view/network-security-engineer-at-hadi-kat%C4%B1l%C4%B1m-bankas%C4%B1-4493442481",
+  "company": "Hadi Katılım Bankası",
+  "location": "Greater Istanbul",
+  "source": "LinkedIn",
+  "snippet": "TOM Bank has already transformed banking with Hadi! If you’re saying, “I want to be part of the Dream Team of a fast-growing digital bank that’s reshaping finance and breaking conventions,” then TOM is waiting for your application! As TOM Bank Hadi , we are Turkey’s first and largest digital retail bank, with a bold vision to become one of the top five fintech companies in Europe. Moreover, with a 4.8/5 app rating — which we see as the most important measure of our success: customer satisfaction — we have become one of the most admired banks in Europe. With our Hadi app, we have reached 3.3 million banking customers in a short period of time. We are also proud to operate under the umbrella of Aydın Holding, a strong group that brings together leading brands. Job Description We are seeking an Network & Security Engineer for the IT Team. You will be responsible for management, hands-on administration and being responsible of wired and wireless network and security devices & solutions including Switches, Access points, Routers, Firewalls, WAF and other security solutions, etc. We are looking for “Network & Security Engineer” to join our team in Network Security Department. Qualifications Bachelor's degree in Electric-Electronic Engineer, Computer Engineer, Telecom Engineer, or relevant field Min. 2 years of experience Knowledge of network security technologies and protocols. FW, IPS(Fortinet,Palo Alto), Waf(F5),DDOS(Arbor,A10), SDN, SD-WAN Deep knowledge on TCP/IP, Routing, LAN Switching, WAN, VPN, 802.1x, Wi-Fi Services Experience in management and installing of Switches, Routers, Access Points Good knowledge of network infrastructure, Preferably experience with firewalls (Fortinet, Palo Alto etc.), SSL, IPSEC VPN connections. Good knowledge of basic protocols DNS, HTTP, FTP, SMTP, DHCP, IPSEC, etc. Must have effective verbal and written English communications skills Familiar with protocol analyzer software (Wireshark) and able to interpret network traces, Work together with business/technical teams to solve challenging cases Eager to learn new technologies and implement them Be a team player and having good communication and presentation skills What You'll Do Managing, configuring, designing, upgrading, and monitoring network and security infrastructure Proactively monitor for network anomalies and be able to troubleshoot and resolve issues across different technologies (switches, routers, firewalls,ips,waf, etc.) Provide support and troubleshooting for complex issues Keeping the Infrastructure secure and up-to-date At TOM, our working culture is fueled by our values — they are part of our DNA. As TOM, We Are Customer Passionate – We aim for the heart of our customers 💜 Game Changers – We make a difference 🚀 Smart & Efficient – We work smart 🤝 Super Clear – We live with radical clarity 😎 Dream Team – We succeed through strong team spirit 🏅 Join us and let’s reshape the future of banking together! To Get To Know Us Better, Click Here https://hadige",
+  "matched": [
+   "firewall",
+   "troubleshooting",
+   "routing",
+   "switching",
+   "monitoring",
+   "palo alto",
+   "vpn",
+   "ipsec"
+  ],
+  "score": 95,
+  "msg_id": 110
  }
 }
