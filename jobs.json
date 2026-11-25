@@ -1138,5 +1138,76 @@
   ],
   "score": 95,
   "msg_id": 105
+ },
+ "7634c4ecc5": {
+  "title": "IT Systems Administrator",
+  "link": "https://iq.linkedin.com/jobs/view/it-systems-administrator-at-pulk-co-4493076924",
+  "company": "Pulk Co.",
+  "location": "Sulaymaniyah District, Sulaymaniyah Governorate, Iraq",
+  "source": "LinkedIn",
+  "snippet": "About the role We are looking for an IT professional who has taken part in at least one full Odoo ERP implementation and has hands-on experience as a system administrator. You will own the day-to-day running of our Odoo platform and the infrastructure under it: Linux servers, the PostgreSQL database, users and access rights, backups, security and integrations. You will be the link between business users (finance, sales, purchasing, inventory, HR) and the technical side, translating business needs into Odoo configuration and keeping the system stable, secure and fast. Key responsibilities Odoo ERP • Administer Odoo system and server. • Configure and support core apps: Accounting, Sales, Purchase, Inventory, CRM, HR, Payroll and POS. • Manage users, groups, access rights, record rules and multi-company settings. • Take part in Odoo projects end to end: requirement gathering, gap analysis, configuration, data migration, testing, go-live and post-go-live support. • Import and clean master data (products, customers, vendors, chart of accounts, opening balances) using Odoo import tools and scripts. • Build automated actions, server actions, scheduled actions, email templates and reports. • Install, test and update Odoo modules (official and third-party). Also, manage version upgrades with Odoo or an implementation partner. • Coordinate with the Odoo partner on customizations, bugs and change requests. • Write user guides and train end users as well as provide first- and second-line Odoo support. System administration • Administer Linux servers (Ubuntu / Debian) running Odoo: services, odoo.conf, workers, and logs. • Administer PostgreSQL: backups, restores, database duplication for test environments, performance tuning and monitoring. • Maintain separate production, staging and test environments. • Run backup and disaster recovery procedures, and test restores regularly. • Monitor server performance, uptime and storage; resolve incidents quickly. • Apply OS and security patches, manage firewall rules, VPN and access control. • Support: Windows workstations, Active Directory / Microsoft 365, network, printers and email, as needed. • Keep IT documentation, asset records and procedures up to date. Requirements • At lease bachelor’s degree in IT, Computer Science or a related field, or equivalent experience. • Participation in at least one full Odoo implementation (from requirements through go-live), with a clear technical role. • [2+] years of hands-on Linux system administration in a production environment. • Working knowledge of PostgreSQL and SQL. • Good understanding of business processes: accounting, Sales, HR, purchasing and inventory. • Experience with backups, restores, server security and troubleshooting. • Strong problem-solving, documentation and communication skills. • Able to explain technical issues clearly to non-technical users. • Python knowledge and Odoo development (models, XML views, QWeb reports). • Experience with Odoo.sh, Docker, Gi",
+  "matched": [
+   "vpn",
+   "firewall",
+   "troubleshooting",
+   "monitoring"
+  ],
+  "score": 84,
+  "msg_id": 106
+ },
+ "2c0a99a968": {
+  "title": "Ağ Yönetimi Uzmanı/",
+  "link": "https://tr.linkedin.com/jobs/view/a%C4%9F-y%C3%B6netimi-uzman%C4%B1-at-tein-technology-4494484601",
+  "company": "Tein Technology",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "🌐 Ağ Yönetimi Uzmanı Deneyim: 5+ Yıl Lokasyon:İstanbul 📌 Pozisyon Hakkında Bankamızın kritik, kesintisiz ve yüksek erişilebilirlik gerektiren altyapısında görevlendirilmek üzere; yedekli veri merkezlerimizde aktif olarak kullanılan Cisco ACI mimarisi ile şubelerimizi ve kampüslerimizi birleştiren MPLS network yapısının yönetiminden sorumlu olacak bir Ağ Yönetimi Uzmanı arıyoruz. 🎯 Görev ve Sorumluluklar Ağ altyapısındaki Cisco router, switch, AP, SD-WAN, ISE, F5 Load Balancer, Cisco Collaboration (CUCM, IPT) ve video konferans sistemlerinin uçtan uca operasyon ve kapasite planlamasını yürütmek, Cisco ACI (Application Centric Infrastructure): Yedekli veri merkezinde yazılım tanımlı fabric mimarisi, tenant, contract ve EPG yönetimini gerçekleştirmek, Cisco SD-WAN: Şube ve kampüs ağlarında yazılım tanımlı geniş alan ağı mimarileri, hat optimizasyonu ve uygulama tabanlı trafik yönlendirme süreçlerini yönetmek, Cisco Collaboration Sistemleri: CUCM, CME, CMS, IP Telephony (IPT) ve video konferans altyapılarının entegrasyonunu ve arıza yönetimini sağlamak, Cisco ISE (Identity Services Engine): NAC, 802.1X, TACACS+, RADIUS entegrasyonları ile kurumsal ağ güvenlik politikalarını uygulamak, Cisco WLC & AP: Kurumsal kablosuz ağ kontrolcüsü ve erişim noktalarının operasyonunu yürütmek, F5 Load Balancer: Uygulama yük dengeleme, trafik yönetimi ve operasyonel sürekliliği sağlamak, Network İzleme ve Analiz: SolarWinds, NetFlow/sFlow, PRTG vb. izleme araçlarıyla ağ performansını takip etmek ve analiz etmek, Proje planlama süreçlerini yönetmek ve operasyonel seviyede teknik liderlik sergilemek. ✔ Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Elektronik ve Haberleşme Mühendisliği veya ilgili bölümlerinden mezun, Ağ yönetimi, tasarımı ve operasyonlarında en az 5 yıl deneyimli, Bankacılık veya finans sektöründe benzer altyapı operasyonlarında tecrübe sahibi, LAN/WAN altyapıları, aktif ağ cihazları kurulumu, yönetimi ve optimizasyonu konularına hâkim, Routing Protokolleri: BGP, OSPF, EIGRP ve Multicast konularında tecrübeli, Switching Protokolleri: STP, RSTP, VTP, VxLAN ve Port Security konularında uzman, Mimari ve Güvenlik: MPLS, VRF ve 802.1X mimarilerine hâkim, İyi seviyede İngilizce teknik dokümantasyon okuyup yazabilen. 🌟 Tercih Sebepleri Tercihen CCNP sertifikasyonuna sahip olmak. gizem.yildirim@tein.com.tr",
+  "matched": [
+   "ospf",
+   "aci",
+   "cisco",
+   "vxlan",
+   "bgp",
+   "switching",
+   "stp",
+   "routing",
+   "solarwinds"
+  ],
+  "score": 95,
+  "msg_id": 107
+ },
+ "2536814619": {
+  "title": "IT Support Engineer",
+  "link": "https://uz.linkedin.com/jobs/view/it-support-engineer-at-my-clients-4494796271",
+  "company": "My clients",
+  "location": "Tashkent, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "1. JOB PURPOSE We are looking for an active and reliable IT Support Engineer to join our team in Uzbekistan. You will be responsible for setting up and maintaining local IT infrastructure, resolving daily technical issues, supporting end-users, and ensuring smooth network and system operations across the office. 2. KEY RESPONSIBILITIESNetwork & Infrastructure Maintenance Set up, configure, and troubleshoot LAN/WAN networks, Wi-Fi, routers, switches, and VPN connections. Monitor daily network status and promptly resolve connectivity or hardware issues. System & Application Administration Administer and support Google Workspace, including user creation/offboarding, group management, security settings, and email flows. Manage user support tickets, access requests, and issue tracking using Jira / Jira Service Management. Provide basic operational support and health monitoring for IBM systems/servers. User Support & Hardware Management Provide Tier 1 and Tier 2 technical support for end-users, covering Windows/macOS laptops, workstations, printers, AV equipment, and other peripherals. Handle IT onboarding and offboarding procedures, including hardware provisioning and account setup. Maintain and track IT asset inventory and technical documentation. 3. JOB REQUIREMENTSExperience At least 2 years of experience in IT Support, Helpdesk, or System/Network Administration. Technical Skills Solid knowledge of basic networking concepts, including TCP/IP, LAN/WAN, subnetting, routing/switching, Wi-Fi, and VPN setup and troubleshooting. Hands-on experience with Google Workspace administration and Jira. Fundamental knowledge of IBM systems/servers. Experience with ManageEngine tools is a plus but not required. Language Requirements Fluent in Russian and Uzbek. English proficiency is a plus. Soft Skills Strong troubleshooting mindset and problem-solving skills. Good customer service attitude and willingness to support end-users. Ability to work independently and manage daily tasks efficiently. 4. BENEFITS Competitive salary package based on experience and capabilities. Professional, multicultural, and dynamic working environment. Healthcare and leave policies according to company standards. Opportunities for technical growth and career advancement in IT Infrastructure.",
+  "matched": [
+   "vpn",
+   "switching",
+   "troubleshooting",
+   "routing",
+   "monitoring"
+  ],
+  "score": 95,
+  "msg_id": 108
+ },
+ "cfaf918e2f": {
+  "title": "IT Support Specialist (IT Outsoucing Company)",
+  "link": "https://uz.linkedin.com/jobs/view/it-support-specialist-it-outsoucing-company-at-mta-solutions-global-4494783014",
+  "company": "MTA Solutions Global",
+  "location": "Tashkent, Tashkent, Uzbekistan",
+  "source": "LinkedIn",
+  "snippet": "IT SUPPORT ENGINEER Job Title: IT Support Engineer / IT Support Specialist Location: KG OR UZ (Onsite) Employment Type: Full-time Industry: Information Technology / Operations 1. JOB PURPOSE - We are looking for an active and reliable IT Support Engineer to join our team in Uzbekistan. - You will be responsible for setting up and maintaining local IT infrastructure, resolving daily technical issues, supporting end-users, and ensuring smooth network and system operations across the office. 2. KEY RESPONSIBILITIES * Network & Infrastructure Maintenance - Set up, configure, and troubleshoot LAN/WAN networks, Wi-Fi, routers, switches, and VPN connections. - Monitor daily network status and promptly resolve connectivity or hardware issues. * System & Application Administration - Administer and support Google Workspace, including user creation/offboarding, group management, security settings, and email flows. - Manage user support tickets, access requests, and issue tracking using * Jira / Jira Service Management. - Provide basic operational support and health monitoring for IBM systems/servers. * User Support & Hardware Management - Provide Tier 1 and Tier 2 technical support for end-users, covering Windows/macOS laptops, workstations, printers, AV equipment, and other peripherals. - Handle IT onboarding and offboarding procedures, including hardware provisioning and account setup. - Maintain and track IT asset inventory and technical documentation. 3. JOB REQUIREMENTS * Experience - At least 2 years of experience in IT Support, Helpdesk, or System/Network Administration. * Technical Skills - Solid knowledge of basic networking concepts, including TCP/IP, LAN/WAN, subnetting, routing/switching, Wi-Fi, and VPN setup and troubleshooting. - Hands-on experience with Google Workspace administration and Jira. - Fundamental knowledge of IBM systems/servers. - Experience with ManageEngine tools is a plus but not required. * Language Requirements For Vietnamese Candidates: - Good English communication skills, with working proficiency in communicating with international stakeholders and understanding technical documentation. - Willingness to relocate to Uzbekistan. * For Local Candidates (Uzbekistan): - Fluent in Russian and Uzbek. - English proficiency is a plus. * Soft Skills - Strong troubleshooting mindset and problem-solving skills. - Good customer service attitude and willingness to support end-users. - Ability to work independently and manage daily tasks efficiently. 4. BENEFITS - For Relocation Candidates (Vietnam) - Comprehensive relocation package, including flight tickets, visa/work permit sponsorship, and accommodation support. *General Benefits - Competitive salary package based on experience and capabilities. - Professional, multicultural, and dynamic working environment. - Healthcare and leave policies according to company standards. - Opportunities for technical growth and career advancement in IT Infrastructure.",
+  "matched": [
+   "vpn",
+   "switching",
+   "troubleshooting",
+   "routing",
+   "monitoring"
+  ],
+  "score": 95,
+  "msg_id": 109
  }
 }
