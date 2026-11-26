@@ -1229,5 +1229,49 @@
   ],
   "score": 95,
   "msg_id": 110
+ },
+ "331a106108": {
+  "title": "Kıdemli Network Mühendisi",
+  "link": "https://tr.linkedin.com/jobs/view/k%C4%B1demli-network-m%C3%BChendisi-at-sompo-teknoloji-4495274510",
+  "company": "Sompo Teknoloji",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "Sompo Sigorta tarafından Ağustos 2024'te kurulan Sompo Teknoloji, sigortacılığın geleceğini yapay zeka ve ileri teknolojiyle şekillendirmeyi, müşteri deneyimini iyileştirecek yenilikçi projeler geliştirmeyi hedefliyor. Teknolojik altyapısı, müşteri ihtiyaçlarını gözeterek oluşturduğu ürün yelpazesi ve müşteri merkezli hizmet anlayışı ile sektöründe ilklerin de öncüsü olarak ve dünyada 77.400 çalışanı ile faaliyet gösteren Sompo Sigorta iştiraki Sompo Teknoloji’nin büyüyen ekibinde görev alacak “Kıdemli Network Mühendisi” arıyor. Üniversitelerin ilgili bölümlerinden mezunsan, Büyük ölçekli Network ve Security sistemleri tasarımı, kurulumu ve yönetimi konusunda minimum 5 yıl deneyimliysen, BGP, OSPF, IS-IS, MP-BGP, route redistribution, policy-based routing ve ECMP konularında ileri düzey bilgi sahibi, VLAN, Trunk, STP/RSTP/MST, EtherChannel/LACP, HSRP/VRRP gibi Layer 2/Layer 3 teknolojilerine hakimsen, Wireshark, packet capture, NetFlow/IPFIX, SNMP, Syslog gibi araç ve protokollerle ileri seviyede troubleshooting yapabiliyorsan, Network segmentation, NAC, VPN ve Zero Trust Network Access prensipleri hakkında deneyimliysen, Checkpoint ,Fortinet firewall sistemleri yönerimleri konusunda ileri seviyede bilgin varsa, WAF, IPS, Web Securtiy Gateway, NetScaler, Cisco ISE , DDOS vb. gibi güvenlik ürünlerinde bilgi ve deneyim sahibiysen, Tercihen CCNP , CCIE vb. network ve güvenlik sistemleri sertifikasyonlarına sahipsen, Analitik düşünme ve problem çözme becerilerine sahipsen, İletişimin kuvvetliyse ve ekip çalışmasına yatkınsan, ve geleceğini Sompo'da şekillendirmek istiyorsan, başvurunu bekliyoruz. İŞ TANIMI Kurumun DC, DRC ve Şube gibi WAN network altyapılarının tasarım, kurulum, işletim ve geliştirme faaliyetlerini yürütmek, BGP, OSPF, MPLS ve SD-WAN altyapılarında routing politikalarının tasarım ve yönetimini gerçekleştirmek, Data Center network altyapılarında Layer 2/Layer 3, VXLAN/EVPN mimarilerinin tasarım ve operasyonlarını yapmak DC ve DRC arasındaki network mimarisini, HA/DR gereksinimleri, RTO/RPO hedefleri ve failover senaryoları doğrultusunda tasarlamak ve DR testleri planlamak, Kritik network değişikliklerinin teknik analiz, implementasyon ve rollback planlarını hazırlamak, Kompleks network problemlerinde packet-level root cause analysis yapmak, Firewall, IPS vb. tüm network security sistemlerinin yönetimi ve operasyonlarının yapılması, Yeni teknolojilerin/sistemlerin takip edilmesi, test edilmesi ve kuruma uygulanması için POC’ler yaparak mevcut yapıya en uygun çözümlerin belirlenmesi, Network ve Security Sistemleri, Bilgi Güvenliği, COBIT 5 vb. uyumluluk çalışmaları vb. konularda Japonya’daki merkez ofis ile iletişimin ve koordinasyonun sağlanması. SOMPO SANA NE SUNUYOR? Hibrit Çalışma Modeli Yemek Kartı ve Servis İmkanı Özel Sağlık Sigortası ve Hayat Sigortası Teknoloji ve İletişim Yardımı Şirket Katkılı BES Uygulaması Sompo Sigorta Ürünleri İçin Çalışan İndirimleri Çalışan Destek Programı - Avita Sosyal Kulüpler Sompo Akademi Gelişim v",
+  "matched": [
+   "bgp",
+   "routing",
+   "cisco",
+   "stp",
+   "troubleshooting",
+   "vxlan",
+   "data center",
+   "vpn",
+   "firewall",
+   "vlan",
+   "ospf"
+  ],
+  "score": 95,
+  "msg_id": 111
+ },
+ "4d27044622": {
+  "title": "-Ağ Yönetimi Uzmanı-",
+  "link": "https://tr.linkedin.com/jobs/view/a%C4%9F-y%C3%B6netimi-uzman%C4%B1-at-tein-technology-4495254963",
+  "company": "Tein Technology",
+  "location": "Istanbul, Türkiye",
+  "source": "LinkedIn",
+  "snippet": "🌐 Ağ Yönetimi Uzmanı Deneyim: 5+ Yıl Lokasyon:İstanbul 📌 Pozisyon Hakkında Bankamızın kritik, kesintisiz ve yüksek erişilebilirlik gerektiren altyapısında görevlendirilmek üzere; yedekli veri merkezlerimizde aktif olarak kullanılan Cisco ACI mimarisi ile şubelerimizi ve kampüslerimizi birleştiren MPLS network yapısının yönetiminden sorumlu olacak bir Ağ Yönetimi Uzmanı arıyoruz. 🎯 Görev ve Sorumluluklar Ağ altyapısındaki Cisco router, switch, AP, SD-WAN, ISE, F5 Load Balancer, Cisco Collaboration (CUCM, IPT) ve video konferans sistemlerinin uçtan uca operasyon ve kapasite planlamasını yürütmek, Cisco ACI (Application Centric Infrastructure): Yedekli veri merkezinde yazılım tanımlı fabric mimarisi, tenant, contract ve EPG yönetimini gerçekleştirmek, Cisco SD-WAN: Şube ve kampüs ağlarında yazılım tanımlı geniş alan ağı mimarileri, hat optimizasyonu ve uygulama tabanlı trafik yönlendirme süreçlerini yönetmek, Cisco Collaboration Sistemleri: CUCM, CME, CMS, IP Telephony (IPT) ve video konferans altyapılarının entegrasyonunu ve arıza yönetimini sağlamak, Cisco ISE (Identity Services Engine): NAC, 802.1X, TACACS+, RADIUS entegrasyonları ile kurumsal ağ güvenlik politikalarını uygulamak, Cisco WLC & AP: Kurumsal kablosuz ağ kontrolcüsü ve erişim noktalarının operasyonunu yürütmek, F5 Load Balancer: Uygulama yük dengeleme, trafik yönetimi ve operasyonel sürekliliği sağlamak, Network İzleme ve Analiz: SolarWinds, NetFlow/sFlow, PRTG vb. izleme araçlarıyla ağ performansını takip etmek ve analiz etmek, Proje planlama süreçlerini yönetmek ve operasyonel seviyede teknik liderlik sergilemek. ✔ Aranan Nitelikler Üniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Elektronik ve Haberleşme Mühendisliği veya ilgili bölümlerinden mezun, Ağ yönetimi, tasarımı ve operasyonlarında en az 5 yıl deneyimli, Bankacılık veya finans sektöründe benzer altyapı operasyonlarında tecrübe sahibi, LAN/WAN altyapıları, aktif ağ cihazları kurulumu, yönetimi ve optimizasyonu konularına hâkim, Routing Protokolleri: BGP, OSPF, EIGRP ve Multicast konularında tecrübeli, Switching Protokolleri: STP, RSTP, VTP, VxLAN ve Port Security konularında uzman, Mimari ve Güvenlik: MPLS, VRF ve 802.1X mimarilerine hâkim, İyi seviyede İngilizce teknik dokümantasyon okuyup yazabilen. 🌟 Tercih Sebepleri Tercihen CCNP sertifikasyonuna sahip olmak. gizem.yildirim@tein.com.tr",
+  "matched": [
+   "bgp",
+   "routing",
+   "switching",
+   "cisco",
+   "stp",
+   "vxlan",
+   "aci",
+   "solarwinds",
+   "ospf"
+  ],
+  "score": 95,
+  "msg_id": 112
  }
 }
